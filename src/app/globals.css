@@ -1,0 +1,394 @@
+@import "tailwindcss";
+
+/*
+ * 디자인: 루미너스 다크 벤토 (2026-11-05 사용자 선택).
+ * 어두운 캔버스 위에 그림이 주인공이다. 강조색은 인디고 하나, 자홍은 긴장도 막대에만 쓴다.
+ * 글꼴은 프리텐다드만 쓴다.
+ */
+@theme inline {
+  --font-sans: var(--font-pretendard), "Pretendard Variable", Pretendard, -apple-system, "Malgun Gothic", sans-serif;
+
+  --color-brand: #6366f1;
+  --color-brand-hover: #4f52e6;
+  --color-brand-dark: #a5b4fc;
+  --color-brand-soft: rgba(99, 102, 241, 0.18);
+  --color-second: #c026d3;
+
+  --color-ink: #f4f4f6;
+  --color-ink-2: #a0a0aa;
+  --color-ink-3: #7c7c88;
+  --color-ink-4: #4a4a54;
+
+  --color-line: rgba(255, 255, 255, 0.1);
+  --color-line-strong: rgba(255, 255, 255, 0.22);
+  --color-fill: #16161d;
+  --color-fill-2: #0e0e12;
+  --color-surface: #101015;
+  --color-inset: #0b0b0f;
+
+  --color-wait: #fbbf24;
+  --color-wait-soft: rgba(251, 191, 36, 0.13);
+  --color-ok: #4ade80;
+  --color-ok-soft: rgba(74, 222, 128, 0.13);
+  --color-bad: #f87171;
+  --color-bad-soft: rgba(248, 113, 113, 0.13);
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+  background: #08080b;
+  color: var(--color-ink);
+  font-family: var(--font-pretendard), "Pretendard Variable", Pretendard, sans-serif;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 레이어 밖 규칙은 Tailwind 클래스를 이긴다. 글자 크기나 높이를 클래스로 바꿀 수 있게 기본값은 레이어 안에 둔다 */
+@layer base {
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+    letter-spacing: inherit;
+  }
+
+  button:not(:disabled),
+  select:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid #818cf8;
+  outline-offset: 1px;
+}
+
+/* ── 공통 부품 ─────────────────────────────── */
+@layer components {
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background-color 180ms cubic-bezier(0.16, 1, 0.3, 1), border-color 180ms cubic-bezier(0.16, 1, 0.3, 1), color 180ms;
+}
+.btn-primary {
+  background: var(--color-brand);
+  color: #fff;
+}
+.btn-primary:hover:not(:disabled) {
+  background: var(--color-brand-hover);
+}
+.btn-primary:disabled {
+  background: var(--color-fill);
+  color: var(--color-ink-3);
+  cursor: not-allowed;
+}
+.btn-line {
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  color: var(--color-ink-2);
+}
+.btn-line:hover:not(:disabled) {
+  border-color: var(--color-line-strong);
+  color: var(--color-ink);
+}
+.btn-line:disabled {
+  color: var(--color-ink-4);
+  cursor: not-allowed;
+}
+.btn-danger {
+  background: #dc2f36;
+  color: #fff;
+}
+.btn-danger:hover {
+  background: #c1252c;
+}
+.btn-ghost {
+  color: var(--color-ink-2);
+}
+.btn-ghost:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--color-ink);
+}
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  color: var(--color-ink-2);
+  transition: background-color 180ms, color 180ms;
+}
+.icon-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--color-ink);
+}
+.icon-btn:disabled {
+  color: var(--color-ink-4);
+}
+.icon-btn[aria-pressed="true"] {
+  background: var(--color-brand-soft);
+  color: var(--color-brand-dark);
+}
+
+.field {
+  height: 32px;
+  padding: 0 8px;
+  border: 1px solid var(--color-line);
+  border-radius: 8px;
+  background: var(--color-inset);
+  font-size: 13px;
+  color: var(--color-ink);
+}
+.field::placeholder {
+  color: var(--color-ink-3);
+}
+.field:focus {
+  border-color: #818cf8;
+  outline: none;
+}
+.field:disabled {
+  color: var(--color-ink-3);
+}
+
+/* 떠 있는 판. 빛이 위에서 닿는 느낌으로 위쪽 테두리만 조금 밝다 */
+.floating {
+  background: linear-gradient(180deg, #16161d 0%, #0e0e12 100%);
+  border: 1px solid var(--color-line);
+  border-top-color: rgba(255, 255, 255, 0.18);
+  border-radius: 16px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 9px;
+  border: 1px solid var(--color-line);
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 550;
+  color: var(--color-ink-2);
+  white-space: nowrap;
+  transition: background-color 180ms, border-color 180ms, color 180ms;
+}
+button.chip:hover:not(:disabled) {
+  border-color: var(--color-line-strong);
+  color: var(--color-ink);
+}
+.chip[aria-pressed="true"],
+.chip[aria-selected="true"] {
+  background: var(--color-brand-soft);
+  border-color: transparent;
+  color: var(--color-ink);
+}
+}
+
+/* ── 캔버스 ────────────────────────────────── */
+.react-flow {
+  --xy-edge-stroke: rgba(255, 255, 255, 0.24);
+  --xy-edge-stroke-width: 1.5;
+  --xy-edge-stroke-selected: #818cf8;
+  --xy-connectionline-stroke: #818cf8;
+  --xy-connectionline-stroke-width: 2;
+  --xy-selection-background-color: rgba(99, 102, 241, 0.09);
+  --xy-selection-border: 1px dashed #818cf8;
+  --xy-background-color: #08080b;
+  --xy-background-pattern-dots-color: rgba(255, 255, 255, 0.085);
+  --xy-attribution-background-color: transparent;
+}
+
+.react-flow__attribution a {
+  color: var(--color-ink-4);
+}
+
+.react-flow__nodesselection-rect {
+  border-radius: 10px;
+}
+
+.cell-frame {
+  position: relative;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #16161d 0%, #0e0e12 100%);
+  box-shadow: 0 0 0 1px var(--color-line), 0 8px 24px rgba(0, 0, 0, 0.35);
+  transition: box-shadow 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.react-flow__node:hover .cell-frame {
+  box-shadow: 0 0 0 1px var(--color-line-strong), 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+.react-flow__node.selected .cell-frame {
+  box-shadow: 0 0 0 1.5px #818cf8, 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.cell-media {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.cell-expand {
+  opacity: 0;
+  transition: opacity 180ms;
+}
+.react-flow__node:hover .cell-expand,
+.react-flow__node.selected .cell-expand {
+  opacity: 1;
+}
+
+.react-flow__handle.cell-handle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border: 1px solid var(--color-line-strong);
+  border-radius: 50%;
+  background: #101015;
+  color: var(--color-ink-2);
+  transition: background-color 180ms, border-color 180ms, color 180ms;
+}
+/* 눈에 보이는 원보다 잡히는 자리를 넓힌다 */
+.react-flow__handle.cell-handle::after {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+}
+.react-flow__handle.cell-handle > svg {
+  pointer-events: none;
+}
+.react-flow__handle.cell-handle:hover,
+.react-flow__handle.cell-handle.connectingto,
+.react-flow__handle.cell-handle.connectingfrom {
+  border-color: var(--color-brand);
+  background: var(--color-brand);
+  color: #fff;
+}
+.react-flow__handle-left.cell-handle {
+  left: -11px;
+  transform: translateY(-50%);
+}
+.react-flow__handle-right.cell-handle {
+  right: -11px;
+  transform: translateY(-50%);
+}
+.react-flow__handle-top.cell-handle {
+  top: -11px;
+  transform: translateX(-50%);
+}
+.react-flow__handle-bottom.cell-handle {
+  bottom: -11px;
+  transform: translateX(-50%);
+}
+
+.react-flow__edge .edge-line {
+  transition: stroke 180ms;
+}
+
+.react-flow.hand-tool .react-flow__pane {
+  cursor: grab;
+}
+
+/* 고른 칸 뒤로 은은한 빛. 면적을 넘기지 않는다 */
+.cell-glow {
+  position: absolute;
+  inset: -60px;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(192, 38, 211, 0.15) 0%, rgba(99, 102, 241, 0.12) 40%, transparent 70%);
+  filter: blur(22px);
+}
+
+/* 긴장도 막대 */
+.tension {
+  display: block;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--color-line);
+  overflow: hidden;
+}
+.tension > i {
+  display: block;
+  height: 100%;
+  border-radius: 2px;
+  background: var(--color-second);
+}
+
+input[type="range"].tension-input {
+  width: 100%;
+  height: 16px;
+  accent-color: var(--color-second);
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 메인 화면의 내 영상 띠. 천천히 흐르고 마우스를 올리면 멈춘다 */
+.poster-band {
+  mask-image: linear-gradient(90deg, transparent, #000 3%, #000 97%, transparent);
+}
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 110s linear infinite;
+}
+.marquee:hover,
+.marquee:focus-within {
+  animation-play-state: paused;
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    animation: none;
+  }
+}
+
+.thin-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.18) transparent;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn,
+  .icon-btn,
+  .chip,
+  .cell-frame {
+    transition: none;
+  }
+}
