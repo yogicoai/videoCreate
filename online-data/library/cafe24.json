@@ -1,0 +1,49 @@
+{
+  "items": {
+    "j_c3c36ed496c19521": {
+      "jobId": "j_c3c36ed496c19521",
+      "projectId": "p_7e38945b4343c1cc",
+      "projectName": "가족 요기보 3탄 · 쌓기·누워 놀기 장면 다시 뽑기",
+      "title": "편집본 v3 · 새 연주곡 입힘 (24.6초, 1080p)",
+      "kind": "video",
+      "stage": "final",
+      "key": "app/img/video/2026-11/vc_p_7e38945b4343c1cc_j_c3c36ed496c19521.jpg",
+      "url": "https://yogibo.openhost.cafe24.com/app/img/video/2026-11/vc_p_7e38945b4343c1cc_j_c3c36ed496c19521.jpg",
+      "bytes": 18388535,
+      "disguised": true,
+      "uploadedAt": "2026-11-11T06:56:13.401Z",
+      "file": "r_j_c3c36ed496c19521.mp4",
+      "mime": "video/mp4"
+    },
+    "j_ec9c1052c94eb0ee": {
+      "jobId": "j_ec9c1052c94eb0ee",
+      "projectId": "p_6eb3a2ed4b20b8a0",
+      "projectName": "팍스 산타의 선물 공장",
+      "title": "편집본 · 한 번에 뽑기 v4 + 연주곡 (31.5초 · 로고 흔들림 잡음)",
+      "kind": "video",
+      "stage": "final",
+      "key": "app/img/video/2026-11/vc_p_6eb3a2ed4b20b8a0_j_ec9c1052c94eb0ee.jpg",
+      "url": "https://yogibo.openhost.cafe24.com/app/img/video/2026-11/vc_p_6eb3a2ed4b20b8a0_j_ec9c1052c94eb0ee.jpg",
+      "bytes": 20613638,
+      "disguised": true,
+      "uploadedAt": "2026-11-11T06:56:23.386Z",
+      "file": "r_j_ec9c1052c94eb0ee.mp4",
+      "mime": "video/mp4"
+    },
+    "j_ef10279653e9d936": {
+      "jobId": "j_ef10279653e9d936",
+      "projectId": "p_075cfb302af8fd96",
+      "projectName": "스퀴지보의 하루",
+      "title": "편집본 v1",
+      "kind": "video",
+      "stage": "final",
+      "key": "app/img/video/2026-11/vc_p_075cfb302af8fd96_j_ef10279653e9d936.jpg",
+      "url": "https://yogibo.openhost.cafe24.com/app/img/video/2026-11/vc_p_075cfb302af8fd96_j_ef10279653e9d936.jpg",
+      "bytes": 1682835,
+      "disguised": true,
+      "uploadedAt": "2026-11-11T06:56:23.928Z",
+      "file": "r_j_ef10279653e9d936.mp4",
+      "mime": "video/mp4"
+    }
+  }
+}

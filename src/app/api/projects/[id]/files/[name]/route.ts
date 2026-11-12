@@ -1,14 +1,34 @@
 import fs from 'node:fs';
 import { Readable } from 'node:stream';
 import { route } from '@/lib/http';
-import { ensureThumb, fileInfo } from '@/lib/store';
+import { isOnline, remoteFile } from '@/lib/online';
+import { ensureThumb, fileInfo, StoreError } from '@/lib/store';
 
 function streamFile(path: string, start?: number, end?: number): ReadableStream {
   return Readable.toWeb(fs.createReadStream(path, { start, end })) as ReadableStream;
 }
 
+/**
+ * 온라인 판에서는 카페24에 올려 둔 파일을 흘려보낸다. 영상은 .jpg 이름으로 올라가 있어 형식을 바꿔 내보낸다.
+ * 주소는 올릴 때 적어 둔 값만 쓰고, 요청에서 받지 않는다.
+ */
+async function streamRemote(req: Request, id: string, name: string): Promise<Response> {
+  const remote = remoteFile(id, name);
+  if (!remote) throw new StoreError('온라인에 올리지 않은 파일이에요.', 404);
+  const range = req.headers.get('range');
+  const upstream = await fetch(remote.url, { headers: range ? { range } : {} });
+  if (!upstream.ok && upstream.status !== 206) throw new StoreError('파일을 불러오지 못했어요.', 502);
+  const headers = new Headers({ 'content-type': remote.mime, 'accept-ranges': 'bytes', 'cache-control': 'public, max-age=86400' });
+  for (const key of ['content-length', 'content-range']) {
+    const value = upstream.headers.get(key);
+    if (value) headers.set(key, value);
+  }
+  return new Response(upstream.body, { status: upstream.status, headers });
+}
+
 /** 파일 내려주기. ?w= 는 줄인 그림, Range 는 영상 앞뒤로 옮기기에 쓴다 */
 export const GET = route<{ id: string; name: string }>(async (req, { id, name }) => {
+  if (isOnline()) return streamRemote(req, id, name);
   const width = Number(new URL(req.url).searchParams.get('w'));
   const source = fileInfo(id, name);
   // 이름이 내용이나 작업마다 달라 파일이 바뀔 일이 없다

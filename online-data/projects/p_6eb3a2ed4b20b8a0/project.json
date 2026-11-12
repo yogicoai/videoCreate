@@ -1,0 +1,18 @@
+{
+  "id": "p_6eb3a2ed4b20b8a0",
+  "name": "팍스 산타의 선물 공장",
+  "createdAt": "2026-11-09T00:28:40.348Z",
+  "updatedAt": "2026-11-09T07:35:13.255Z",
+  "canvases": [
+    {
+      "id": "c_cc689e4e2a1b65b4",
+      "name": "캔버스 1"
+    }
+  ],
+  "reference": {
+    "analysisId": "a_bbf986ba10a30212",
+    "level": "structure",
+    "title": "c6fae53d94adf2de17faa5c8103a6f31"
+  },
+  "ruleId": "l_b95e69d2640236a6"
+}

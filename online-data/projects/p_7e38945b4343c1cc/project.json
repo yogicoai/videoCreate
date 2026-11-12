@@ -1,0 +1,13 @@
+{
+  "id": "p_7e38945b4343c1cc",
+  "name": "가족 요기보 3탄 · 쌓기·누워 놀기 장면 다시 뽑기",
+  "createdAt": "2026-11-10T01:27:14.139Z",
+  "updatedAt": "2026-11-10T02:07:40.227Z",
+  "canvases": [
+    {
+      "id": "c_eb0c598bd9bc9aae",
+      "name": "캔버스 1"
+    }
+  ],
+  "ruleId": "l_yogiborule"
+}

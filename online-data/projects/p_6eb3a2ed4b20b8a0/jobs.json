@@ -1,0 +1,4278 @@
+[
+  {
+    "id": "j_e2059394fab3708e",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_c026ee406787",
+    "title": "캐릭터 시트 · 팍스 산타",
+    "kind": "image",
+    "preset": "sheet",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "3:2",
+      "resolution": "4k",
+      "rows": 2,
+      "cols": 5
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_b02a5786a82a",
+        "sourceTitle": "캐릭터 · 메이트 팍스 정면",
+        "sourceJobId": null,
+        "file": "u_2102f0b627c09be2d06af848.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_ea957365ea9b",
+        "sourceTitle": "캐릭터 · 메이트 팍스 옆",
+        "sourceJobId": null,
+        "file": "u_436fc6998f002d436d10770b.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_bbe285a6f28c",
+        "sourceTitle": "캐릭터 · 메이트 팍스 뒤",
+        "sourceJobId": null,
+        "file": "u_249d3cba64008f2bd751fe2d.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 4
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T00:38:25.240Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T00:45:39.042Z"
+  },
+  {
+    "id": "j_898be3b8f629ea37",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_ded1f3ac8130",
+    "title": "배경 시트 · 선물 공장",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T00:38:25.240Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T00:45:39.068Z"
+  },
+  {
+    "id": "j_7696eb33c7b0732f",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_35f91bbd1b39",
+    "title": "제품 시트 · 미니어처",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_791982b22612",
+        "sourceTitle": "제품 · 맥스 체리레드 45도",
+        "sourceJobId": null,
+        "file": "u_f9a33ca45ecaaae482202e89.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트",
+        "sourceJobId": null,
+        "file": "u_9a8f155cc746e634b0c42676.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 올리브그린",
+        "sourceJobId": null,
+        "file": "u_e733ed3e7eff209b1d6c77a5.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T00:38:25.240Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T00:45:38.991Z"
+  },
+  {
+    "id": "j_6100bf5fe6c7d3c3",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_c026ee406787",
+    "title": "캐릭터 시트 · 팍스 산타",
+    "kind": "image",
+    "preset": "sheet",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "3:2",
+      "resolution": "4k",
+      "rows": 2,
+      "cols": 5
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_b02a5786a82a",
+        "sourceTitle": "캐릭터 · 메이트 팍스 정면",
+        "sourceJobId": null,
+        "file": "u_2102f0b627c09be2d06af848.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_ea957365ea9b",
+        "sourceTitle": "캐릭터 · 메이트 팍스 옆",
+        "sourceJobId": null,
+        "file": "u_436fc6998f002d436d10770b.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_bbe285a6f28c",
+        "sourceTitle": "캐릭터 · 메이트 팍스 뒤",
+        "sourceJobId": null,
+        "file": "u_249d3cba64008f2bd751fe2d.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 4
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 4
+    },
+    "externalId": "08be5856-ffae-4746-9bec-78d847fa222e",
+    "result": {
+      "file": "r_j_6100bf5fe6c7d3c3.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 5056,
+      "height": 3392,
+      "bytes": 17670432
+    },
+    "error": null,
+    "createdAt": "2026-11-09T00:45:40.435Z",
+    "startedAt": "2026-11-09T01:02:27.794Z",
+    "finishedAt": "2026-11-09T01:04:18.897Z"
+  },
+  {
+    "id": "j_64aff02fd3e50110",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_ded1f3ac8130",
+    "title": "배경 시트 · 선물 공장",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "481e462a-bc3d-431f-aeb0-c56186623bca",
+    "result": {
+      "file": "r_j_64aff02fd3e50110.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 4667908
+    },
+    "error": null,
+    "createdAt": "2026-11-09T00:45:40.435Z",
+    "startedAt": "2026-11-09T01:02:28.939Z",
+    "finishedAt": "2026-11-09T01:03:51.745Z"
+  },
+  {
+    "id": "j_c0bc80e300216729",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_35f91bbd1b39",
+    "title": "제품 시트 · 미니어처",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_791982b22612",
+        "sourceTitle": "제품 · 맥스 체리레드 45도",
+        "sourceJobId": null,
+        "file": "u_f9a33ca45ecaaae482202e89.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 올리브그린",
+        "sourceJobId": null,
+        "file": "u_47379f68bd52c074cef086de.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 올리브그린",
+        "sourceJobId": null,
+        "file": "u_e733ed3e7eff209b1d6c77a5.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트",
+        "sourceJobId": null,
+        "file": "u_9a8f155cc746e634b0c42676.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_18144bc9f173",
+        "sourceTitle": "제품 · 냅 아쿠아블루(글자·태그 지움)",
+        "sourceJobId": null,
+        "file": "u_8f06480f933182b88c6811d8.jpg"
+      },
+      {
+        "order": 7,
+        "role": "image_references",
+        "sourceNodeId": "n_a2f9c772cf72",
+        "sourceTitle": "제품 · 메가 문필로우(태그 지움)",
+        "sourceJobId": null,
+        "file": "u_e2a14ddde31fbcb01f7c05e2.jpg"
+      },
+      {
+        "order": 8,
+        "role": "image_references",
+        "sourceNodeId": "n_aa02e39beb3d",
+        "sourceTitle": "제품 · 메이트 티렉스",
+        "sourceJobId": null,
+        "file": "u_a954abbcedd45dc20cafbc0f.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T00:45:40.435Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T00:59:09.404Z"
+  },
+  {
+    "id": "j_f437892ae920e0a1",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_35f91bbd1b39",
+    "title": "제품 시트 · 미니어처",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_791982b22612",
+        "sourceTitle": "제품 · 맥스 체리레드 45도",
+        "sourceJobId": null,
+        "file": "u_f9a33ca45ecaaae482202e89.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_18144bc9f173",
+        "sourceTitle": "제품 · 냅 엑스 노랑(색 바꿈, 글자·태그 지움)",
+        "sourceJobId": null,
+        "file": "u_2048c5d55974f98b345d724f.jpg"
+      },
+      {
+        "order": 7,
+        "role": "image_references",
+        "sourceNodeId": "n_a2f9c772cf72",
+        "sourceTitle": "제품 · 메가 문필로우(태그 지움)",
+        "sourceJobId": null,
+        "file": "u_e2a14ddde31fbcb01f7c05e2.jpg"
+      },
+      {
+        "order": 8,
+        "role": "image_references",
+        "sourceNodeId": "n_aa02e39beb3d",
+        "sourceTitle": "제품 · 메이트 티렉스",
+        "sourceJobId": null,
+        "file": "u_a954abbcedd45dc20cafbc0f.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "4930d073-fc41-40a1-adf9-7f9d1832cb8e",
+    "result": {
+      "file": "r_j_f437892ae920e0a1.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 4314856
+    },
+    "error": null,
+    "createdAt": "2026-11-09T00:59:10.666Z",
+    "startedAt": "2026-11-09T01:02:30.070Z",
+    "finishedAt": "2026-11-09T01:04:22.930Z"
+  },
+  {
+    "id": "j_9f771e7741a13bb6",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_ce0e2ffe7083",
+    "title": "스토리보드 · 팍스 산타의 선물 공장",
+    "kind": "image",
+    "preset": "storyboard",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "4:5",
+      "resolution": "2k",
+      "rows": 2,
+      "cols": 3
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 얼굴",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_7.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 전신",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_1.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_ded1f3ac8130",
+        "sourceTitle": "배경 시트 · 선물 공장",
+        "sourceJobId": "j_64aff02fd3e50110",
+        "file": null
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_35f91bbd1b39",
+        "sourceTitle": "제품 시트 · 미니어처",
+        "sourceJobId": "j_f437892ae920e0a1",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T01:06:10.177Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T01:06:59.732Z"
+  },
+  {
+    "id": "j_e2431c9df99bfe54",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_ce0e2ffe7083",
+    "title": "스토리보드 · 팍스 산타의 선물 공장",
+    "kind": "image",
+    "preset": "storyboard",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "4:5",
+      "resolution": "2k",
+      "rows": 2,
+      "cols": 3
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 얼굴",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_7.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 전신",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_1.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_ded1f3ac8130",
+        "sourceTitle": "배경 시트 · 선물 공장",
+        "sourceJobId": "j_64aff02fd3e50110",
+        "file": null
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_35f91bbd1b39",
+        "sourceTitle": "제품 시트 · 미니어처",
+        "sourceJobId": "j_f437892ae920e0a1",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "84ee3d37-c072-44b3-b537-633ad755679b",
+    "result": {
+      "file": "r_j_e2431c9df99bfe54.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1856,
+      "height": 2304,
+      "bytes": 5084234
+    },
+    "error": null,
+    "createdAt": "2026-11-09T01:06:59.945Z",
+    "startedAt": "2026-11-09T01:10:43.691Z",
+    "finishedAt": "2026-11-09T01:13:03.918Z"
+  },
+  {
+    "id": "j_f1c55aef63a7d7af",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_9bd9cd31743b",
+    "title": "이음 화면 0 · 시작",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 얼굴",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_7.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 전신",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_1.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_ded1f3ac8130",
+        "sourceTitle": "배경 시트 · 선물 공장",
+        "sourceJobId": "j_64aff02fd3e50110",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T01:19:53.788Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T01:25:20.038Z"
+  },
+  {
+    "id": "j_d195bbb70b031163",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_a52ea24f2c8d",
+    "title": "이음 화면 1 · 5초",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_9bd9cd31743b",
+        "sourceTitle": "이음 화면 0 · 시작",
+        "sourceJobId": "j_f1c55aef63a7d7af",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_791982b22612",
+        "sourceTitle": "제품 · 맥스 체리레드 45도",
+        "sourceJobId": null,
+        "file": "u_f9a33ca45ecaaae482202e89.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T01:19:53.788Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T01:25:20.038Z"
+  },
+  {
+    "id": "j_6b2de0ff76a387f8",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_652294d5e592",
+    "title": "이음 화면 2 · 10초",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_a52ea24f2c8d",
+        "sourceTitle": "이음 화면 1 · 5초",
+        "sourceJobId": "j_d195bbb70b031163",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_18144bc9f173",
+        "sourceTitle": "제품 · 냅 엑스 노랑(색 바꿈, 글자·태그 지움)",
+        "sourceJobId": null,
+        "file": "u_2048c5d55974f98b345d724f.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T01:19:53.788Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T01:25:20.038Z"
+  },
+  {
+    "id": "j_b0f094d16f0a609a",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_0b558622c656",
+    "title": "이음 화면 3 · 끝",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_652294d5e592",
+        "sourceTitle": "이음 화면 2 · 10초",
+        "sourceJobId": "j_6b2de0ff76a387f8",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a2f9c772cf72",
+        "sourceTitle": "제품 · 메가 문필로우(태그 지움)",
+        "sourceJobId": null,
+        "file": "u_e2a14ddde31fbcb01f7c05e2.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_aa02e39beb3d",
+        "sourceTitle": "제품 · 메이트 티렉스",
+        "sourceJobId": null,
+        "file": "u_a954abbcedd45dc20cafbc0f.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T01:19:53.788Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T01:25:20.038Z"
+  },
+  {
+    "id": "j_515afceba8a61498",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_9bd9cd31743b",
+    "title": "이음 화면 0 · 시작",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 얼굴",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_7.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 전신",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_1.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_ded1f3ac8130",
+        "sourceTitle": "배경 시트 · 선물 공장",
+        "sourceJobId": "j_64aff02fd3e50110",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "6931c8ae-4cd9-4738-95ca-25ea3ec4ca14",
+    "result": {
+      "file": "r_j_515afceba8a61498.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 4574924
+    },
+    "error": null,
+    "createdAt": "2026-11-09T01:25:36.316Z",
+    "startedAt": "2026-11-09T02:21:58.806Z",
+    "finishedAt": "2026-11-09T02:23:36.643Z"
+  },
+  {
+    "id": "j_88aee3319c4f80a2",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_a52ea24f2c8d",
+    "title": "이음 화면 1 · 5초",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_9bd9cd31743b",
+        "sourceTitle": "이음 화면 0 · 시작",
+        "sourceJobId": "j_515afceba8a61498",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_791982b22612",
+        "sourceTitle": "제품 · 맥스 체리레드 45도",
+        "sourceJobId": null,
+        "file": "u_f9a33ca45ecaaae482202e89.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "ca6013aa-a5b1-4c5a-ad42-7ed283f8dfcb",
+    "result": {
+      "file": "r_j_88aee3319c4f80a2.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 4995767
+    },
+    "error": null,
+    "createdAt": "2026-11-09T01:25:36.316Z",
+    "startedAt": "2026-11-09T02:23:54.677Z",
+    "finishedAt": "2026-11-09T02:30:23.851Z"
+  },
+  {
+    "id": "j_740503e26c588ee1",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_652294d5e592",
+    "title": "이음 화면 2 · 10초",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_a52ea24f2c8d",
+        "sourceTitle": "이음 화면 1 · 5초",
+        "sourceJobId": "j_88aee3319c4f80a2",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_18144bc9f173",
+        "sourceTitle": "제품 · 냅 엑스 노랑(색 바꿈, 글자·태그 지움)",
+        "sourceJobId": null,
+        "file": "u_2048c5d55974f98b345d724f.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "34e34b62-24b7-4564-9486-3219c3ee3e85",
+    "result": {
+      "file": "r_j_740503e26c588ee1.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 5346129
+    },
+    "error": null,
+    "createdAt": "2026-11-09T01:25:36.316Z",
+    "startedAt": "2026-11-09T02:30:38.536Z",
+    "finishedAt": "2026-11-09T02:32:16.270Z"
+  },
+  {
+    "id": "j_d2da6a71873d96a8",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_0b558622c656",
+    "title": "이음 화면 3 · 끝",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_652294d5e592",
+        "sourceTitle": "이음 화면 2 · 10초",
+        "sourceJobId": "j_740503e26c588ee1",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a2f9c772cf72",
+        "sourceTitle": "제품 · 메가 문필로우(태그 지움)",
+        "sourceJobId": null,
+        "file": "u_e2a14ddde31fbcb01f7c05e2.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_aa02e39beb3d",
+        "sourceTitle": "제품 · 메이트 티렉스",
+        "sourceJobId": null,
+        "file": "u_a954abbcedd45dc20cafbc0f.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T01:25:36.316Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T02:33:31.634Z"
+  },
+  {
+    "id": "j_e71da297db4b094f",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_a52ea24f2c8d",
+    "title": "이음 화면 1 · 5초",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_9bd9cd31743b",
+        "sourceTitle": "이음 화면 0 · 시작",
+        "sourceJobId": "j_515afceba8a61498",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "c94b0238-b53a-4811-a935-361f422ee55c",
+    "result": {
+      "file": "r_j_e71da297db4b094f.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 4949236
+    },
+    "error": null,
+    "createdAt": "2026-11-09T02:33:31.789Z",
+    "startedAt": "2026-11-09T02:35:50.784Z",
+    "finishedAt": "2026-11-09T02:38:06.883Z"
+  },
+  {
+    "id": "j_25c30f1c8f96f79f",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_652294d5e592",
+    "title": "이음 화면 2 · 10초",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_9bd9cd31743b",
+        "sourceTitle": "이음 화면 0 · 시작",
+        "sourceJobId": "j_515afceba8a61498",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_18144bc9f173",
+        "sourceTitle": "제품 · 냅 엑스 노랑(색 바꿈, 글자·태그 지움)",
+        "sourceJobId": null,
+        "file": "u_2048c5d55974f98b345d724f.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "b6377d7e-893c-458d-bcf8-6439c9339f42",
+    "result": {
+      "file": "r_j_25c30f1c8f96f79f.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 4301477
+    },
+    "error": null,
+    "createdAt": "2026-11-09T02:33:31.789Z",
+    "startedAt": "2026-11-09T02:35:52.072Z",
+    "finishedAt": "2026-11-09T02:38:23.890Z"
+  },
+  {
+    "id": "j_10c63b0768819621",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_0b558622c656",
+    "title": "이음 화면 3 · 끝",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_9bd9cd31743b",
+        "sourceTitle": "이음 화면 0 · 시작",
+        "sourceJobId": "j_515afceba8a61498",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_18144bc9f173",
+        "sourceTitle": "제품 · 냅 엑스 노랑(색 바꿈, 글자·태그 지움)",
+        "sourceJobId": null,
+        "file": "u_2048c5d55974f98b345d724f.jpg"
+      },
+      {
+        "order": 7,
+        "role": "image_references",
+        "sourceNodeId": "n_a2f9c772cf72",
+        "sourceTitle": "제품 · 메가 문필로우(태그 지움)",
+        "sourceJobId": null,
+        "file": "u_e2a14ddde31fbcb01f7c05e2.jpg"
+      },
+      {
+        "order": 8,
+        "role": "image_references",
+        "sourceNodeId": "n_aa02e39beb3d",
+        "sourceTitle": "제품 · 메이트 티렉스",
+        "sourceJobId": null,
+        "file": "u_a954abbcedd45dc20cafbc0f.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "cb7922eb-d4bc-4f47-8937-0601ecc39656",
+    "result": {
+      "file": "r_j_10c63b0768819621.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 4637926
+    },
+    "error": null,
+    "createdAt": "2026-11-09T02:33:31.790Z",
+    "startedAt": "2026-11-09T02:35:53.314Z",
+    "finishedAt": "2026-11-09T02:38:28.025Z"
+  },
+  {
+    "id": "j_b8289f1508ab2b13",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_9bd9cd31743b",
+    "title": "시작 그림",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 얼굴",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_7.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 전신",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_1.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_ded1f3ac8130",
+        "sourceTitle": "배경 시트 · 선물 공장",
+        "sourceJobId": "j_64aff02fd3e50110",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T02:42:08.800Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T02:43:15.002Z"
+  },
+  {
+    "id": "j_c23bc2b9ee62a6cb",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_0b558622c656",
+    "title": "끝 그림",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_9bd9cd31743b",
+        "sourceTitle": "시작 그림",
+        "sourceJobId": "j_b8289f1508ab2b13",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_18144bc9f173",
+        "sourceTitle": "제품 · 냅 엑스 노랑(색 바꿈, 글자·태그 지움)",
+        "sourceJobId": null,
+        "file": "u_2048c5d55974f98b345d724f.jpg"
+      },
+      {
+        "order": 7,
+        "role": "image_references",
+        "sourceNodeId": "n_a2f9c772cf72",
+        "sourceTitle": "제품 · 메가 문필로우(태그 지움)",
+        "sourceJobId": null,
+        "file": "u_e2a14ddde31fbcb01f7c05e2.jpg"
+      },
+      {
+        "order": 8,
+        "role": "image_references",
+        "sourceNodeId": "n_aa02e39beb3d",
+        "sourceTitle": "제품 · 메이트 티렉스",
+        "sourceJobId": null,
+        "file": "u_a954abbcedd45dc20cafbc0f.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T02:42:08.800Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T02:43:15.002Z"
+  },
+  {
+    "id": "j_eabd11255968fef4",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_9bd9cd31743b",
+    "title": "시작 그림",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 얼굴",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_7.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 전신",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_1.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_ded1f3ac8130",
+        "sourceTitle": "배경 시트 · 선물 공장",
+        "sourceJobId": "j_64aff02fd3e50110",
+        "file": null
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "cc42f84b-fde8-4df8-a7af-1171cdfe6286",
+    "result": {
+      "file": "r_j_eabd11255968fef4.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 4937456
+    },
+    "error": null,
+    "createdAt": "2026-11-09T02:43:15.135Z",
+    "startedAt": "2026-11-09T02:44:35.964Z",
+    "finishedAt": "2026-11-09T02:46:03.507Z"
+  },
+  {
+    "id": "j_875db45a0ce3ff51",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_0b558622c656",
+    "title": "끝 그림",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_9bd9cd31743b",
+        "sourceTitle": "시작 그림",
+        "sourceJobId": "j_eabd11255968fef4",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_18144bc9f173",
+        "sourceTitle": "제품 · 냅 엑스 노랑(색 바꿈, 글자·태그 지움)",
+        "sourceJobId": null,
+        "file": "u_2048c5d55974f98b345d724f.jpg"
+      },
+      {
+        "order": 7,
+        "role": "image_references",
+        "sourceNodeId": "n_a2f9c772cf72",
+        "sourceTitle": "제품 · 메가 문필로우(태그 지움)",
+        "sourceJobId": null,
+        "file": "u_e2a14ddde31fbcb01f7c05e2.jpg"
+      },
+      {
+        "order": 8,
+        "role": "image_references",
+        "sourceNodeId": "n_aa02e39beb3d",
+        "sourceTitle": "제품 · 메이트 티렉스",
+        "sourceJobId": null,
+        "file": "u_a954abbcedd45dc20cafbc0f.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T02:43:15.135Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T02:47:30.847Z"
+  },
+  {
+    "id": "j_39d250b2b31e55da",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_dfdf9807f7d5",
+    "title": "영상 · 장면 1 · 0–5초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 5,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_9bd9cd31743b",
+        "sourceTitle": "시작 그림",
+        "sourceJobId": "j_eabd11255968fef4",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T02:47:30.969Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T02:48:04.671Z"
+  },
+  {
+    "id": "j_52ae145a5086a4f1",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_9bd9cd31743b",
+    "title": "시작 그림",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 얼굴",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_7.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 전신",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_1.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_ded1f3ac8130",
+        "sourceTitle": "배경 시트 · 선물 공장",
+        "sourceJobId": "j_64aff02fd3e50110",
+        "file": null
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T02:48:04.783Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T02:48:27.737Z"
+  },
+  {
+    "id": "j_fd5e993e744ce516",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_9bd9cd31743b",
+    "title": "시작 그림",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 얼굴",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_7.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 전신",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_1.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_ded1f3ac8130",
+        "sourceTitle": "배경 시트 · 선물 공장",
+        "sourceJobId": "j_64aff02fd3e50110",
+        "file": null
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T02:48:27.856Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T02:48:56.700Z"
+  },
+  {
+    "id": "j_28cf50038bb65ce4",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_9bd9cd31743b",
+    "title": "시작 그림",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 얼굴",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_7.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_c026ee406787",
+        "sourceTitle": "캐릭터 시트 · 팍스 산타 전신",
+        "sourceJobId": null,
+        "file": "p_j_6100bf5fe6c7d3c3_1.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_ded1f3ac8130",
+        "sourceTitle": "배경 시트 · 선물 공장",
+        "sourceJobId": "j_64aff02fd3e50110",
+        "file": null
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "72a89a3a-ec76-461d-a7c7-8023b50e7349",
+    "result": {
+      "file": "r_j_28cf50038bb65ce4.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 4995520
+    },
+    "error": null,
+    "createdAt": "2026-11-09T02:48:56.808Z",
+    "startedAt": "2026-11-09T02:54:30.590Z",
+    "finishedAt": "2026-11-09T02:55:56.296Z"
+  },
+  {
+    "id": "j_00a78b38163e7b53",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_6a45b2b44532",
+    "title": "장면 1 첫 화면 (시작 그림 1.2배 당김)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_9bd9cd31743b",
+        "sourceTitle": "시작 그림",
+        "sourceJobId": "j_28cf50038bb65ce4",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T02:57:13.585Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T02:58:37.622Z"
+  },
+  {
+    "id": "j_c0d725adb2f735c0",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_dfdf9807f7d5",
+    "title": "영상 · 장면 1 · 0–5초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 5,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_6a45b2b44532",
+        "sourceTitle": "장면 1 첫 화면 (시작 그림 1.2배 당김)",
+        "sourceJobId": "j_00a78b38163e7b53",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T02:57:13.621Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T02:57:34.546Z"
+  },
+  {
+    "id": "j_d670c4e940e83d4c",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_dfdf9807f7d5",
+    "title": "영상 · 장면 1 · 0–5초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 5,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_6a45b2b44532",
+        "sourceTitle": "장면 1 첫 화면 (시작 그림 1.2배 당김)",
+        "sourceJobId": "j_00a78b38163e7b53",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T02:57:34.677Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T02:58:37.622Z"
+  },
+  {
+    "id": "j_a87ed5545494eb92",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_3e879e687bdd",
+    "title": "장면 1 첫 화면 (왼쪽 아래 제품 더미)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_9bd9cd31743b",
+        "sourceTitle": "시작 그림",
+        "sourceJobId": "j_28cf50038bb65ce4",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_18144bc9f173",
+        "sourceTitle": "제품 · 냅 엑스 노랑(색 바꿈, 글자·태그 지움)",
+        "sourceJobId": null,
+        "file": "u_2048c5d55974f98b345d724f.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_a2f9c772cf72",
+        "sourceTitle": "제품 · 메가 문필로우(태그 지움)",
+        "sourceJobId": null,
+        "file": "u_e2a14ddde31fbcb01f7c05e2.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "e1e20374-0125-4069-b22b-046370912d7d",
+    "result": {
+      "file": "r_j_a87ed5545494eb92.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 5553128
+    },
+    "error": null,
+    "createdAt": "2026-11-09T02:58:37.765Z",
+    "startedAt": "2026-11-09T02:59:33.810Z",
+    "finishedAt": "2026-11-09T03:01:01.582Z"
+  },
+  {
+    "id": "j_c3bed7bfd58f7daf",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_dfdf9807f7d5",
+    "title": "영상 · 장면 1 · 0–5초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 5,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_3e879e687bdd",
+        "sourceTitle": "장면 1 첫 화면 (왼쪽 아래 제품 더미)",
+        "sourceJobId": "j_a87ed5545494eb92",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T02:58:37.807Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T02:59:02.756Z"
+  },
+  {
+    "id": "j_2bb7e848384a3a9d",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_dfdf9807f7d5",
+    "title": "영상 · 장면 1 · 0–5초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 5,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_3e879e687bdd",
+        "sourceTitle": "장면 1 첫 화면 (왼쪽 아래 제품 더미)",
+        "sourceJobId": "j_a87ed5545494eb92",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T02:59:02.895Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T03:05:18.174Z"
+  },
+  {
+    "id": "j_682399785501d7ff",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_1720d3b49155",
+    "title": "장면 1 첫 화면 (포장 컨셉: 상자에 담긴 제품)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_9bd9cd31743b",
+        "sourceTitle": "시작 그림",
+        "sourceJobId": "j_28cf50038bb65ce4",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_ffa35a8ec185",
+        "sourceTitle": "제품 · 맥스 브라이트옐로우",
+        "sourceJobId": null,
+        "file": "u_4c6804721f76a4b04ca3c906.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_73844bf43ecc",
+        "sourceTitle": "제품 · 라운저 올리브그린",
+        "sourceJobId": null,
+        "file": "u_47379f68bd52c074cef086de.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      },
+      {
+        "order": 7,
+        "role": "image_references",
+        "sourceNodeId": "n_44f439f82b9f",
+        "sourceTitle": "제품 · 팟 아쿠아블루",
+        "sourceJobId": null,
+        "file": "u_fd7a8a3b84c662cb22e48f21.jpg"
+      },
+      {
+        "order": 8,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      },
+      {
+        "order": 9,
+        "role": "image_references",
+        "sourceNodeId": "n_7ea81ca767d6",
+        "sourceTitle": "제품 · 서포트 라임그린(원래 색)",
+        "sourceJobId": null,
+        "file": "u_9a8f155cc746e634b0c42676.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "412461ad-ce47-4754-8097-cf6ce991bce6",
+    "result": {
+      "file": "r_j_682399785501d7ff.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 5851035
+    },
+    "error": null,
+    "createdAt": "2026-11-09T03:05:18.279Z",
+    "startedAt": "2026-11-09T03:06:03.973Z",
+    "finishedAt": "2026-11-09T03:07:37.371Z"
+  },
+  {
+    "id": "j_c316b437e9f20572",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_dfdf9807f7d5",
+    "title": "영상 · 장면 1 · 0–5초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 5,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_1720d3b49155",
+        "sourceTitle": "장면 1 첫 화면 (포장 컨셉: 상자에 담긴 제품)",
+        "sourceJobId": "j_682399785501d7ff",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_ffa35a8ec185",
+        "sourceTitle": "제품 · 맥스 브라이트옐로우",
+        "sourceJobId": null,
+        "file": "u_4c6804721f76a4b04ca3c906.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T03:08:31.450Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T03:09:51.358Z"
+  },
+  {
+    "id": "j_0d4d400ecc5aa893",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_ee7d6e84fee0",
+    "title": "장면 1 첫 화면 (제품 시트 상자 느낌)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_1720d3b49155",
+        "sourceTitle": "장면 1 첫 화면 (포장 컨셉: 상자에 담긴 제품)",
+        "sourceJobId": "j_682399785501d7ff",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_35f91bbd1b39",
+        "sourceTitle": "제품 시트 · 미니어처",
+        "sourceJobId": "j_f437892ae920e0a1",
+        "file": null
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_73844bf43ecc",
+        "sourceTitle": "제품 · 라운저 올리브그린",
+        "sourceJobId": null,
+        "file": "u_47379f68bd52c074cef086de.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      },
+      {
+        "order": 7,
+        "role": "image_references",
+        "sourceNodeId": "n_44f439f82b9f",
+        "sourceTitle": "제품 · 팟 아쿠아블루",
+        "sourceJobId": null,
+        "file": "u_fd7a8a3b84c662cb22e48f21.jpg"
+      },
+      {
+        "order": 8,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      },
+      {
+        "order": 9,
+        "role": "image_references",
+        "sourceNodeId": "n_7ea81ca767d6",
+        "sourceTitle": "제품 · 서포트 라임그린(원래 색)",
+        "sourceJobId": null,
+        "file": "u_9a8f155cc746e634b0c42676.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T03:09:51.467Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T03:10:07.209Z"
+  },
+  {
+    "id": "j_9d7b79e6a8e77450",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_ee7d6e84fee0",
+    "title": "장면 1 첫 화면 (제품 시트 상자 느낌)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_1720d3b49155",
+        "sourceTitle": "장면 1 첫 화면 (포장 컨셉: 상자에 담긴 제품)",
+        "sourceJobId": "j_682399785501d7ff",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_35f91bbd1b39",
+        "sourceTitle": "제품 시트 · 미니어처",
+        "sourceJobId": "j_f437892ae920e0a1",
+        "file": null
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_73844bf43ecc",
+        "sourceTitle": "제품 · 라운저 올리브그린",
+        "sourceJobId": null,
+        "file": "u_47379f68bd52c074cef086de.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      },
+      {
+        "order": 7,
+        "role": "image_references",
+        "sourceNodeId": "n_44f439f82b9f",
+        "sourceTitle": "제품 · 팟 아쿠아블루",
+        "sourceJobId": null,
+        "file": "u_fd7a8a3b84c662cb22e48f21.jpg"
+      },
+      {
+        "order": 8,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      },
+      {
+        "order": 9,
+        "role": "image_references",
+        "sourceNodeId": "n_7ea81ca767d6",
+        "sourceTitle": "제품 · 서포트 라임그린(원래 색)",
+        "sourceJobId": null,
+        "file": "u_9a8f155cc746e634b0c42676.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "995be060-5f96-46fd-b1ee-f527719d57c0",
+    "result": {
+      "file": "r_j_9d7b79e6a8e77450.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 4689842
+    },
+    "error": null,
+    "createdAt": "2026-11-09T03:10:07.328Z",
+    "startedAt": "2026-11-09T03:12:23.370Z",
+    "finishedAt": "2026-11-09T03:14:02.534Z"
+  },
+  {
+    "id": "j_b528bde249a93474",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_1d828f4df910",
+    "title": "장면 1 첫 화면 (진열 상자 4개)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_ee7d6e84fee0",
+        "sourceTitle": "장면 1 첫 화면 (제품 시트 상자 느낌)",
+        "sourceJobId": "j_9d7b79e6a8e77450",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_35f91bbd1b39",
+        "sourceTitle": "제품 시트 · 미니어처",
+        "sourceJobId": "j_f437892ae920e0a1",
+        "file": null
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_a41a9e2d0be8",
+        "sourceTitle": "제품 · 맥스 체리레드",
+        "sourceJobId": null,
+        "file": "u_87dbfdce23a773b48d3b2e92.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "d16ed92d-d8fa-48cc-8232-b138800a3a75",
+    "result": {
+      "file": "r_j_b528bde249a93474.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 6124444
+    },
+    "error": null,
+    "createdAt": "2026-11-09T03:18:51.144Z",
+    "startedAt": "2026-11-09T03:18:53.288Z",
+    "finishedAt": "2026-11-09T03:20:24.534Z"
+  },
+  {
+    "id": "j_395e8a23b86998b5",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_dfdf9807f7d5",
+    "title": "영상 · 장면 1 · 0–5초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 5,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_1d828f4df910",
+        "sourceTitle": "장면 1 첫 화면 (진열 상자 4개)",
+        "sourceJobId": "j_b528bde249a93474",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_ffa35a8ec185",
+        "sourceTitle": "제품 · 맥스 브라이트옐로우",
+        "sourceJobId": null,
+        "file": "u_4c6804721f76a4b04ca3c906.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T03:20:44.519Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T03:21:09.368Z"
+  },
+  {
+    "id": "j_e0d1e1bb82c7399c",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_dfdf9807f7d5",
+    "title": "영상 · 장면 1 · 0–5초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 5,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_1d828f4df910",
+        "sourceTitle": "장면 1 첫 화면 (진열 상자 4개)",
+        "sourceJobId": "j_b528bde249a93474",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_ffa35a8ec185",
+        "sourceTitle": "제품 · 맥스 브라이트옐로우",
+        "sourceJobId": null,
+        "file": "u_4c6804721f76a4b04ca3c906.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "externalId": "9209851c-1591-449e-942c-c79514d51e2d",
+    "result": {
+      "file": "r_j_e0d1e1bb82c7399c.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 518913
+    },
+    "error": null,
+    "createdAt": "2026-11-09T03:21:09.483Z",
+    "startedAt": "2026-11-09T03:37:48.890Z",
+    "finishedAt": "2026-11-09T03:39:56.976Z"
+  },
+  {
+    "id": "j_9ba4cfdb3542cf1d",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_9b61f3132684",
+    "title": "장면 2 첫 화면 (장면 1 마지막 프레임)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "2ad89ff6-9bf2-41ee-8d1c-e47550e15a50",
+    "result": {
+      "file": "r_j_9ba4cfdb3542cf1d.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 480,
+      "height": 854,
+      "bytes": 350250
+    },
+    "error": null,
+    "createdAt": "2026-11-09T03:41:28.534Z",
+    "startedAt": "2026-11-09T03:41:29.357Z",
+    "finishedAt": "2026-11-09T03:41:29.357Z"
+  },
+  {
+    "id": "j_1ae49bcdaf929743",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_12e9296ba5eb",
+    "title": "영상 · 장면 2 · 5–10초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 5,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_9b61f3132684",
+        "sourceTitle": "장면 2 첫 화면 (장면 1 마지막 프레임)",
+        "sourceJobId": "j_9ba4cfdb3542cf1d",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-09T03:41:29.424Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-09T03:54:34.745Z"
+  },
+  {
+    "id": "j_a12ca675b3144e4b",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_1ba7e350cac6",
+    "title": "장면 1 첫 화면 (문 앞 트레이 없앰)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_1d828f4df910",
+        "sourceTitle": "장면 1 첫 화면 (진열 상자 4개)",
+        "sourceJobId": "j_b528bde249a93474",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "db92fb08-58ac-4aa3-be0b-52c00278dace",
+    "result": {
+      "file": "r_j_a12ca675b3144e4b.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 5912768
+    },
+    "error": null,
+    "createdAt": "2026-11-09T03:44:10.261Z",
+    "startedAt": "2026-11-09T03:44:12.381Z",
+    "finishedAt": "2026-11-09T03:46:07.454Z"
+  },
+  {
+    "id": "j_65d7f590eb570873",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_dfdf9807f7d5",
+    "title": "영상 · 장면 1 · 0–5초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 5,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_1ba7e350cac6",
+        "sourceTitle": "장면 1 첫 화면 (문 앞 트레이 없앰)",
+        "sourceJobId": "j_a12ca675b3144e4b",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_ffa35a8ec185",
+        "sourceTitle": "제품 · 맥스 브라이트옐로우",
+        "sourceJobId": null,
+        "file": "u_4c6804721f76a4b04ca3c906.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "externalId": "16b45383-7afd-47d2-bbe9-688510bf9a74",
+    "result": {
+      "file": "r_j_65d7f590eb570873.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 484669
+    },
+    "error": null,
+    "createdAt": "2026-11-09T03:46:22.349Z",
+    "startedAt": "2026-11-09T03:46:24.537Z",
+    "finishedAt": "2026-11-09T03:48:10.851Z"
+  },
+  {
+    "id": "j_cab64225d4631a84",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_9b61f3132684",
+    "title": "장면 2 첫 화면 (장면 1 마지막 프레임)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "861fbc97-0855-4ed9-ad04-cfde1e5bd890",
+    "result": {
+      "file": "r_j_cab64225d4631a84.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 480,
+      "height": 854,
+      "bytes": 342377
+    },
+    "error": null,
+    "createdAt": "2026-11-09T03:54:34.864Z",
+    "startedAt": "2026-11-09T03:54:35.750Z",
+    "finishedAt": "2026-11-09T03:54:35.750Z"
+  },
+  {
+    "id": "j_36eee8a13ed2da9b",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_12e9296ba5eb",
+    "title": "영상 · 장면 2 · 5–9초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 4,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_9b61f3132684",
+        "sourceTitle": "장면 2 첫 화면 (장면 1 마지막 프레임)",
+        "sourceJobId": "j_cab64225d4631a84",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 12
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 12
+    },
+    "externalId": "274fbd7c-534b-49ef-ba7d-8c61f14c6e53",
+    "result": {
+      "file": "r_j_36eee8a13ed2da9b.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 471363
+    },
+    "error": null,
+    "createdAt": "2026-11-09T03:54:35.823Z",
+    "startedAt": "2026-11-09T05:01:49.974Z",
+    "finishedAt": "2026-11-09T05:03:40.430Z"
+  },
+  {
+    "id": "j_1047c017228e6104",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_7d4c679dd2d4",
+    "title": "장면 3 첫 화면 (장면 2 마지막 프레임 · 2K로 키움)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "828c28c5-7c74-4a6d-bd39-4b1673d8a5cf",
+    "result": {
+      "file": "r_j_1047c017228e6104.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 2160,
+      "height": 3834,
+      "bytes": 3808816
+    },
+    "error": null,
+    "createdAt": "2026-11-09T05:18:26.003Z",
+    "startedAt": "2026-11-09T05:18:26.779Z",
+    "finishedAt": "2026-11-09T05:18:26.779Z"
+  },
+  {
+    "id": "j_52ffcf2d04d6f050",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_44f207394f57",
+    "title": "영상 · 장면 3 · 9–13초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 4,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_7d4c679dd2d4",
+        "sourceTitle": "장면 3 첫 화면 (장면 2 마지막 프레임 · 2K로 키움)",
+        "sourceJobId": "j_1047c017228e6104",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 12
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 12
+    },
+    "externalId": "7edf7c0d-3c91-499b-9379-c3c52023e632",
+    "result": {
+      "file": "r_j_52ffcf2d04d6f050.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 525226
+    },
+    "error": null,
+    "createdAt": "2026-11-09T05:18:26.841Z",
+    "startedAt": "2026-11-09T05:18:40.748Z",
+    "finishedAt": "2026-11-09T05:20:50.923Z"
+  },
+  {
+    "id": "j_0be1c3de3fdde803",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_44f207394f57",
+    "title": "영상 · 장면 3 · 9–13초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 4,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_7d4c679dd2d4",
+        "sourceTitle": "장면 3 첫 화면 (장면 2 마지막 프레임 · 2K로 키움)",
+        "sourceJobId": "j_1047c017228e6104",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 12
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 12
+    },
+    "externalId": "3b2a407b-b426-45bb-a0d7-bcaadf6894f3",
+    "result": {
+      "file": "r_j_0be1c3de3fdde803.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 516129
+    },
+    "error": null,
+    "createdAt": "2026-11-09T05:27:41.737Z",
+    "startedAt": "2026-11-09T05:27:54.996Z",
+    "finishedAt": "2026-11-09T05:30:03.042Z"
+  },
+  {
+    "id": "j_ae1e1cdd0f97e81f",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_66380c5362db",
+    "title": "장면 4 첫 화면 (장면 3 마지막 프레임 · 2K로 키움)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "4e9aea63-262c-4dc0-9958-7d3e3a21b45b",
+    "result": {
+      "file": "r_j_ae1e1cdd0f97e81f.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 2160,
+      "height": 3834,
+      "bytes": 3937675
+    },
+    "error": null,
+    "createdAt": "2026-11-09T05:32:22.929Z",
+    "startedAt": "2026-11-09T05:32:23.804Z",
+    "finishedAt": "2026-11-09T05:32:23.804Z"
+  },
+  {
+    "id": "j_d4118d4f3b419745",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_2cb230fd22d7",
+    "title": "영상 · 장면 4 · 13–17초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 4,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_66380c5362db",
+        "sourceTitle": "장면 4 첫 화면 (장면 3 마지막 프레임 · 2K로 키움)",
+        "sourceJobId": "j_ae1e1cdd0f97e81f",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_18144bc9f173",
+        "sourceTitle": "제품 · 냅 엑스 노랑(색 바꿈, 글자·태그 지움)",
+        "sourceJobId": null,
+        "file": "u_2048c5d55974f98b345d724f.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 12
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 12
+    },
+    "externalId": "b487af4a-d75e-4667-9862-0dbbd6d7b765",
+    "result": {
+      "file": "r_j_d4118d4f3b419745.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 556999
+    },
+    "error": null,
+    "createdAt": "2026-11-09T05:32:23.875Z",
+    "startedAt": "2026-11-09T05:32:37.673Z",
+    "finishedAt": "2026-11-09T05:34:46.776Z"
+  },
+  {
+    "id": "j_e02da8d2408a7322",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_795c71073de2",
+    "title": "장면 5 첫 화면 (장면 4 고른 프레임 · 2K로 키움)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "fd9ae67a-16db-45c8-9cd2-7812e3a6e5c9",
+    "result": {
+      "file": "r_j_e02da8d2408a7322.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 2160,
+      "height": 3834,
+      "bytes": 4328210
+    },
+    "error": null,
+    "createdAt": "2026-11-09T05:42:08.530Z",
+    "startedAt": "2026-11-09T05:42:09.490Z",
+    "finishedAt": "2026-11-09T05:42:09.490Z"
+  },
+  {
+    "id": "j_25758e7071da3553",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_90ce8fba686a",
+    "title": "영상 · 장면 5 · 15.6–19.6초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 4,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_795c71073de2",
+        "sourceTitle": "장면 5 첫 화면 (장면 4 고른 프레임 · 2K로 키움)",
+        "sourceJobId": "j_e02da8d2408a7322",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_18144bc9f173",
+        "sourceTitle": "제품 · 냅 엑스 노랑(색 바꿈, 글자·태그 지움)",
+        "sourceJobId": null,
+        "file": "u_2048c5d55974f98b345d724f.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_a2f9c772cf72",
+        "sourceTitle": "제품 · 메가 문필로우(태그 지움)",
+        "sourceJobId": null,
+        "file": "u_e2a14ddde31fbcb01f7c05e2.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 12
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 12
+    },
+    "externalId": "a9c3ad5f-ba1a-443a-8830-69a54928b6f5",
+    "result": {
+      "file": "r_j_25758e7071da3553.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 545561
+    },
+    "error": null,
+    "createdAt": "2026-11-09T05:42:09.572Z",
+    "startedAt": "2026-11-09T05:42:20.639Z",
+    "finishedAt": "2026-11-09T05:44:32.792Z"
+  },
+  {
+    "id": "j_e169fd419989a339",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_e19def09be53",
+    "title": "장면 6 첫 화면 (장면 5 고른 프레임 · 2K로 키움)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "75ec713d-f396-4411-91bd-bd017d49e172",
+    "result": {
+      "file": "r_j_e169fd419989a339.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 2160,
+      "height": 3834,
+      "bytes": 4694590
+    },
+    "error": null,
+    "createdAt": "2026-11-09T05:47:52.575Z",
+    "startedAt": "2026-11-09T05:47:53.463Z",
+    "finishedAt": "2026-11-09T05:47:53.463Z"
+  },
+  {
+    "id": "j_4923de3d1d0a3edd",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_2b0c33acda67",
+    "title": "영상 · 장면 6 · 18.6–22.6초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 4,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_e19def09be53",
+        "sourceTitle": "장면 6 첫 화면 (장면 5 고른 프레임 · 2K로 키움)",
+        "sourceJobId": "j_e169fd419989a339",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a2f9c772cf72",
+        "sourceTitle": "제품 · 메가 문필로우(태그 지움)",
+        "sourceJobId": null,
+        "file": "u_e2a14ddde31fbcb01f7c05e2.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_aa02e39beb3d",
+        "sourceTitle": "제품 · 메이트 티렉스",
+        "sourceJobId": null,
+        "file": "u_a954abbcedd45dc20cafbc0f.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 12
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 12
+    },
+    "externalId": "ee6c0f0e-dbe1-40f4-970c-29c856f3b826",
+    "result": {
+      "file": "r_j_4923de3d1d0a3edd.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 533666
+    },
+    "error": null,
+    "createdAt": "2026-11-09T05:47:53.526Z",
+    "startedAt": "2026-11-09T05:48:05.164Z",
+    "finishedAt": "2026-11-09T05:50:17.396Z"
+  },
+  {
+    "id": "j_efb83309fa48848a",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_4a7270a3877d",
+    "title": "장면 7 첫 화면 (장면 6 마지막 프레임 · 2K로 키움)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "648ae68d-cbda-4c37-8b9d-8bffbc6e140f",
+    "result": {
+      "file": "r_j_efb83309fa48848a.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 2160,
+      "height": 3834,
+      "bytes": 4821620
+    },
+    "error": null,
+    "createdAt": "2026-11-09T05:55:02.182Z",
+    "startedAt": "2026-11-09T05:55:03.265Z",
+    "finishedAt": "2026-11-09T05:55:03.265Z"
+  },
+  {
+    "id": "j_060524096cb0224c",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_c0728958d168",
+    "title": "영상 · 장면 7 · 마무리 22.6–28.6초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 6,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_4a7270a3877d",
+        "sourceTitle": "장면 7 첫 화면 (장면 6 마지막 프레임 · 2K로 키움)",
+        "sourceJobId": "j_efb83309fa48848a",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_aa02e39beb3d",
+        "sourceTitle": "제품 · 메이트 티렉스",
+        "sourceJobId": null,
+        "file": "u_a954abbcedd45dc20cafbc0f.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_1ba7e350cac6",
+        "sourceTitle": "장면 1 첫 화면 (문 앞 트레이 없앰)",
+        "sourceJobId": "j_a12ca675b3144e4b",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 18
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 18
+    },
+    "externalId": "0d461a8a-d63f-400b-95a9-20da9f55176c",
+    "result": {
+      "file": "r_j_060524096cb0224c.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 935522
+    },
+    "error": null,
+    "createdAt": "2026-11-09T05:55:03.347Z",
+    "startedAt": "2026-11-09T05:55:13.799Z",
+    "finishedAt": "2026-11-09T05:57:38.748Z"
+  },
+  {
+    "id": "j_388f2064a1e88ec4",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_409c3243d6b1",
+    "title": "장면 7 끝 화면 (공장 전체 · 팍스와 티렉스)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_1ba7e350cac6",
+        "sourceTitle": "장면 1 첫 화면 (문 앞 트레이 없앰)",
+        "sourceJobId": "j_a12ca675b3144e4b",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_aa02e39beb3d",
+        "sourceTitle": "제품 · 메이트 티렉스",
+        "sourceJobId": null,
+        "file": "u_a954abbcedd45dc20cafbc0f.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "8f238a32-8422-45bb-bbbe-a67ca408c1a1",
+    "result": {
+      "file": "r_j_388f2064a1e88ec4.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 6161648
+    },
+    "error": null,
+    "createdAt": "2026-11-09T06:05:53.043Z",
+    "startedAt": "2026-11-09T06:06:07.402Z",
+    "finishedAt": "2026-11-09T06:07:21.027Z"
+  },
+  {
+    "id": "j_3a55136547ddd2e5",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_c0728958d168",
+    "title": "영상 · 장면 7 · 마무리 22.6–28.6초",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 6,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_4a7270a3877d",
+        "sourceTitle": "장면 7 첫 화면 (장면 6 마지막 프레임 · 2K로 키움)",
+        "sourceJobId": "j_efb83309fa48848a",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_aa02e39beb3d",
+        "sourceTitle": "제품 · 메이트 티렉스",
+        "sourceJobId": null,
+        "file": "u_a954abbcedd45dc20cafbc0f.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_409c3243d6b1",
+        "sourceTitle": "장면 7 끝 화면 (공장 전체 · 팍스와 티렉스)",
+        "sourceJobId": "j_388f2064a1e88ec4",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 18
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 18
+    },
+    "externalId": "3f450f44-e3f3-4cf6-b94d-946e49f7853f",
+    "result": {
+      "file": "r_j_3a55136547ddd2e5.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 1046979
+    },
+    "error": null,
+    "createdAt": "2026-11-09T06:15:33.984Z",
+    "startedAt": "2026-11-09T06:16:03.340Z",
+    "finishedAt": "2026-11-09T06:17:58.209Z"
+  },
+  {
+    "id": "j_d2046f7c7175be1e",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_bfb0eeec041b",
+    "title": "편집본 v1 · 음악 없음 (28.7초)",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 29,
+      "quality": "draft"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 87
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "edit-local-v1",
+    "result": {
+      "file": "r_j_d2046f7c7175be1e.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 16187644
+    },
+    "error": null,
+    "createdAt": "2026-11-09T06:26:26.319Z",
+    "startedAt": "2026-11-09T06:26:41.416Z",
+    "finishedAt": "2026-11-09T06:26:41.416Z"
+  },
+  {
+    "id": "j_3952cb43beda65d7",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_f3a2f4fb04b3",
+    "title": "편집본 v2 · 음악 없음 (29초) · 이음새 보정",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 29,
+      "quality": "draft"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 87
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "edit-local",
+    "result": {
+      "file": "r_j_3952cb43beda65d7.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 18006860
+    },
+    "error": null,
+    "createdAt": "2026-11-09T06:39:26.045Z",
+    "startedAt": "2026-11-09T06:39:26.870Z",
+    "finishedAt": "2026-11-09T06:39:26.870Z"
+  },
+  {
+    "id": "j_c9b67224e7e497d0",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_5bad43bcdb89",
+    "title": "편집본 v3 · 음악 없음 (29초) · 소리 이음새 보정",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 29,
+      "quality": "draft"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 87
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "edit-local",
+    "result": {
+      "file": "r_j_c9b67224e7e497d0.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 18008618
+    },
+    "error": null,
+    "createdAt": "2026-11-09T06:46:43.551Z",
+    "startedAt": "2026-11-09T06:46:44.374Z",
+    "finishedAt": "2026-11-09T06:46:44.374Z"
+  },
+  {
+    "id": "j_45415798fa775726",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_6f18589b97e3",
+    "title": "편집본 v4 · 음악 없음 (28.6초) · 뚜껑 이음새 반짝임",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 29,
+      "quality": "draft"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 87
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "edit-local",
+    "result": {
+      "file": "r_j_45415798fa775726.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 16960790
+    },
+    "error": null,
+    "createdAt": "2026-11-09T06:53:55.539Z",
+    "startedAt": "2026-11-09T06:53:56.472Z",
+    "finishedAt": "2026-11-09T06:53:56.472Z"
+  },
+  {
+    "id": "j_6c8d29bc49ea8102",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_2e766ea58c87",
+    "title": "영상 · 한 번에 뽑기 · 29초 초안",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 29,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_1ba7e350cac6",
+        "sourceTitle": "장면 1 첫 화면 (문 앞 트레이 없앰)",
+        "sourceJobId": "j_a12ca675b3144e4b",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_ffa35a8ec185",
+        "sourceTitle": "제품 · 맥스 브라이트옐로우",
+        "sourceJobId": null,
+        "file": "u_4c6804721f76a4b04ca3c906.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_08ea90cf28ea",
+        "sourceTitle": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c4a10f35a34fdf62d275a2b0.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_210580552f01",
+        "sourceTitle": "제품 · 팟 오렌지(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_c610b050ab2b39235dafe859.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_adff10eb654c",
+        "sourceTitle": "제품 · 서포트 라벤더(색 바꿈)",
+        "sourceJobId": null,
+        "file": "u_313355f646b4478cd98789e2.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_18144bc9f173",
+        "sourceTitle": "제품 · 냅 엑스 노랑(색 바꿈, 글자·태그 지움)",
+        "sourceJobId": null,
+        "file": "u_2048c5d55974f98b345d724f.jpg"
+      },
+      {
+        "order": 7,
+        "role": "image_references",
+        "sourceNodeId": "n_a2f9c772cf72",
+        "sourceTitle": "제품 · 메가 문필로우(태그 지움)",
+        "sourceJobId": null,
+        "file": "u_e2a14ddde31fbcb01f7c05e2.jpg"
+      },
+      {
+        "order": 8,
+        "role": "image_references",
+        "sourceNodeId": "n_aa02e39beb3d",
+        "sourceTitle": "제품 · 메이트 티렉스",
+        "sourceJobId": null,
+        "file": "u_a954abbcedd45dc20cafbc0f.jpg"
+      },
+      {
+        "order": 9,
+        "role": "image_references",
+        "sourceNodeId": "n_409c3243d6b1",
+        "sourceTitle": "장면 7 끝 화면 (공장 전체 · 팍스와 티렉스)",
+        "sourceJobId": "j_388f2064a1e88ec4",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 87
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 87
+    },
+    "externalId": "a5baab3e-83ad-42f9-abc9-d3441b2e6a23",
+    "result": {
+      "file": "r_j_6c8d29bc49ea8102.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 4829841
+    },
+    "error": null,
+    "createdAt": "2026-11-09T06:57:28.898Z",
+    "startedAt": "2026-11-09T06:57:37.528Z",
+    "finishedAt": "2026-11-09T07:00:17.729Z"
+  },
+  {
+    "id": "j_d0bf9053142a92f5",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_93c679ff38db",
+    "title": "편집본 · 한 번에 뽑기 v1 (31.4초 · 1080p · 요기보 끝 카드)",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 29,
+      "quality": "draft"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 87
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "edit-local",
+    "result": {
+      "file": "r_j_d0bf9053142a92f5.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 20848015
+    },
+    "error": null,
+    "createdAt": "2026-11-09T07:09:27.097Z",
+    "startedAt": "2026-11-09T07:09:27.930Z",
+    "finishedAt": "2026-11-09T07:09:27.930Z"
+  },
+  {
+    "id": "j_8e695ccea6700a99",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_d774cb873953",
+    "title": "편집본 · 한 번에 뽑기 v2 (원본 컷 · 음악 없음 · 31.5초)",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 29,
+      "quality": "draft"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 87
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "edit-local",
+    "result": {
+      "file": "r_j_8e695ccea6700a99.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 20603480
+    },
+    "error": null,
+    "createdAt": "2026-11-09T07:14:20.762Z",
+    "startedAt": "2026-11-09T07:14:21.576Z",
+    "finishedAt": "2026-11-09T07:14:21.576Z"
+  },
+  {
+    "id": "j_af447291471b1c70",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_ba8f44e4ef08",
+    "title": "편집본 · 한 번에 뽑기 v2 + 연주곡 (31.5초)",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 29,
+      "quality": "draft"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 87
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "edit-local",
+    "result": {
+      "file": "r_j_af447291471b1c70.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 20604535
+    },
+    "error": null,
+    "createdAt": "2026-11-09T07:14:21.839Z",
+    "startedAt": "2026-11-09T07:14:22.736Z",
+    "finishedAt": "2026-11-09T07:14:22.736Z"
+  },
+  {
+    "id": "j_d47d6be1eef82d6d",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_d3d2ccf5a072",
+    "title": "편집본 · 한 번에 뽑기 v3 + 연주곡 (31.5초 · 간판 로고 끝까지)",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 29,
+      "quality": "draft"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 87
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "edit-local",
+    "result": {
+      "file": "r_j_d47d6be1eef82d6d.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 20622943
+    },
+    "error": null,
+    "createdAt": "2026-11-09T07:24:55.563Z",
+    "startedAt": "2026-11-09T07:24:56.422Z",
+    "finishedAt": "2026-11-09T07:24:56.422Z"
+  },
+  {
+    "id": "j_ec9c1052c94eb0ee",
+    "projectId": "p_6eb3a2ed4b20b8a0",
+    "canvasId": "c_cc689e4e2a1b65b4",
+    "nodeId": "n_b70bfc5d8967",
+    "title": "편집본 · 한 번에 뽑기 v4 + 연주곡 (31.5초 · 로고 흔들림 잡음)",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 29,
+      "quality": "draft"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 87
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "edit-local",
+    "result": {
+      "file": "r_j_ec9c1052c94eb0ee.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 20613638
+    },
+    "error": null,
+    "createdAt": "2026-11-09T07:33:05.352Z",
+    "startedAt": "2026-11-09T07:33:06.167Z",
+    "finishedAt": "2026-11-09T07:33:06.167Z"
+  }
+]

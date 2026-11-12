@@ -1,0 +1,414 @@
+{
+  "id": "c_eb0c598bd9bc9aae",
+  "nodes": [
+    {
+      "id": "n_d4550587c027",
+      "type": "image",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "title": "원본 3장면 첫 화면 (9.6초, 쌓기)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "16:9",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_3872df38900e",
+      "type": "image",
+      "position": {
+        "x": 0,
+        "y": 1300
+      },
+      "data": {
+        "title": "원본 4장면 첫 화면 (14.35초, 누워 놀기)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "16:9",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_b1cf65cb3c77",
+      "type": "image",
+      "position": {
+        "x": -420,
+        "y": 0
+      },
+      "data": {
+        "title": "제품 · 스퀴지보 블루 (태그 지움)",
+        "preset": "product",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "1:1",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_1d03e8c5a665",
+      "type": "image",
+      "position": {
+        "x": -420,
+        "y": 260
+      },
+      "data": {
+        "title": "제품 · 스퀴지보 도그 (태그 지움)",
+        "preset": "product",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "1:1",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_c86394812ab5",
+      "type": "image",
+      "position": {
+        "x": -420,
+        "y": 520
+      },
+      "data": {
+        "title": "제품 · 스퀴지보 팍스 (태그 지움)",
+        "preset": "product",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "1:1",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_a06423cbad3b",
+      "type": "image",
+      "position": {
+        "x": -420,
+        "y": 780
+      },
+      "data": {
+        "title": "제품 · 스퀴지보 유니콘 (태그 지움)",
+        "preset": "product",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "1:1",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_16f7c3138835",
+      "type": "image",
+      "position": {
+        "x": -420,
+        "y": 1300
+      },
+      "data": {
+        "title": "제품 · 메이트 티렉스",
+        "preset": "product",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "1:1",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_1464b1168ae1",
+      "type": "image",
+      "position": {
+        "x": -420,
+        "y": 1560
+      },
+      "data": {
+        "title": "제품 · 메이트 유니콘",
+        "preset": "product",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "1:1",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_1082f7900a62",
+      "type": "image",
+      "position": {
+        "x": 620,
+        "y": 0
+      },
+      "data": {
+        "title": "3장면 새 첫 화면 · 스퀴지보 바로잡기",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "16:9",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_d7ed44f5425a",
+      "type": "image",
+      "position": {
+        "x": 620,
+        "y": 1300
+      },
+      "data": {
+        "title": "4장면 새 첫 화면 · 메이트로 바꾸기",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "16:9",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_5689724bea62",
+      "type": "image",
+      "position": {
+        "x": 1240,
+        "y": 0
+      },
+      "data": {
+        "title": "3장면 첫 화면 · 옆면 태그 지움(무료 손질)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "16:9",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_1d025b2ee9d9",
+      "type": "image",
+      "position": {
+        "x": 620,
+        "y": 1860
+      },
+      "data": {
+        "title": "4장면 새 첫 화면 · 책 읽어 주기",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "16:9",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_3e3b4e98154d",
+      "type": "image",
+      "position": {
+        "x": 1240,
+        "y": 1860
+      },
+      "data": {
+        "title": "4장면 첫 화면 · 그림책 글씨 지움(무료 손질)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "16:9",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_c1d91a537b50",
+      "type": "video",
+      "position": {
+        "x": 1860,
+        "y": 0
+      },
+      "data": {
+        "title": "3장면 영상 · 하나씩 올리고 손뼉 (6초 720p)",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "16:9",
+        "duration": 6,
+        "quality": "720p",
+        "shot": {}
+      }
+    },
+    {
+      "id": "n_3c3594d831ab",
+      "type": "video",
+      "position": {
+        "x": 1860,
+        "y": 1860
+      },
+      "data": {
+        "title": "4장면 영상 · 책 읽어 주기 (6초 720p)",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "16:9",
+        "duration": 6,
+        "quality": "720p",
+        "shot": {}
+      }
+    },
+    {
+      "id": "n_87fc348c1a20",
+      "type": "video",
+      "position": {
+        "x": 2267,
+        "y": 1110
+      },
+      "data": {
+        "title": "편집본 v1 · 3장면 스퀴지보 + 4장면 책 읽어 주기 (24.6초, 1080p)",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "16:9",
+        "duration": 25,
+        "quality": "720p",
+        "stage": "edit"
+      }
+    },
+    {
+      "id": "n_8237ae9a9979",
+      "type": "video",
+      "position": {
+        "x": 1860,
+        "y": 560
+      },
+      "data": {
+        "title": "3장면 영상 · 1080p 업스케일 (ByteDance 기본, 1크레딧)",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "16:9",
+        "duration": 6,
+        "quality": "720p"
+      }
+    },
+    {
+      "id": "n_44c207b6b57c",
+      "type": "video",
+      "position": {
+        "x": 1860,
+        "y": 2420
+      },
+      "data": {
+        "title": "4장면 영상 · 1080p 업스케일 (ByteDance 기본, 1크레딧)",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "16:9",
+        "duration": 6,
+        "quality": "720p"
+      }
+    },
+    {
+      "id": "n_13cd8728c96f",
+      "type": "video",
+      "position": {
+        "x": 2480,
+        "y": 1770
+      },
+      "data": {
+        "title": "편집본 v2 · 업스케일 장면 + Heartwarming (24.6초, 1080p)",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "16:9",
+        "duration": 25,
+        "quality": "720p",
+        "stage": "edit"
+      }
+    },
+    {
+      "id": "n_cbd693a5187d",
+      "type": "video",
+      "position": {
+        "x": 2480,
+        "y": 2330
+      },
+      "data": {
+        "title": "완성본 · 가족 요기보 3탄 수정판 + 새 연주곡 (24.6초, 1080p)",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "16:9",
+        "duration": 25,
+        "quality": "720p",
+        "stage": "final"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_98d4034417ff",
+      "source": "n_d4550587c027",
+      "target": "n_1082f7900a62"
+    },
+    {
+      "id": "e_568e26571dc6",
+      "source": "n_b1cf65cb3c77",
+      "target": "n_1082f7900a62"
+    },
+    {
+      "id": "e_a2d08ff04c2a",
+      "source": "n_1d03e8c5a665",
+      "target": "n_1082f7900a62"
+    },
+    {
+      "id": "e_f74579198e7d",
+      "source": "n_c86394812ab5",
+      "target": "n_1082f7900a62"
+    },
+    {
+      "id": "e_f4fa290620a9",
+      "source": "n_a06423cbad3b",
+      "target": "n_1082f7900a62"
+    },
+    {
+      "id": "e_b34cfc58a782",
+      "source": "n_3872df38900e",
+      "target": "n_d7ed44f5425a"
+    },
+    {
+      "id": "e_efa189c39116",
+      "source": "n_16f7c3138835",
+      "target": "n_d7ed44f5425a"
+    },
+    {
+      "id": "e_b692bc74ea34",
+      "source": "n_1464b1168ae1",
+      "target": "n_d7ed44f5425a"
+    },
+    {
+      "id": "e_7ed51b4b2a26",
+      "source": "n_3872df38900e",
+      "target": "n_1d025b2ee9d9"
+    },
+    {
+      "id": "e_baf569625cfa",
+      "source": "n_5689724bea62",
+      "target": "n_c1d91a537b50"
+    },
+    {
+      "id": "e_269bc9315929",
+      "source": "n_b1cf65cb3c77",
+      "target": "n_c1d91a537b50"
+    },
+    {
+      "id": "e_21998bb38986",
+      "source": "n_1d03e8c5a665",
+      "target": "n_c1d91a537b50"
+    },
+    {
+      "id": "e_05b85ca9c083",
+      "source": "n_c86394812ab5",
+      "target": "n_c1d91a537b50"
+    },
+    {
+      "id": "e_fdd05c03b05e",
+      "source": "n_a06423cbad3b",
+      "target": "n_c1d91a537b50"
+    },
+    {
+      "id": "e_a9e5bd81cd85",
+      "source": "n_3e3b4e98154d",
+      "target": "n_3c3594d831ab"
+    }
+  ],
+  "viewport": {
+    "x": -26,
+    "y": -391,
+    "zoom": 0.34
+  },
+  "revision": 9,
+  "updatedAt": "2026-11-10T02:07:40.227Z"
+}

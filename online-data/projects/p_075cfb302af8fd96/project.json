@@ -1,0 +1,18 @@
+{
+  "id": "p_075cfb302af8fd96",
+  "name": "스퀴지보의 하루",
+  "createdAt": "2026-11-06T03:03:03.486Z",
+  "updatedAt": "2026-11-06T07:09:11.377Z",
+  "canvases": [
+    {
+      "id": "c_b3c0774171e69a7c",
+      "name": "캔버스 1"
+    }
+  ],
+  "reference": {
+    "analysisId": "a_8a2febd4aa444d20",
+    "level": "structure",
+    "title": "‘Oddly Satisfying Video(OSV)’"
+  },
+  "ruleId": "l_yogiborule"
+}

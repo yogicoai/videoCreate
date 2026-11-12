@@ -1,0 +1,914 @@
+[
+  {
+    "id": "j_272acaf5960c52b9",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_d4550587c027",
+    "title": "원본 3장면 첫 화면 (9.6초, 쌓기)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "68742849-5271-45fd-b093-005daeb5c403",
+    "result": {
+      "file": "r_j_272acaf5960c52b9.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1568914
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:27:14.311Z",
+    "startedAt": "2026-11-10T01:27:15.348Z",
+    "finishedAt": "2026-11-10T01:27:16.331Z"
+  },
+  {
+    "id": "j_f8df36cb75fb329c",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_3872df38900e",
+    "title": "원본 4장면 첫 화면 (14.35초, 누워 놀기)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "e2ebde96-6906-4a8c-84d0-e8034ccdeb48",
+    "result": {
+      "file": "r_j_f8df36cb75fb329c.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1723444
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:27:14.312Z",
+    "startedAt": "2026-11-10T01:27:17.232Z",
+    "finishedAt": "2026-11-10T01:27:18.169Z"
+  },
+  {
+    "id": "j_06d07cdfb65cb6a6",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_b1cf65cb3c77",
+    "title": "제품 · 스퀴지보 블루 (태그 지움)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "1:1",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "9b5d6272-22ff-46a1-9d37-b4db1b64a12b",
+    "result": {
+      "file": "r_j_06d07cdfb65cb6a6.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 290,
+      "height": 527,
+      "bytes": 27418
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:27:14.312Z",
+    "startedAt": "2026-11-10T01:27:19.202Z",
+    "finishedAt": "2026-11-10T01:27:20.158Z"
+  },
+  {
+    "id": "j_2685b4436b8d2f2c",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_1d03e8c5a665",
+    "title": "제품 · 스퀴지보 도그 (태그 지움)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "1:1",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "d9ee28b7-e35d-48af-ab1d-667925154860",
+    "result": {
+      "file": "r_j_2685b4436b8d2f2c.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 387,
+      "height": 527,
+      "bytes": 43767
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:27:14.312Z",
+    "startedAt": "2026-11-10T01:27:21.364Z",
+    "finishedAt": "2026-11-10T01:27:22.435Z"
+  },
+  {
+    "id": "j_50fb7a370b95215a",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_c86394812ab5",
+    "title": "제품 · 스퀴지보 팍스 (태그 지움)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "1:1",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "89354f23-5942-4fc3-bedc-abfa4193e372",
+    "result": {
+      "file": "r_j_50fb7a370b95215a.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 347,
+      "height": 527,
+      "bytes": 38254
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:27:14.312Z",
+    "startedAt": "2026-11-10T01:27:23.625Z",
+    "finishedAt": "2026-11-10T01:27:24.601Z"
+  },
+  {
+    "id": "j_b215dbe8c76ab4e5",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_a06423cbad3b",
+    "title": "제품 · 스퀴지보 유니콘 (태그 지움)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "1:1",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "9528c359-82db-4044-831b-5ae71221cd17",
+    "result": {
+      "file": "r_j_b215dbe8c76ab4e5.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 337,
+      "height": 527,
+      "bytes": 56163
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:27:14.313Z",
+    "startedAt": "2026-11-10T01:27:25.668Z",
+    "finishedAt": "2026-11-10T01:27:26.754Z"
+  },
+  {
+    "id": "j_6d8bc7ecb208aa4b",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_16f7c3138835",
+    "title": "제품 · 메이트 티렉스",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "1:1",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "6de4f3d6-aac6-4f8b-8419-0711eac7f454",
+    "result": {
+      "file": "r_j_6d8bc7ecb208aa4b.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 296,
+      "height": 527,
+      "bytes": 20650
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:27:14.313Z",
+    "startedAt": "2026-11-10T01:27:27.705Z",
+    "finishedAt": "2026-11-10T01:27:28.744Z"
+  },
+  {
+    "id": "j_a0d961be73b6253e",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_1464b1168ae1",
+    "title": "제품 · 메이트 유니콘",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "1:1",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "a8ea2dd5-a91a-4016-84e5-4481dd4ef6b8",
+    "result": {
+      "file": "r_j_a0d961be73b6253e.jpg",
+      "kind": "image",
+      "mime": "image/jpeg",
+      "width": 222,
+      "height": 527,
+      "bytes": 17592
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:27:14.313Z",
+    "startedAt": "2026-11-10T01:27:29.748Z",
+    "finishedAt": "2026-11-10T01:27:30.592Z"
+  },
+  {
+    "id": "j_8d7373e5074ef9cd",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_1082f7900a62",
+    "title": "3장면 새 첫 화면 · 스퀴지보 바로잡기",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_d4550587c027",
+        "sourceTitle": "원본 3장면 첫 화면 (9.6초, 쌓기)",
+        "sourceJobId": "j_272acaf5960c52b9",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_b1cf65cb3c77",
+        "sourceTitle": "제품 · 스퀴지보 블루 (태그 지움)",
+        "sourceJobId": "j_06d07cdfb65cb6a6",
+        "file": null
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_1d03e8c5a665",
+        "sourceTitle": "제품 · 스퀴지보 도그 (태그 지움)",
+        "sourceJobId": "j_2685b4436b8d2f2c",
+        "file": null
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_c86394812ab5",
+        "sourceTitle": "제품 · 스퀴지보 팍스 (태그 지움)",
+        "sourceJobId": "j_50fb7a370b95215a",
+        "file": null
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_a06423cbad3b",
+        "sourceTitle": "제품 · 스퀴지보 유니콘 (태그 지움)",
+        "sourceJobId": "j_b215dbe8c76ab4e5",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "8b84e339-8a32-4449-a51e-12b962f5988b",
+    "result": {
+      "file": "r_j_8d7373e5074ef9cd.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 8225921
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:27:54.370Z",
+    "startedAt": "2026-11-10T01:34:07.529Z",
+    "finishedAt": "2026-11-10T01:35:24.626Z"
+  },
+  {
+    "id": "j_e2df18118b487729",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_d7ed44f5425a",
+    "title": "4장면 새 첫 화면 · 메이트로 바꾸기",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_3872df38900e",
+        "sourceTitle": "원본 4장면 첫 화면 (14.35초, 누워 놀기)",
+        "sourceJobId": "j_f8df36cb75fb329c",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_16f7c3138835",
+        "sourceTitle": "제품 · 메이트 티렉스",
+        "sourceJobId": "j_6d8bc7ecb208aa4b",
+        "file": null
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_1464b1168ae1",
+        "sourceTitle": "제품 · 메이트 유니콘",
+        "sourceJobId": "j_a0d961be73b6253e",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "71a1197b-388b-42ea-9e8e-cafb9234ba62",
+    "result": {
+      "file": "r_j_e2df18118b487729.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 7807149
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:27:54.370Z",
+    "startedAt": "2026-11-10T01:34:08.821Z",
+    "finishedAt": "2026-11-10T01:35:28.780Z"
+  },
+  {
+    "id": "j_747520c9f34aeb06",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_5689724bea62",
+    "title": "3장면 첫 화면 · 옆면 태그 지움(무료 손질)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "35f5c2cf-cc68-42e7-9ebe-d2988276eeb8",
+    "result": {
+      "file": "r_j_747520c9f34aeb06.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 8013182
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:37:15.612Z",
+    "startedAt": "2026-11-10T01:37:16.428Z",
+    "finishedAt": "2026-11-10T01:37:17.420Z"
+  },
+  {
+    "id": "j_08f6b8b4995dcbcd",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_1d025b2ee9d9",
+    "title": "4장면 새 첫 화면 · 책 읽어 주기",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_3872df38900e",
+        "sourceTitle": "원본 4장면 첫 화면 (14.35초, 누워 놀기)",
+        "sourceJobId": "j_f8df36cb75fb329c",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "3397ddf2-1bed-4b27-b33a-be2af43c6a2f",
+    "result": {
+      "file": "r_j_08f6b8b4995dcbcd.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 7479618
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:37:17.499Z",
+    "startedAt": "2026-11-10T01:38:38.079Z",
+    "finishedAt": "2026-11-10T01:39:44.502Z"
+  },
+  {
+    "id": "j_ac86ee0573c4f19d",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_3e3b4e98154d",
+    "title": "4장면 첫 화면 · 그림책 글씨 지움(무료 손질)",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "resolution": "2k"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "161bcf49-eddb-40af-bba8-6693d45e24cf",
+    "result": {
+      "file": "r_j_ac86ee0573c4f19d.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 2752,
+      "height": 1536,
+      "bytes": 7500062
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:41:32.160Z",
+    "startedAt": "2026-11-10T01:41:32.980Z",
+    "finishedAt": "2026-11-10T01:41:33.925Z"
+  },
+  {
+    "id": "j_e9c304bbc31768b2",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_c1d91a537b50",
+    "title": "3장면 영상 · 하나씩 올리고 손뼉 (6초 720p)",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "duration": 6,
+      "quality": "720p"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_5689724bea62",
+        "sourceTitle": "3장면 첫 화면 · 옆면 태그 지움(무료 손질)",
+        "sourceJobId": "j_747520c9f34aeb06",
+        "file": null
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_b1cf65cb3c77",
+        "sourceTitle": "제품 · 스퀴지보 블루 (태그 지움)",
+        "sourceJobId": "j_06d07cdfb65cb6a6",
+        "file": null
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_1d03e8c5a665",
+        "sourceTitle": "제품 · 스퀴지보 도그 (태그 지움)",
+        "sourceJobId": "j_2685b4436b8d2f2c",
+        "file": null
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_c86394812ab5",
+        "sourceTitle": "제품 · 스퀴지보 팍스 (태그 지움)",
+        "sourceJobId": "j_50fb7a370b95215a",
+        "file": null
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_a06423cbad3b",
+        "sourceTitle": "제품 · 스퀴지보 유니콘 (태그 지움)",
+        "sourceJobId": "j_b215dbe8c76ab4e5",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 42
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 42
+    },
+    "externalId": "769f6369-ca93-477b-a2bc-6ceefe512835",
+    "result": {
+      "file": "r_j_e9c304bbc31768b2.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 1284470
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:41:34.002Z",
+    "startedAt": "2026-11-10T01:43:55.693Z",
+    "finishedAt": "2026-11-10T01:46:57.611Z"
+  },
+  {
+    "id": "j_1a5daf1dfe62d8f6",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_3c3594d831ab",
+    "title": "4장면 영상 · 책 읽어 주기 (6초 720p)",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "duration": 6,
+      "quality": "720p"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_3e3b4e98154d",
+        "sourceTitle": "4장면 첫 화면 · 그림책 글씨 지움(무료 손질)",
+        "sourceJobId": "j_ac86ee0573c4f19d",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 42
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 42
+    },
+    "externalId": "8464718a-bbba-4993-9030-da9a40d76fa4",
+    "result": {
+      "file": "r_j_1a5daf1dfe62d8f6.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 838014
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:41:34.002Z",
+    "startedAt": "2026-11-10T01:43:56.910Z",
+    "finishedAt": "2026-11-10T01:50:01.438Z"
+  },
+  {
+    "id": "j_b6b7851e13767f4a",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_87fc348c1a20",
+    "title": "편집본 v1 · 3장면 스퀴지보 + 4장면 책 읽어 주기 (24.6초, 1080p)",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "duration": 25,
+      "quality": "720p"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 175
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "edit-local",
+    "result": {
+      "file": "r_j_b6b7851e13767f4a.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 15762517
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:50:57.690Z",
+    "startedAt": "2026-11-10T01:50:58.554Z",
+    "finishedAt": "2026-11-10T01:50:58.554Z"
+  },
+  {
+    "id": "j_16a4887b4390c8c3",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_8237ae9a9979",
+    "title": "3장면 영상 · 1080p 업스케일 (ByteDance 기본, 1크레딧)",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "duration": 6,
+      "quality": "720p"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 42
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 1
+    },
+    "externalId": "aa1f8935-8a55-4c38-afe8-c85383a063cf",
+    "result": {
+      "file": "r_j_16a4887b4390c8c3.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 7002168
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:56:55.721Z",
+    "startedAt": "2026-11-10T01:56:56.807Z",
+    "finishedAt": "2026-11-10T01:56:56.807Z"
+  },
+  {
+    "id": "j_73757680983a735c",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_44c207b6b57c",
+    "title": "4장면 영상 · 1080p 업스케일 (ByteDance 기본, 1크레딧)",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "duration": 6,
+      "quality": "720p"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 42
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 1
+    },
+    "externalId": "eefd356a-d890-43c4-a6a0-b7abbd4393fd",
+    "result": {
+      "file": "r_j_73757680983a735c.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 4470841
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:56:55.721Z",
+    "startedAt": "2026-11-10T01:56:57.798Z",
+    "finishedAt": "2026-11-10T01:56:57.798Z"
+  },
+  {
+    "id": "j_685daaf42effe16a",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_13cd8728c96f",
+    "title": "편집본 v2 · 업스케일 장면으로 다시 붙임 (24.6초, 1080p)",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "duration": 25,
+      "quality": "720p"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 175
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "edit-local",
+    "result": {
+      "file": "r_j_685daaf42effe16a.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 18377299
+    },
+    "error": null,
+    "createdAt": "2026-11-10T01:56:55.722Z",
+    "startedAt": "2026-11-10T01:56:58.705Z",
+    "finishedAt": "2026-11-10T01:56:58.705Z"
+  },
+  {
+    "id": "j_c3c36ed496c19521",
+    "projectId": "p_7e38945b4343c1cc",
+    "canvasId": "c_eb0c598bd9bc9aae",
+    "nodeId": "n_cbd693a5187d",
+    "title": "편집본 v3 · 새 연주곡 입힘 (24.6초, 1080p)",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "16:9",
+      "duration": 25,
+      "quality": "720p"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 175
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 3.64
+    },
+    "externalId": "4c0e6325-a8f7-40e8-b673-24b889c1e9ad",
+    "result": {
+      "file": "r_j_c3c36ed496c19521.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 18388535
+    },
+    "error": null,
+    "createdAt": "2026-11-10T02:03:29.141Z",
+    "startedAt": "2026-11-10T02:03:30.252Z",
+    "finishedAt": "2026-11-10T02:03:30.252Z"
+  }
+]

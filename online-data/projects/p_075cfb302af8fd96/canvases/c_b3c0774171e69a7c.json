@@ -1,0 +1,624 @@
+{
+  "id": "c_b3c0774171e69a7c",
+  "nodes": [
+    {
+      "id": "n_ee4c1e45878b",
+      "type": "scenario",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "title": "시나리오",
+        "logline": "손바닥만 한 스퀴지보가 장면을 건너 굴러가다, 마지막에 커다란 더블 위에 폭 안긴다.",
+        "scenario": "시몬스 OSV의 구성을 따른다. 장면마다 고정 카메라에 동작 하나, 파스텔 대칭 구도, 물건 하나가 장면을 이어 달리고, 소리는 조용했다가 마지막에 터진다.\n이어 달리는 물건은 스퀴지보 팍스(여우 얼굴)다. 세로 9:16, 4장면 20초.\n1) 하늘색 배경에서 손이 스퀴지보를 꾹 쥐었다 놓고 떨어뜨린다.\n2) 분홍 계단을 통통 굴러 내려간다.\n3) 계단 끝에서 툭 떨어져 더블 위에 폭 파묻힌다.\n4) 크게 보면 더블 둘레에 요기보 제품들(맥스, 라운저, 팟, 서포트, 여우 인형, 여우 긴 베개)이 깔려 있다. 화면에는 제품만 있다.\n수영장 줄, 초록 원피스, 크로켓, 빛살 무늬 배경 같은 시몬스 고유 장면은 쓰지 않는다. 음악 없이 효과음만 넣고, 끝 문구는 코드로 얹는다.",
+        "total": 20
+      }
+    },
+    {
+      "id": "n_19223cbbf7b1",
+      "type": "storyboard",
+      "position": {
+        "x": 340,
+        "y": 0
+      },
+      "data": {
+        "title": "스토리보드 · 스퀴지보의 하루",
+        "cuts": 4,
+        "total": 20,
+        "aspect": "9:16",
+        "engine": "higgsfield",
+        "resolution": "2k",
+        "prompt": ""
+      }
+    },
+    {
+      "id": "n_d2c81d921c0e",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 260
+      },
+      "data": {
+        "title": "제품 · 스퀴지보 팍스",
+        "file": {
+          "name": "u_eb4cbad7a98e54dbf695e6c3.jpg",
+          "originalName": "스퀴지보 팍스(태그 지움).jpg",
+          "width": 347,
+          "height": 527
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_c18705556b5b",
+      "type": "ref",
+      "position": {
+        "x": -340,
+        "y": 260
+      },
+      "data": {
+        "title": "크기 참고 · 손에 쥔 스퀴지보",
+        "file": {
+          "name": "u_0a92c85fba319b7325c0ba8a.jpg",
+          "originalName": "크기 참고 · 손에 쥔 스퀴지보.jpg",
+          "width": 480,
+          "height": 380
+        },
+        "role": "other"
+      }
+    },
+    {
+      "id": "n_8701289e00ae",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 520
+      },
+      "data": {
+        "title": "제품 · 더블 올리브그린",
+        "file": {
+          "name": "u_4d11bdd3f9c25a83e90d3e8b.jpg",
+          "originalName": "더블 올리브그린.jpg",
+          "width": 599,
+          "height": 475
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_2c86c3adf52a",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 780
+      },
+      "data": {
+        "title": "제품 · 더블 올리브그린 옆면",
+        "file": {
+          "name": "u_11a51037ebb7b0b4d23b980f.jpg",
+          "originalName": "더블 올리브그린 옆면.jpg",
+          "width": 523,
+          "height": 475
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_c7404cb8044d",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 1040
+      },
+      "data": {
+        "title": "원단·두께 참고 · 더블 실제 사진",
+        "file": {
+          "name": "u_b155f98c41c1fb52c9269ab2.jpg",
+          "originalName": "원단·두께 참고 · 더블 실제 사진.jpg",
+          "width": 1000,
+          "height": 1000
+        },
+        "role": "other"
+      }
+    },
+    {
+      "id": "n_f6409efa3d3d",
+      "type": "image",
+      "position": {
+        "x": 2230,
+        "y": 0
+      },
+      "data": {
+        "title": "장면 4 · 요기보 가족",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k",
+        "prompt": ""
+      }
+    },
+    {
+      "id": "n_f674d073684c",
+      "type": "ref",
+      "position": {
+        "x": -340,
+        "y": 1300
+      },
+      "data": {
+        "title": "제품 · 맥스 올리브그린",
+        "file": {
+          "name": "u_74973ad1306067137b19d214.jpg",
+          "originalName": "맥스 올리브그린.jpg",
+          "width": 601,
+          "height": 295
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_6b93da0c32a2",
+      "type": "ref",
+      "position": {
+        "x": -340,
+        "y": 1560
+      },
+      "data": {
+        "title": "제품 · 라운저 올리브그린",
+        "file": {
+          "name": "u_47379f68bd52c074cef086de.jpg",
+          "originalName": "라운저 올리브그린.jpg",
+          "width": 385,
+          "height": 527
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_4c760c478aa3",
+      "type": "ref",
+      "position": {
+        "x": -340,
+        "y": 1820
+      },
+      "data": {
+        "title": "제품 · 팟 올리브그린",
+        "file": {
+          "name": "u_e733ed3e7eff209b1d6c77a5.jpg",
+          "originalName": "팟 올리브그린.jpg",
+          "width": 393,
+          "height": 527
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_db67ef58b68a",
+      "type": "ref",
+      "position": {
+        "x": -340,
+        "y": 2080
+      },
+      "data": {
+        "title": "제품 · 서포트 올리브그린",
+        "file": {
+          "name": "u_9a8f155cc746e634b0c42676.jpg",
+          "originalName": "서포트 올리브그린.jpg",
+          "width": 359,
+          "height": 527
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_61c56cba32e2",
+      "type": "ref",
+      "position": {
+        "x": -340,
+        "y": 2340
+      },
+      "data": {
+        "title": "제품 · 메이트 팍스",
+        "file": {
+          "name": "u_2102f0b627c09be2d06af848.jpg",
+          "originalName": "메이트 팍스.jpg",
+          "width": 337,
+          "height": 527
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_3528d8114ba7",
+      "type": "ref",
+      "position": {
+        "x": -340,
+        "y": 2600
+      },
+      "data": {
+        "title": "제품 · 롤 메이트 팍스",
+        "file": {
+          "name": "u_b966279ae36f322d306b05cf.jpg",
+          "originalName": "롤 메이트 팍스.jpg",
+          "width": 232,
+          "height": 475
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_mw4kb4ncq2reg",
+      "type": "shot",
+      "position": {
+        "x": 700,
+        "y": 0
+      },
+      "data": {
+        "title": "샷 1",
+        "boardId": "n_19223cbbf7b1",
+        "shotNo": 1
+      }
+    },
+    {
+      "id": "n_mw4kb4ncgfpv1",
+      "type": "image",
+      "position": {
+        "x": 700,
+        "y": 344
+      },
+      "data": {
+        "title": "장면 1",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k",
+        "boardId": "n_19223cbbf7b1",
+        "shotNo": 1,
+        "compact": true
+      }
+    },
+    {
+      "id": "n_mw4kb4nce1ug4",
+      "type": "video",
+      "position": {
+        "x": 920,
+        "y": 344
+      },
+      "data": {
+        "title": "영상 1",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 5,
+        "quality": "draft",
+        "shot": {},
+        "boardId": "n_19223cbbf7b1",
+        "shotNo": 1,
+        "compact": true
+      }
+    },
+    {
+      "id": "n_mw4kb4ndin2dn",
+      "type": "shot",
+      "position": {
+        "x": 1070,
+        "y": 0
+      },
+      "data": {
+        "title": "샷 2",
+        "boardId": "n_19223cbbf7b1",
+        "shotNo": 2
+      }
+    },
+    {
+      "id": "n_mw4kb4nd15135",
+      "type": "image",
+      "position": {
+        "x": 1070,
+        "y": 344
+      },
+      "data": {
+        "title": "장면 2",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k",
+        "boardId": "n_19223cbbf7b1",
+        "shotNo": 2,
+        "compact": true
+      }
+    },
+    {
+      "id": "n_mw4kb4ndrhfs5",
+      "type": "video",
+      "position": {
+        "x": 1290,
+        "y": 344
+      },
+      "data": {
+        "title": "영상 2",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 5,
+        "quality": "draft",
+        "shot": {},
+        "boardId": "n_19223cbbf7b1",
+        "shotNo": 2,
+        "compact": true
+      }
+    },
+    {
+      "id": "n_mw4kb4ndps6v6",
+      "type": "shot",
+      "position": {
+        "x": 1440,
+        "y": 0
+      },
+      "data": {
+        "title": "샷 3",
+        "boardId": "n_19223cbbf7b1",
+        "shotNo": 3
+      }
+    },
+    {
+      "id": "n_mw4kb4ndfbwqh",
+      "type": "image",
+      "position": {
+        "x": 1440,
+        "y": 344
+      },
+      "data": {
+        "title": "장면 3",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k",
+        "boardId": "n_19223cbbf7b1",
+        "shotNo": 3,
+        "compact": true
+      }
+    },
+    {
+      "id": "n_mw4kb4ndljinv",
+      "type": "video",
+      "position": {
+        "x": 1660,
+        "y": 344
+      },
+      "data": {
+        "title": "영상 3",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 5,
+        "quality": "draft",
+        "shot": {},
+        "boardId": "n_19223cbbf7b1",
+        "shotNo": 3,
+        "compact": true
+      }
+    },
+    {
+      "id": "n_mw4kb4ndyktr3",
+      "type": "shot",
+      "position": {
+        "x": 1810,
+        "y": 0
+      },
+      "data": {
+        "title": "샷 4",
+        "boardId": "n_19223cbbf7b1",
+        "shotNo": 4
+      }
+    },
+    {
+      "id": "n_mw4kb4ndrs5fj",
+      "type": "image",
+      "position": {
+        "x": 1810,
+        "y": 344
+      },
+      "data": {
+        "title": "장면 4",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k",
+        "boardId": "n_19223cbbf7b1",
+        "shotNo": 4,
+        "compact": true
+      }
+    },
+    {
+      "id": "n_mw4kb4ndaiecw",
+      "type": "video",
+      "position": {
+        "x": 2030,
+        "y": 344
+      },
+      "data": {
+        "title": "영상 4",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 5,
+        "quality": "draft",
+        "shot": {},
+        "boardId": "n_19223cbbf7b1",
+        "shotNo": 4,
+        "compact": true
+      }
+    },
+    {
+      "id": "n_editsqmw4kpf6q",
+      "type": "video",
+      "position": {
+        "x": 2520,
+        "y": 344
+      },
+      "data": {
+        "title": "편집본 v1",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 20,
+        "quality": "draft",
+        "shot": {},
+        "stage": "final"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_3a90a828e144",
+      "source": "n_ee4c1e45878b",
+      "target": "n_19223cbbf7b1"
+    },
+    {
+      "id": "e_9178da75fec9",
+      "source": "n_d2c81d921c0e",
+      "target": "n_19223cbbf7b1"
+    },
+    {
+      "id": "e_3f056d05f654",
+      "source": "n_8701289e00ae",
+      "target": "n_19223cbbf7b1"
+    },
+    {
+      "id": "e_3db853278b66",
+      "source": "n_2c86c3adf52a",
+      "target": "n_19223cbbf7b1"
+    },
+    {
+      "id": "e_48897094689f",
+      "source": "n_c18705556b5b",
+      "target": "n_19223cbbf7b1"
+    },
+    {
+      "id": "e_4bcdfb776e85",
+      "source": "n_c7404cb8044d",
+      "target": "n_19223cbbf7b1"
+    },
+    {
+      "id": "e_98383f65039e",
+      "source": "n_d2c81d921c0e",
+      "target": "n_f6409efa3d3d"
+    },
+    {
+      "id": "e_9f76a1e21c6e",
+      "source": "n_8701289e00ae",
+      "target": "n_f6409efa3d3d"
+    },
+    {
+      "id": "e_6fcaf0d108db",
+      "source": "n_2c86c3adf52a",
+      "target": "n_f6409efa3d3d"
+    },
+    {
+      "id": "e_c07270619cb2",
+      "source": "n_c7404cb8044d",
+      "target": "n_f6409efa3d3d"
+    },
+    {
+      "id": "e_ab72b352e4cb",
+      "source": "n_f674d073684c",
+      "target": "n_f6409efa3d3d"
+    },
+    {
+      "id": "e_ec7d25908a1c",
+      "source": "n_6b93da0c32a2",
+      "target": "n_f6409efa3d3d"
+    },
+    {
+      "id": "e_134f55117874",
+      "source": "n_4c760c478aa3",
+      "target": "n_f6409efa3d3d"
+    },
+    {
+      "id": "e_9fddca6743ff",
+      "source": "n_db67ef58b68a",
+      "target": "n_f6409efa3d3d"
+    },
+    {
+      "id": "e_a6181696d356",
+      "source": "n_61c56cba32e2",
+      "target": "n_f6409efa3d3d"
+    },
+    {
+      "id": "e_f40a7306f52b",
+      "source": "n_3528d8114ba7",
+      "target": "n_f6409efa3d3d"
+    },
+    {
+      "id": "e_mw4kb4ndjgd9k",
+      "source": "n_19223cbbf7b1",
+      "target": "n_mw4kb4ncq2reg"
+    },
+    {
+      "id": "e_mw4kb4ndmq4e3",
+      "source": "n_mw4kb4ncq2reg",
+      "target": "n_mw4kb4ncgfpv1"
+    },
+    {
+      "id": "e_mw4kb4ndq4pq0",
+      "source": "n_mw4kb4ncgfpv1",
+      "target": "n_mw4kb4nce1ug4"
+    },
+    {
+      "id": "e_mw4kb4ndv8gkh",
+      "source": "n_19223cbbf7b1",
+      "target": "n_mw4kb4ndin2dn"
+    },
+    {
+      "id": "e_mw4kb4ndkd23s",
+      "source": "n_mw4kb4ndin2dn",
+      "target": "n_mw4kb4nd15135"
+    },
+    {
+      "id": "e_mw4kb4ndkbjqd",
+      "source": "n_mw4kb4nd15135",
+      "target": "n_mw4kb4ndrhfs5"
+    },
+    {
+      "id": "e_mw4kb4nde5ft2",
+      "source": "n_19223cbbf7b1",
+      "target": "n_mw4kb4ndps6v6"
+    },
+    {
+      "id": "e_mw4kb4ndb0qni",
+      "source": "n_mw4kb4ndps6v6",
+      "target": "n_mw4kb4ndfbwqh"
+    },
+    {
+      "id": "e_mw4kb4ndx569x",
+      "source": "n_mw4kb4ndfbwqh",
+      "target": "n_mw4kb4ndljinv"
+    },
+    {
+      "id": "e_mw4kb4ndhjlk0",
+      "source": "n_19223cbbf7b1",
+      "target": "n_mw4kb4ndyktr3"
+    },
+    {
+      "id": "e_mw4kb4nd6zr47",
+      "source": "n_mw4kb4ndyktr3",
+      "target": "n_mw4kb4ndrs5fj"
+    },
+    {
+      "id": "e_mw4kb4ndlhabs",
+      "source": "n_mw4kb4ndrs5fj",
+      "target": "n_mw4kb4ndaiecw"
+    }
+  ],
+  "viewport": {
+    "x": -1573,
+    "y": -286,
+    "zoom": 0.985
+  },
+  "revision": 24,
+  "updatedAt": "2026-11-06T07:09:11.377Z"
+}

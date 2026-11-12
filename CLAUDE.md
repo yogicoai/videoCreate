@@ -30,6 +30,7 @@ Next는 학습 지식과 다를 수 있으니 코드를 쓰기 전에 `node_modu
 - `npm run dev` → http://localhost:6800 (127.0.0.1에만 열림). 이미 켜져 있으면 포트 충돌(EADDRINUSE)이 난다.
 - 데이터: `data/projects/<프로젝트>/` (git 제외). `.env.local`에 제미나이·GPT·Typecast 키가 있다(`.git/info/exclude`로 git 제외). 값은 출력하지 않는다.
 - 시험(189개, 2026-11-05 모두 통과): `VIDEOCREATE_DIST_DIR=.next-e2e npx next build` 뒤 `VIDEOCREATE_DIST_DIR=.next-e2e npm run test:e2e`. 임시 데이터·포트 6801·가짜 엔진으로 돌고 비용이 들지 않는다. 화면 캡처는 `tests/.tmp/shots/`. 빌드가 `next-env.d.ts`를 고치면 되돌린다. `E2E_DEV=1`(개발 모드)은 tsconfig를 고쳐 6800의 화면까지 계속 새로고침되므로 사용자 서버가 켜져 있을 때 돌리지 않는다.
+- 6800 화면이 1초에 한두 번씩 계속 새로 고쳐지면(터미널에 「✓ Compiled in …」이 끝없이 찍힌다) 터미널에서 Ctrl+C로 완전히 끄고 `npm run dev`로 다시 켠다. 설정 파일을 건드려 서버만 다시 켜서는 멈추지 않았다. 2026-11-11에는 6800이 켜진 채로 같은 폴더에서 온라인 판 빌드(`.next-online`)를 돌린 직후 시작돼 1시간 넘게 이어졌다(빌드가 원인으로 보이나 다시 일으켜 보지는 못했다). 크레딧과는 상관없다.
 - 예제 프로젝트: `npm run seed:example` (`-- --replace`면 휴지통으로 보내고 다시 만든다). 크레딧이 들지 않는다.
 - 커밋과 푸시는 사용자가 한다.
 
@@ -219,9 +220,27 @@ Next는 학습 지식과 다를 수 있으니 코드를 쓰기 전에 `node_modu
 
 새 모델은 앞·뒤·옆·표정을 한 장(가로 5칸 2줄, 4K 4크레딧)에 뽑고 앱이 흰 여백을 찾아 칸별로 자른다. 대표컷·얼굴은 잘린 칸, 몸·표정은 시트의 윗줄·아랫줄이다. 참고 사진을 넣으면 닮은 정도(50·60·70·80%)를 문장으로 프롬프트에 적는다. 뒤 칸에는 시트 통째가 아니라 얼굴 칸과 전신 칸을 넣는다. 통째로 넣으면 얼굴이 흔들린다(imgCreate 실측).
 
+## 카페24에 올리기와 온라인 보기 전용 판(2026-11-11)
+
+사용자가 프로그램을 서버에서 보여 주고 싶어 했다. 이 앱은 PC의 `data/`와 도구(ffmpeg, yt-dlp, 블렌더, 힉스필드 대기열)에 기대고 로그인이 없어서, 그대로 Vercel에 올리면 서버 오류가 난다. 그래서 만드는 일은 이 PC에서 하고, 온라인에는 보기 전용 판만 올리는 구조로 했다.
+
+**카페24에 올리기** (`src/lib/cafe24.ts`, `scripts/cafe24.ts`, 무료)
+- `npm run cafe24`: 완성본 목록과 올림 여부. `-- test`: 접속 확인. `-- sync [--skip <프로젝트 id,...>]`: 안 올린 완성본 올리기. `-- upload <job>`, `-- remove <job>`.
+- 설정은 `.env.local`의 `CAFE24_FTP_HOST·PORT·USER·PASS`, `CAFE24_UPLOAD_DIR`, `CAFE24_PUBLIC_BASE_URL`이다. 값을 출력하거나 코드에 넣지 않는다.
+- 카페24는 `.mp4`를 받지 않는다(550). 영상은 `.jpg` 이름으로 올리고, 앱이 `video/mp4`로 바꿔 흘려보낸다. 한글 파일 이름도 안 되어 `vc_<프로젝트>_<job>` 이름을 쓴다. `.json`, `.txt`는 올라간다.
+- 올린 기록은 `data/library/cafe24.json`이다. 올린 파일은 주소를 아는 누구나 본다. **공개하면 안 되는 작업은 올리지 않는다.** 양 영상(일본 원곡)과 라이온즈(구단 엠블럼)는 사용자 확인 전이라 올리지 않았다.
+
+**온라인 보기 전용 판** (`src/lib/online.ts`)
+- `VIDEOCREATE_ONLINE=1`이면 켜진다. 고치는 요청(GET·HEAD가 아닌 것)은 모두 403으로 막고(`src/lib/http.ts`), 프로젝트 파일은 카페24에서 흘려보내고, 갤러리에는 올린 결과물만 보이고, 프로젝트 화면은 캔버스 대신 안내만 띄운다.
+- 기록은 `npm run cafe24 -- snapshot [--library none|final|all]`이 만드는 사본 `online-data/`에서 읽는다. 올린 결과물이 있는 프로젝트만 들어가고, 프롬프트·잔액·자산·기획안·모델·폴더 설명은 넣지 않는다. `--library`는 imgCreate에서 가져온 영상을 얼마나 넣을지다(기본 none).
+- Vercel 설정: 환경 변수 `VIDEOCREATE_ONLINE=1`, `VIDEOCREATE_DATA_DIR=online-data`만 넣는다. **제미나이·GPT·Typecast·FTP 키는 넣지 않는다.** `online-data/`를 커밋해야 올라간다(`next.config.ts`의 `outputFileTracingIncludes`가 함께 싣는다).
+- 이 PC에서 미리 보기: `VIDEOCREATE_ONLINE=1 VIDEOCREATE_DATA_DIR=online-data VIDEOCREATE_DIST_DIR=.next-online npx next build` 뒤 같은 변수로 `npx next start -p 6811 -H 127.0.0.1`.
+- 온라인 판에 「새 프로젝트」 같은 버튼이 그대로 보인다(누르면 "온라인에서는 보기만 할 수 있어요"). 버튼 숨기기는 아직 하지 않았다.
+- 온라인에서 만들기까지 하려면 기록을 DB로 옮기고 로그인을 붙여야 한다(imgCreate는 MongoDB + FTP). 아직 하지 않았다.
+
 ## 아직 넣지 않은 것
 
-자막·편집 타임라인, 음원, 음성(Typecast 키는 있지만 사용자가 말하기 전에는 호출하지 않는다. 호출법은 `HANDOFF.md`), 업스케일 버튼, 로그인, 배포, 캔버스 삭제, 분석 삭제.
+자막·편집 타임라인, 음원, 음성(Typecast 키는 있지만 사용자가 말하기 전에는 호출하지 않는다. 호출법은 `HANDOFF.md`), 업스케일 버튼, 로그인, 온라인에서 만들기(보기 전용 판만 있다), 캔버스 삭제, 분석 삭제.
 
 ## 화면 틀고 같이 보기
 

@@ -1,0 +1,1183 @@
+[
+  {
+    "id": "j_e83f9efef1c7ec7d",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_19223cbbf7b1",
+    "title": "스토리보드 · 스퀴지보의 하루",
+    "kind": "image",
+    "preset": "storyboard",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k",
+      "rows": 2,
+      "cols": 2
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_d2c81d921c0e",
+        "sourceTitle": "제품 · 스퀴지보 팍스",
+        "sourceJobId": null,
+        "file": "u_eeacc82e805edf0307138480.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a4803f19b3e7",
+        "sourceTitle": "제품 · 맥스 올리브그린",
+        "sourceJobId": null,
+        "file": "u_74973ad1306067137b19d214.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_bdc0955ea727",
+        "sourceTitle": "제품 · 맥스 올리브그린 45도",
+        "sourceJobId": null,
+        "file": "u_15112f95346646c7b6c18ce7.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_c18705556b5b",
+        "sourceTitle": "크기 참고 · 손에 쥔 스퀴지보",
+        "sourceJobId": null,
+        "file": "u_0a92c85fba319b7325c0ba8a.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-06T03:08:41.563Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-06T03:09:24.382Z"
+  },
+  {
+    "id": "j_c02b759d7026d92b",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_19223cbbf7b1",
+    "title": "스토리보드 · 스퀴지보의 하루",
+    "kind": "image",
+    "preset": "storyboard",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k",
+      "rows": 2,
+      "cols": 2
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_d2c81d921c0e",
+        "sourceTitle": "제품 · 스퀴지보 팍스",
+        "sourceJobId": null,
+        "file": "u_eeacc82e805edf0307138480.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_a4803f19b3e7",
+        "sourceTitle": "제품 · 맥스 올리브그린",
+        "sourceJobId": null,
+        "file": "u_74973ad1306067137b19d214.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_bdc0955ea727",
+        "sourceTitle": "제품 · 맥스 올리브그린 45도",
+        "sourceJobId": null,
+        "file": "u_15112f95346646c7b6c18ce7.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_c18705556b5b",
+        "sourceTitle": "크기 참고 · 손에 쥔 스퀴지보",
+        "sourceJobId": null,
+        "file": "u_0a92c85fba319b7325c0ba8a.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "141efafc-5aa1-4baa-b3d4-d680290ae6eb",
+    "result": {
+      "file": "r_j_c02b759d7026d92b.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 4914013
+    },
+    "error": null,
+    "createdAt": "2026-11-06T03:09:24.470Z",
+    "startedAt": "2026-11-06T03:18:28.208Z",
+    "finishedAt": "2026-11-06T03:19:15.010Z"
+  },
+  {
+    "id": "j_025ff67919927f3e",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_19223cbbf7b1",
+    "title": "스토리보드 · 스퀴지보의 하루",
+    "kind": "image",
+    "preset": "storyboard",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k",
+      "rows": 2,
+      "cols": 2
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_d2c81d921c0e",
+        "sourceTitle": "제품 · 스퀴지보 팍스",
+        "sourceJobId": null,
+        "file": "u_eeacc82e805edf0307138480.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_8701289e00ae",
+        "sourceTitle": "제품 · 더블 올리브그린",
+        "sourceJobId": null,
+        "file": "u_4d11bdd3f9c25a83e90d3e8b.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_2c86c3adf52a",
+        "sourceTitle": "제품 · 더블 올리브그린 옆면",
+        "sourceJobId": null,
+        "file": "u_11a51037ebb7b0b4d23b980f.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_c18705556b5b",
+        "sourceTitle": "크기 참고 · 손에 쥔 스퀴지보",
+        "sourceJobId": null,
+        "file": "u_0a92c85fba319b7325c0ba8a.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-06T03:25:31.105Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-06T03:26:39.731Z"
+  },
+  {
+    "id": "j_91a746ed180f4a5c",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_19223cbbf7b1",
+    "title": "스토리보드 · 스퀴지보의 하루",
+    "kind": "image",
+    "preset": "storyboard",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k",
+      "rows": 2,
+      "cols": 2
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_d2c81d921c0e",
+        "sourceTitle": "제품 · 스퀴지보 팍스",
+        "sourceJobId": null,
+        "file": "u_eeacc82e805edf0307138480.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_8701289e00ae",
+        "sourceTitle": "제품 · 더블 올리브그린",
+        "sourceJobId": null,
+        "file": "u_4d11bdd3f9c25a83e90d3e8b.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_2c86c3adf52a",
+        "sourceTitle": "제품 · 더블 올리브그린 옆면",
+        "sourceJobId": null,
+        "file": "u_11a51037ebb7b0b4d23b980f.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_c18705556b5b",
+        "sourceTitle": "크기 참고 · 손에 쥔 스퀴지보",
+        "sourceJobId": null,
+        "file": "u_0a92c85fba319b7325c0ba8a.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "86fb6e36-e24c-42e0-a6f4-43243051bd4d",
+    "result": {
+      "file": "r_j_91a746ed180f4a5c.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 4821388
+    },
+    "error": null,
+    "createdAt": "2026-11-06T03:30:41.295Z",
+    "startedAt": "2026-11-06T03:30:42.515Z",
+    "finishedAt": "2026-11-06T03:30:46.431Z"
+  },
+  {
+    "id": "j_333e58a0c7288d35",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_19223cbbf7b1",
+    "title": "스토리보드 · 스퀴지보의 하루",
+    "kind": "image",
+    "preset": "storyboard",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k",
+      "rows": 2,
+      "cols": 2
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_d2c81d921c0e",
+        "sourceTitle": "제품 · 스퀴지보 팍스",
+        "sourceJobId": null,
+        "file": "u_eeacc82e805edf0307138480.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_8701289e00ae",
+        "sourceTitle": "제품 · 더블 올리브그린",
+        "sourceJobId": null,
+        "file": "u_4d11bdd3f9c25a83e90d3e8b.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_2c86c3adf52a",
+        "sourceTitle": "제품 · 더블 올리브그린 옆면",
+        "sourceJobId": null,
+        "file": "u_11a51037ebb7b0b4d23b980f.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_c18705556b5b",
+        "sourceTitle": "크기 참고 · 손에 쥔 스퀴지보",
+        "sourceJobId": null,
+        "file": "u_0a92c85fba319b7325c0ba8a.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_c7404cb8044d",
+        "sourceTitle": "원단·두께 참고 · 더블 실제 사진",
+        "sourceJobId": null,
+        "file": "u_b155f98c41c1fb52c9269ab2.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "3bb63390-3dc5-4a5d-ad4e-873db9d9bca8",
+    "result": {
+      "file": "r_j_333e58a0c7288d35.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 5175743
+    },
+    "error": null,
+    "createdAt": "2026-11-06T03:34:30.819Z",
+    "startedAt": "2026-11-06T03:36:33.904Z",
+    "finishedAt": "2026-11-06T03:40:13.702Z"
+  },
+  {
+    "id": "j_45aae7df4499e1b3",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_f6409efa3d3d",
+    "title": "장면 4 · 요기보 가족",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "cancelled",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_d2c81d921c0e",
+        "sourceTitle": "제품 · 스퀴지보 팍스",
+        "sourceJobId": null,
+        "file": "u_eeacc82e805edf0307138480.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_8701289e00ae",
+        "sourceTitle": "제품 · 더블 올리브그린",
+        "sourceJobId": null,
+        "file": "u_4d11bdd3f9c25a83e90d3e8b.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_2c86c3adf52a",
+        "sourceTitle": "제품 · 더블 올리브그린 옆면",
+        "sourceJobId": null,
+        "file": "u_11a51037ebb7b0b4d23b980f.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_c7404cb8044d",
+        "sourceTitle": "원단·두께 참고 · 더블 실제 사진",
+        "sourceJobId": null,
+        "file": "u_b155f98c41c1fb52c9269ab2.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_f674d073684c",
+        "sourceTitle": "제품 · 맥스 올리브그린",
+        "sourceJobId": null,
+        "file": "u_74973ad1306067137b19d214.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_6b93da0c32a2",
+        "sourceTitle": "제품 · 라운저 올리브그린",
+        "sourceJobId": null,
+        "file": "u_47379f68bd52c074cef086de.jpg"
+      },
+      {
+        "order": 7,
+        "role": "image_references",
+        "sourceNodeId": "n_4c760c478aa3",
+        "sourceTitle": "제품 · 팟 올리브그린",
+        "sourceJobId": null,
+        "file": "u_e733ed3e7eff209b1d6c77a5.jpg"
+      },
+      {
+        "order": 8,
+        "role": "image_references",
+        "sourceNodeId": "n_db67ef58b68a",
+        "sourceTitle": "제품 · 서포트 올리브그린",
+        "sourceJobId": null,
+        "file": "u_9a8f155cc746e634b0c42676.jpg"
+      },
+      {
+        "order": 9,
+        "role": "image_references",
+        "sourceNodeId": "n_61c56cba32e2",
+        "sourceTitle": "제품 · 메이트 팍스",
+        "sourceJobId": null,
+        "file": "u_2102f0b627c09be2d06af848.jpg"
+      },
+      {
+        "order": 10,
+        "role": "image_references",
+        "sourceNodeId": "n_3528d8114ba7",
+        "sourceTitle": "제품 · 롤 메이트 팍스",
+        "sourceJobId": null,
+        "file": "u_b966279ae36f322d306b05cf.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": null,
+    "externalId": null,
+    "result": null,
+    "error": null,
+    "createdAt": "2026-11-06T03:47:12.504Z",
+    "startedAt": null,
+    "finishedAt": "2026-11-06T03:47:52.821Z"
+  },
+  {
+    "id": "j_6e8ab8e87ba03d89",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_f6409efa3d3d",
+    "title": "장면 4 · 요기보 가족",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_d2c81d921c0e",
+        "sourceTitle": "제품 · 스퀴지보 팍스",
+        "sourceJobId": null,
+        "file": "u_eeacc82e805edf0307138480.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_8701289e00ae",
+        "sourceTitle": "제품 · 더블 올리브그린",
+        "sourceJobId": null,
+        "file": "u_4d11bdd3f9c25a83e90d3e8b.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_2c86c3adf52a",
+        "sourceTitle": "제품 · 더블 올리브그린 옆면",
+        "sourceJobId": null,
+        "file": "u_11a51037ebb7b0b4d23b980f.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_c7404cb8044d",
+        "sourceTitle": "원단·두께 참고 · 더블 실제 사진",
+        "sourceJobId": null,
+        "file": "u_b155f98c41c1fb52c9269ab2.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_f674d073684c",
+        "sourceTitle": "제품 · 맥스 올리브그린",
+        "sourceJobId": null,
+        "file": "u_74973ad1306067137b19d214.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_6b93da0c32a2",
+        "sourceTitle": "제품 · 라운저 올리브그린",
+        "sourceJobId": null,
+        "file": "u_47379f68bd52c074cef086de.jpg"
+      },
+      {
+        "order": 7,
+        "role": "image_references",
+        "sourceNodeId": "n_4c760c478aa3",
+        "sourceTitle": "제품 · 팟 올리브그린",
+        "sourceJobId": null,
+        "file": "u_e733ed3e7eff209b1d6c77a5.jpg"
+      },
+      {
+        "order": 8,
+        "role": "image_references",
+        "sourceNodeId": "n_db67ef58b68a",
+        "sourceTitle": "제품 · 서포트 올리브그린",
+        "sourceJobId": null,
+        "file": "u_9a8f155cc746e634b0c42676.jpg"
+      },
+      {
+        "order": 9,
+        "role": "image_references",
+        "sourceNodeId": "n_61c56cba32e2",
+        "sourceTitle": "제품 · 메이트 팍스",
+        "sourceJobId": null,
+        "file": "u_2102f0b627c09be2d06af848.jpg"
+      },
+      {
+        "order": 10,
+        "role": "image_references",
+        "sourceNodeId": "n_3528d8114ba7",
+        "sourceTitle": "제품 · 롤 메이트 팍스",
+        "sourceJobId": null,
+        "file": "u_b966279ae36f322d306b05cf.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "externalId": "ccbb795b-a2dd-46af-bcef-6feda21fe9a9",
+    "result": {
+      "file": "r_j_6e8ab8e87ba03d89.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1536,
+      "height": 2752,
+      "bytes": 4636466
+    },
+    "error": null,
+    "createdAt": "2026-11-06T03:47:52.926Z",
+    "startedAt": "2026-11-06T03:50:29.908Z",
+    "finishedAt": "2026-11-06T03:53:23.386Z"
+  },
+  {
+    "id": "j_7b9160afd91f86df",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_mw4kb4ncgfpv1",
+    "title": "장면 1",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_19223cbbf7b1",
+        "sourceTitle": "스토리보드 · 스퀴지보의 하루 1번 칸",
+        "sourceJobId": null,
+        "file": "p_j_333e58a0c7288d35_1.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_d2c81d921c0e",
+        "sourceTitle": "제품 · 스퀴지보 팍스",
+        "sourceJobId": null,
+        "file": "u_eb4cbad7a98e54dbf695e6c3.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_8701289e00ae",
+        "sourceTitle": "제품 · 더블 올리브그린",
+        "sourceJobId": null,
+        "file": "u_4d11bdd3f9c25a83e90d3e8b.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_2c86c3adf52a",
+        "sourceTitle": "제품 · 더블 올리브그린 옆면",
+        "sourceJobId": null,
+        "file": "u_11a51037ebb7b0b4d23b980f.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_c18705556b5b",
+        "sourceTitle": "크기 참고 · 손에 쥔 스퀴지보",
+        "sourceJobId": null,
+        "file": "u_0a92c85fba319b7325c0ba8a.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_c7404cb8044d",
+        "sourceTitle": "원단·두께 참고 · 더블 실제 사진",
+        "sourceJobId": null,
+        "file": "u_b155f98c41c1fb52c9269ab2.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "62a2cdeb-8c94-48b7-bd98-5b8a0497c606",
+    "result": {
+      "file": "r_j_7b9160afd91f86df.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 711,
+      "height": 1264,
+      "bytes": 1088071
+    },
+    "error": null,
+    "createdAt": "2026-11-06T06:00:39.518Z",
+    "startedAt": "2026-11-06T06:00:46.279Z",
+    "finishedAt": "2026-11-06T06:00:46.279Z"
+  },
+  {
+    "id": "j_35483bad541eef11",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_mw4kb4nd15135",
+    "title": "장면 2",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_19223cbbf7b1",
+        "sourceTitle": "스토리보드 · 스퀴지보의 하루 2번 칸",
+        "sourceJobId": null,
+        "file": "p_j_333e58a0c7288d35_2.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_d2c81d921c0e",
+        "sourceTitle": "제품 · 스퀴지보 팍스",
+        "sourceJobId": null,
+        "file": "u_eb4cbad7a98e54dbf695e6c3.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_8701289e00ae",
+        "sourceTitle": "제품 · 더블 올리브그린",
+        "sourceJobId": null,
+        "file": "u_4d11bdd3f9c25a83e90d3e8b.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_2c86c3adf52a",
+        "sourceTitle": "제품 · 더블 올리브그린 옆면",
+        "sourceJobId": null,
+        "file": "u_11a51037ebb7b0b4d23b980f.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_c18705556b5b",
+        "sourceTitle": "크기 참고 · 손에 쥔 스퀴지보",
+        "sourceJobId": null,
+        "file": "u_0a92c85fba319b7325c0ba8a.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_c7404cb8044d",
+        "sourceTitle": "원단·두께 참고 · 더블 실제 사진",
+        "sourceJobId": null,
+        "file": "u_b155f98c41c1fb52c9269ab2.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "eeb98057-8400-4b08-b73f-af8527af9f89",
+    "result": {
+      "file": "r_j_35483bad541eef11.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 702,
+      "height": 1248,
+      "bytes": 502574
+    },
+    "error": null,
+    "createdAt": "2026-11-06T06:00:39.518Z",
+    "startedAt": "2026-11-06T06:00:47.845Z",
+    "finishedAt": "2026-11-06T06:00:47.845Z"
+  },
+  {
+    "id": "j_07253121eb7c69fc",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_mw4kb4ndfbwqh",
+    "title": "장면 3",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_19223cbbf7b1",
+        "sourceTitle": "스토리보드 · 스퀴지보의 하루 3번 칸",
+        "sourceJobId": null,
+        "file": "p_j_333e58a0c7288d35_3.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_d2c81d921c0e",
+        "sourceTitle": "제품 · 스퀴지보 팍스",
+        "sourceJobId": null,
+        "file": "u_eb4cbad7a98e54dbf695e6c3.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_8701289e00ae",
+        "sourceTitle": "제품 · 더블 올리브그린",
+        "sourceJobId": null,
+        "file": "u_4d11bdd3f9c25a83e90d3e8b.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_2c86c3adf52a",
+        "sourceTitle": "제품 · 더블 올리브그린 옆면",
+        "sourceJobId": null,
+        "file": "u_11a51037ebb7b0b4d23b980f.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_c18705556b5b",
+        "sourceTitle": "크기 참고 · 손에 쥔 스퀴지보",
+        "sourceJobId": null,
+        "file": "u_0a92c85fba319b7325c0ba8a.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_c7404cb8044d",
+        "sourceTitle": "원단·두께 참고 · 더블 실제 사진",
+        "sourceJobId": null,
+        "file": "u_b155f98c41c1fb52c9269ab2.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "aabbe7ca-3fda-4426-9068-3e0f2aa89343",
+    "result": {
+      "file": "r_j_07253121eb7c69fc.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 738,
+      "height": 1312,
+      "bytes": 1075302
+    },
+    "error": null,
+    "createdAt": "2026-11-06T06:00:39.518Z",
+    "startedAt": "2026-11-06T06:00:49.230Z",
+    "finishedAt": "2026-11-06T06:00:49.230Z"
+  },
+  {
+    "id": "j_e4f8a1eefaaafd17",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_mw4kb4ndrs5fj",
+    "title": "장면 4",
+    "kind": "image",
+    "engine": "higgsfield",
+    "model": "nano_banana_pro",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "resolution": "2k"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "image_references",
+        "sourceNodeId": "n_19223cbbf7b1",
+        "sourceTitle": "스토리보드 · 스퀴지보의 하루 4번 칸",
+        "sourceJobId": null,
+        "file": "p_j_333e58a0c7288d35_4.jpg"
+      },
+      {
+        "order": 2,
+        "role": "image_references",
+        "sourceNodeId": "n_d2c81d921c0e",
+        "sourceTitle": "제품 · 스퀴지보 팍스",
+        "sourceJobId": null,
+        "file": "u_eb4cbad7a98e54dbf695e6c3.jpg"
+      },
+      {
+        "order": 3,
+        "role": "image_references",
+        "sourceNodeId": "n_8701289e00ae",
+        "sourceTitle": "제품 · 더블 올리브그린",
+        "sourceJobId": null,
+        "file": "u_4d11bdd3f9c25a83e90d3e8b.jpg"
+      },
+      {
+        "order": 4,
+        "role": "image_references",
+        "sourceNodeId": "n_2c86c3adf52a",
+        "sourceTitle": "제품 · 더블 올리브그린 옆면",
+        "sourceJobId": null,
+        "file": "u_11a51037ebb7b0b4d23b980f.jpg"
+      },
+      {
+        "order": 5,
+        "role": "image_references",
+        "sourceNodeId": "n_c18705556b5b",
+        "sourceTitle": "크기 참고 · 손에 쥔 스퀴지보",
+        "sourceJobId": null,
+        "file": "u_0a92c85fba319b7325c0ba8a.jpg"
+      },
+      {
+        "order": 6,
+        "role": "image_references",
+        "sourceNodeId": "n_c7404cb8044d",
+        "sourceTitle": "원단·두께 참고 · 더블 실제 사진",
+        "sourceJobId": null,
+        "file": "u_b155f98c41c1fb52c9269ab2.jpg"
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 2
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "7bbd78c4-3ebe-4938-803d-40a2eeb88883",
+    "result": {
+      "file": "r_j_e4f8a1eefaaafd17.png",
+      "kind": "image",
+      "mime": "image/png",
+      "width": 1530,
+      "height": 2720,
+      "bytes": 4586811
+    },
+    "error": null,
+    "createdAt": "2026-11-06T06:00:39.519Z",
+    "startedAt": "2026-11-06T06:00:50.765Z",
+    "finishedAt": "2026-11-06T06:00:50.765Z"
+  },
+  {
+    "id": "j_865b8be126d00943",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_mw4kb4nce1ug4",
+    "title": "영상 1",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 5,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_mw4kb4ncgfpv1",
+        "sourceTitle": "장면 1",
+        "sourceJobId": "j_7b9160afd91f86df",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "externalId": "fa3bf122-e494-4af6-a7e9-d216df3071ea",
+    "result": {
+      "file": "r_j_865b8be126d00943.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 584201
+    },
+    "error": null,
+    "createdAt": "2026-11-06T06:00:58.137Z",
+    "startedAt": "2026-11-06T06:01:42.723Z",
+    "finishedAt": "2026-11-06T06:05:48.539Z"
+  },
+  {
+    "id": "j_a3e8cf70d9292b2f",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_mw4kb4ndrhfs5",
+    "title": "영상 2",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 5,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_mw4kb4nd15135",
+        "sourceTitle": "장면 2",
+        "sourceJobId": "j_35483bad541eef11",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "externalId": "31a32dc9-c120-42c6-a98c-2255518775a9",
+    "result": {
+      "file": "r_j_a3e8cf70d9292b2f.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 318619
+    },
+    "error": null,
+    "createdAt": "2026-11-06T06:00:58.139Z",
+    "startedAt": "2026-11-06T06:01:43.920Z",
+    "finishedAt": "2026-11-06T06:05:50.196Z"
+  },
+  {
+    "id": "j_21fcf72bb2868683",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_mw4kb4ndljinv",
+    "title": "영상 3",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 5,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_mw4kb4ndfbwqh",
+        "sourceTitle": "장면 3",
+        "sourceJobId": "j_07253121eb7c69fc",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "externalId": "02e67eaf-1eff-4c2c-b758-adaac482b4e6",
+    "result": {
+      "file": "r_j_21fcf72bb2868683.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 530717
+    },
+    "error": null,
+    "createdAt": "2026-11-06T06:00:58.139Z",
+    "startedAt": "2026-11-06T06:01:45.031Z",
+    "finishedAt": "2026-11-06T06:07:33.852Z"
+  },
+  {
+    "id": "j_0f2d30cf7eae129a",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_mw4kb4ndaiecw",
+    "title": "영상 4",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 5,
+      "quality": "draft"
+    },
+    "refs": [
+      {
+        "order": 1,
+        "role": "start_image",
+        "sourceNodeId": "n_mw4kb4ndrs5fj",
+        "sourceTitle": "장면 4",
+        "sourceJobId": "j_e4f8a1eefaaafd17",
+        "file": null
+      }
+    ],
+    "estimate": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 15
+    },
+    "externalId": "d1c9b952-24a4-4452-b790-684b15dc44af",
+    "result": {
+      "file": "r_j_0f2d30cf7eae129a.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 328500
+    },
+    "error": null,
+    "createdAt": "2026-11-06T06:00:58.139Z",
+    "startedAt": "2026-11-06T06:01:46.179Z",
+    "finishedAt": "2026-11-06T06:05:51.715Z"
+  },
+  {
+    "id": "j_ef10279653e9d936",
+    "projectId": "p_075cfb302af8fd96",
+    "canvasId": "c_b3c0774171e69a7c",
+    "nodeId": "n_editsqmw4kpf6q",
+    "title": "편집본 v1",
+    "kind": "video",
+    "engine": "higgsfield",
+    "model": "seedance_2_5",
+    "status": "done",
+    "prompt": "",
+    "finalPrompt": "",
+    "options": {
+      "aspect": "9:16",
+      "duration": 20,
+      "quality": "draft"
+    },
+    "refs": [],
+    "estimate": {
+      "unit": "credit",
+      "amount": 60
+    },
+    "actual": {
+      "unit": "credit",
+      "amount": 0
+    },
+    "externalId": "edit-v1",
+    "result": {
+      "file": "r_j_ef10279653e9d936.mp4",
+      "kind": "video",
+      "mime": "video/mp4",
+      "width": 0,
+      "height": 0,
+      "bytes": 1682835
+    },
+    "error": null,
+    "createdAt": "2026-11-06T06:08:08.039Z",
+    "startedAt": "2026-11-06T06:08:09.371Z",
+    "finishedAt": "2026-11-06T06:08:09.371Z"
+  }
+]

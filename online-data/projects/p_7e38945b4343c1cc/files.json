@@ -1,0 +1,222 @@
+[
+  {
+    "name": "r_j_272acaf5960c52b9.png",
+    "originalName": "원본 3장면 첫 화면 (9.6초, 쌓기)",
+    "kind": "result",
+    "mediaKind": "image",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 1568914,
+    "createdAt": "2026-11-10T01:27:16.327Z"
+  },
+  {
+    "name": "r_j_f8df36cb75fb329c.png",
+    "originalName": "원본 4장면 첫 화면 (14.35초, 누워 놀기)",
+    "kind": "result",
+    "mediaKind": "image",
+    "mime": "image/png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 1723444,
+    "createdAt": "2026-11-10T01:27:18.164Z"
+  },
+  {
+    "name": "r_j_06d07cdfb65cb6a6.jpg",
+    "originalName": "제품 · 스퀴지보 블루 (태그 지움)",
+    "kind": "result",
+    "mediaKind": "image",
+    "mime": "image/jpeg",
+    "width": 290,
+    "height": 527,
+    "bytes": 27418,
+    "createdAt": "2026-11-10T01:27:20.152Z"
+  },
+  {
+    "name": "r_j_2685b4436b8d2f2c.jpg",
+    "originalName": "제품 · 스퀴지보 도그 (태그 지움)",
+    "kind": "result",
+    "mediaKind": "image",
+    "mime": "image/jpeg",
+    "width": 387,
+    "height": 527,
+    "bytes": 43767,
+    "createdAt": "2026-11-10T01:27:22.429Z"
+  },
+  {
+    "name": "r_j_50fb7a370b95215a.jpg",
+    "originalName": "제품 · 스퀴지보 팍스 (태그 지움)",
+    "kind": "result",
+    "mediaKind": "image",
+    "mime": "image/jpeg",
+    "width": 347,
+    "height": 527,
+    "bytes": 38254,
+    "createdAt": "2026-11-10T01:27:24.594Z"
+  },
+  {
+    "name": "r_j_b215dbe8c76ab4e5.jpg",
+    "originalName": "제품 · 스퀴지보 유니콘 (태그 지움)",
+    "kind": "result",
+    "mediaKind": "image",
+    "mime": "image/jpeg",
+    "width": 337,
+    "height": 527,
+    "bytes": 56163,
+    "createdAt": "2026-11-10T01:27:26.747Z"
+  },
+  {
+    "name": "r_j_6d8bc7ecb208aa4b.jpg",
+    "originalName": "제품 · 메이트 티렉스",
+    "kind": "result",
+    "mediaKind": "image",
+    "mime": "image/jpeg",
+    "width": 296,
+    "height": 527,
+    "bytes": 20650,
+    "createdAt": "2026-11-10T01:27:28.738Z"
+  },
+  {
+    "name": "r_j_a0d961be73b6253e.jpg",
+    "originalName": "제품 · 메이트 유니콘",
+    "kind": "result",
+    "mediaKind": "image",
+    "mime": "image/jpeg",
+    "width": 222,
+    "height": 527,
+    "bytes": 17592,
+    "createdAt": "2026-11-10T01:27:30.587Z"
+  },
+  {
+    "name": "r_j_8d7373e5074ef9cd.png",
+    "originalName": "3장면 새 첫 화면 · 스퀴지보 바로잡기",
+    "kind": "result",
+    "mediaKind": "image",
+    "mime": "image/png",
+    "width": 2752,
+    "height": 1536,
+    "bytes": 8225921,
+    "createdAt": "2026-11-10T01:35:24.620Z"
+  },
+  {
+    "name": "r_j_e2df18118b487729.png",
+    "originalName": "4장면 새 첫 화면 · 메이트로 바꾸기",
+    "kind": "result",
+    "mediaKind": "image",
+    "mime": "image/png",
+    "width": 2752,
+    "height": 1536,
+    "bytes": 7807149,
+    "createdAt": "2026-11-10T01:35:28.776Z"
+  },
+  {
+    "name": "r_j_747520c9f34aeb06.png",
+    "originalName": "3장면 첫 화면 · 옆면 태그 지움(무료 손질)",
+    "kind": "result",
+    "mediaKind": "image",
+    "mime": "image/png",
+    "width": 2752,
+    "height": 1536,
+    "bytes": 8013182,
+    "createdAt": "2026-11-10T01:37:17.416Z"
+  },
+  {
+    "name": "r_j_08f6b8b4995dcbcd.png",
+    "originalName": "4장면 새 첫 화면 · 책 읽어 주기",
+    "kind": "result",
+    "mediaKind": "image",
+    "mime": "image/png",
+    "width": 2752,
+    "height": 1536,
+    "bytes": 7479618,
+    "createdAt": "2026-11-10T01:39:44.498Z"
+  },
+  {
+    "name": "r_j_ac86ee0573c4f19d.png",
+    "originalName": "4장면 첫 화면 · 그림책 글씨 지움(무료 손질)",
+    "kind": "result",
+    "mediaKind": "image",
+    "mime": "image/png",
+    "width": 2752,
+    "height": 1536,
+    "bytes": 7500062,
+    "createdAt": "2026-11-10T01:41:33.920Z"
+  },
+  {
+    "name": "r_j_e9c304bbc31768b2.mp4",
+    "originalName": "3장면 영상 · 하나씩 올리고 손뼉 (6초 720p)",
+    "kind": "result",
+    "mediaKind": "video",
+    "mime": "video/mp4",
+    "width": 0,
+    "height": 0,
+    "bytes": 1284470,
+    "createdAt": "2026-11-10T01:46:57.606Z"
+  },
+  {
+    "name": "r_j_1a5daf1dfe62d8f6.mp4",
+    "originalName": "4장면 영상 · 책 읽어 주기 (6초 720p)",
+    "kind": "result",
+    "mediaKind": "video",
+    "mime": "video/mp4",
+    "width": 0,
+    "height": 0,
+    "bytes": 838014,
+    "createdAt": "2026-11-10T01:50:01.431Z"
+  },
+  {
+    "name": "r_j_b6b7851e13767f4a.mp4",
+    "originalName": "편집본 v1 · 3장면 스퀴지보 + 4장면 책 읽어 주기 (24.6초, 1080p)",
+    "kind": "result",
+    "mediaKind": "video",
+    "mime": "video/mp4",
+    "width": 0,
+    "height": 0,
+    "bytes": 15762517,
+    "createdAt": "2026-11-10T01:50:58.546Z"
+  },
+  {
+    "name": "r_j_16a4887b4390c8c3.mp4",
+    "originalName": "3장면 영상 · 1080p 업스케일 (ByteDance 기본, 1크레딧)",
+    "kind": "result",
+    "mediaKind": "video",
+    "mime": "video/mp4",
+    "width": 0,
+    "height": 0,
+    "bytes": 7002168,
+    "createdAt": "2026-11-10T01:56:56.798Z"
+  },
+  {
+    "name": "r_j_73757680983a735c.mp4",
+    "originalName": "4장면 영상 · 1080p 업스케일 (ByteDance 기본, 1크레딧)",
+    "kind": "result",
+    "mediaKind": "video",
+    "mime": "video/mp4",
+    "width": 0,
+    "height": 0,
+    "bytes": 4470841,
+    "createdAt": "2026-11-10T01:56:57.793Z"
+  },
+  {
+    "name": "r_j_685daaf42effe16a.mp4",
+    "originalName": "편집본 v2 · 업스케일 장면으로 다시 붙임 (24.6초, 1080p)",
+    "kind": "result",
+    "mediaKind": "video",
+    "mime": "video/mp4",
+    "width": 0,
+    "height": 0,
+    "bytes": 18377299,
+    "createdAt": "2026-11-10T01:56:58.700Z"
+  },
+  {
+    "name": "r_j_c3c36ed496c19521.mp4",
+    "originalName": "편집본 v3 · 새 연주곡 입힘 (24.6초, 1080p)",
+    "kind": "result",
+    "mediaKind": "video",
+    "mime": "video/mp4",
+    "width": 0,
+    "height": 0,
+    "bytes": 18388535,
+    "createdAt": "2026-11-10T02:03:30.239Z"
+  }
+]

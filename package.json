@@ -10,10 +10,12 @@
     "queue": "node --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/queue.ts",
     "test:e2e": "node tests/e2e.mjs",
     "import:imgcreate": "node --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/import-imgcreate.ts",
-    "seed:example": "node --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/seed-example.ts"
+    "seed:example": "node --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/seed-example.ts",
+    "cafe24": "node --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/cafe24.ts"
   },
   "dependencies": {
     "@xyflow/react": "^12.12.1",
+    "basic-ftp": "^6.2.6",
     "lucide-react": "^1.68.0",
     "next": "16.4.5",
     "react": "19.3.0",

@@ -1,0 +1,1618 @@
+{
+  "id": "c_cc689e4e2a1b65b4",
+  "nodes": [
+    {
+      "id": "n_73fc435c0e43",
+      "type": "scenario",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "title": "시나리오",
+        "logline": "산타 옷을 입은 요기보 팍스가 선물 공장 벨트 사이 받침대에 앉아 상자를 열 때마다 미니어처 요기보 제품이 튀어나오고, 마지막 큰 상자에서 메이트 티렉스가 나와 함께 손을 흔드는 15초 크리스마스 숏츠.",
+        "scenario": "3D 게임 화면 같은 캐릭터풍 미니어처 디오라마 속 작은 크리스마스 선물 공장. 카메라는 비스듬히 높은 곳에서 내려다보며 처음부터 끝까지 움직이지 않는다(컷 없이 한 장면). 왼쪽 빨간 선물 기계 지붕의 간판은 비어 있다. 기계에서 리본 묶인 선물 상자가 하나씩 벨트로 나와 산타 팍스 앞에서 퐁 열리고, 미니어처 제품이 튀어 오른다. 열린 상자는 벨트를 타고 오른쪽 아래 끝으로 가서 차례로 모인다. 박자가 점점 빨라진다: 맥스, 라운저가 하나씩, 팟과 서포트가 연달아, 냅과 문필로우가 연달아. 마지막 큰 상자에서 메이트 티렉스 인형이 튀어나와 팍스와 함께 카메라를 보며 앞발을 흔든다. 배경 음악 없이 효과음만 넣는다(기계 덜컹, 벨트 소리, 리본 사르륵, 뚜껑 퐁).",
+        "total": 15
+      }
+    },
+    {
+      "id": "n_ce0e2ffe7083",
+      "type": "storyboard",
+      "position": {
+        "x": 820,
+        "y": 0
+      },
+      "data": {
+        "title": "스토리보드 · 팍스 산타의 선물 공장",
+        "cuts": 5,
+        "total": 15,
+        "aspect": "9:16",
+        "engine": "higgsfield",
+        "resolution": "2k",
+        "prompt": ""
+      }
+    },
+    {
+      "id": "n_b02a5786a82a",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 300
+      },
+      "data": {
+        "title": "캐릭터 · 메이트 팍스 정면",
+        "file": {
+          "name": "u_2102f0b627c09be2d06af848.jpg",
+          "originalName": "mate-fox-front.jpg",
+          "width": 337,
+          "height": 527
+        },
+        "role": "character"
+      }
+    },
+    {
+      "id": "n_ea957365ea9b",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 560
+      },
+      "data": {
+        "title": "캐릭터 · 메이트 팍스 옆",
+        "file": {
+          "name": "u_436fc6998f002d436d10770b.jpg",
+          "originalName": "mate-fox-side.jpg",
+          "width": 587,
+          "height": 527
+        },
+        "role": "character"
+      }
+    },
+    {
+      "id": "n_bbe285a6f28c",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 820
+      },
+      "data": {
+        "title": "캐릭터 · 메이트 팍스 뒤",
+        "file": {
+          "name": "u_249d3cba64008f2bd751fe2d.jpg",
+          "originalName": "mate-fox-back.jpg",
+          "width": 324,
+          "height": 527
+        },
+        "role": "character"
+      }
+    },
+    {
+      "id": "n_a41a9e2d0be8",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 1120
+      },
+      "data": {
+        "title": "제품 · 맥스 체리레드",
+        "file": {
+          "name": "u_87dbfdce23a773b48d3b2e92.jpg",
+          "originalName": "max-cherryred-front.jpg",
+          "width": 597,
+          "height": 295
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_791982b22612",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 1380
+      },
+      "data": {
+        "title": "제품 · 맥스 체리레드 45도",
+        "file": {
+          "name": "u_f9a33ca45ecaaae482202e89.jpg",
+          "originalName": "max-cherryred-45.jpg",
+          "width": 533,
+          "height": 295
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_adff10eb654c",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 1640
+      },
+      "data": {
+        "title": "제품 · 서포트 라벤더(색 바꿈)",
+        "file": {
+          "name": "u_313355f646b4478cd98789e2.jpg",
+          "originalName": "support-lavender.jpg",
+          "width": 359,
+          "height": 527
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_210580552f01",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 1900
+      },
+      "data": {
+        "title": "제품 · 팟 오렌지(색 바꿈)",
+        "file": {
+          "name": "u_c610b050ab2b39235dafe859.jpg",
+          "originalName": "pod-orange.jpg",
+          "width": 393,
+          "height": 527
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_c026ee406787",
+      "type": "image",
+      "position": {
+        "x": 320,
+        "y": 300
+      },
+      "data": {
+        "title": "캐릭터 시트 · 팍스 산타",
+        "preset": "character",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "3:2",
+        "resolution": "4k",
+        "sheetGrid": {
+          "rows": 2,
+          "cols": 5
+        }
+      }
+    },
+    {
+      "id": "n_ded1f3ac8130",
+      "type": "image",
+      "position": {
+        "x": 320,
+        "y": 640
+      },
+      "data": {
+        "title": "배경 시트 · 선물 공장",
+        "preset": "background",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_35f91bbd1b39",
+      "type": "image",
+      "position": {
+        "x": 320,
+        "y": 1380
+      },
+      "data": {
+        "title": "제품 시트 · 미니어처",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "16:9",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_08ea90cf28ea",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 2160
+      },
+      "data": {
+        "title": "제품 · 라운저 블라썸핑크(색 바꿈)",
+        "file": {
+          "name": "u_c4a10f35a34fdf62d275a2b0.jpg",
+          "originalName": "lounger-blossompink.jpg",
+          "width": 385,
+          "height": 527
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_18144bc9f173",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 2420
+      },
+      "data": {
+        "title": "제품 · 냅 엑스 노랑(색 바꿈, 글자·태그 지움)",
+        "file": {
+          "name": "u_2048c5d55974f98b345d724f.jpg",
+          "originalName": "nap-x-yellow.jpg",
+          "width": 500,
+          "height": 475
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_a2f9c772cf72",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 2680
+      },
+      "data": {
+        "title": "제품 · 메가 문필로우(태그 지움)",
+        "file": {
+          "name": "u_e2a14ddde31fbcb01f7c05e2.jpg",
+          "originalName": "megamoonpillow-front-notag.jpg",
+          "width": 489,
+          "height": 475
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_aa02e39beb3d",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 2940
+      },
+      "data": {
+        "title": "제품 · 메이트 티렉스",
+        "file": {
+          "name": "u_a954abbcedd45dc20cafbc0f.jpg",
+          "originalName": "mate-trex-front.jpg",
+          "width": 296,
+          "height": 527
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_324ce69149df",
+      "type": "shot",
+      "position": {
+        "x": 1248,
+        "y": 0
+      },
+      "data": {
+        "title": "장면 1 · 0–5초",
+        "duration": 5,
+        "shot": {
+          "size": "와이드, 공장 전체",
+          "angle": "높은 곳에서 비스듬히 내려다봄",
+          "camera": "고정",
+          "light": "따뜻한 실내 빛, 트리 전구가 반짝임",
+          "must": [
+            "weight"
+          ],
+          "speed": "보통 박자, 뚜껑을 닫는 순간 살짝 느리게",
+          "action": "팍스 바로 앞 벨트 위, 뚜껑이 열린 무지개 줄무늬 선물 상자 안에 2번 사진의 제품 미니어처가 들어 있다. 팍스가 뒤꿈치를 들고 두 앞발로 뚜껑을 폭 닫고 위를 톡 치면, 리본이 뿅 하고 저절로 묶이며 상자가 살짝 튄다. 포장된 선물은 벨트를 타고 오른쪽 아래로 흘러가고, 기계 문에서 다음 열린 선물 상자가 나와 팍스 앞으로 온다. 이 다음 상자 안에는 3번 사진의 제품 미니어처가 들어 있다"
+        }
+      }
+    },
+    {
+      "id": "n_9bd9cd31743b",
+      "type": "image",
+      "position": {
+        "x": 1248,
+        "y": 344
+      },
+      "data": {
+        "title": "시작 그림",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_a52ea24f2c8d",
+      "type": "image",
+      "position": {
+        "x": 1248,
+        "y": 1400
+      },
+      "data": {
+        "title": "이음 화면 1 · 5초 (안 씀)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_652294d5e592",
+      "type": "image",
+      "position": {
+        "x": 1618,
+        "y": 1400
+      },
+      "data": {
+        "title": "이음 화면 2 · 10초 (안 씀)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_0b558622c656",
+      "type": "image",
+      "position": {
+        "x": 2021,
+        "y": 1690
+      },
+      "data": {
+        "title": "끝 그림 (안 씀)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_dfdf9807f7d5",
+      "type": "video",
+      "position": {
+        "x": 1248,
+        "y": 830
+      },
+      "data": {
+        "title": "영상 · 장면 1 · 0–5초",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 5,
+        "quality": "draft",
+        "shot": {}
+      }
+    },
+    {
+      "id": "n_c01415a17e5a",
+      "type": "shot",
+      "position": {
+        "x": 1618,
+        "y": 0
+      },
+      "data": {
+        "title": "장면 2 · 5–9초",
+        "duration": 4,
+        "shot": {
+          "size": "와이드, 공장 전체",
+          "angle": "높은 곳에서 비스듬히 내려다봄",
+          "camera": "고정",
+          "light": "따뜻한 실내 빛, 트리 전구가 반짝임",
+          "must": [
+            "weight"
+          ],
+          "speed": "조금 빠른 박자, 뚜껑을 닫는 순간 살짝 느리게",
+          "action": "팍스 바로 앞 벨트 위, 뚜껑이 열린 선물 상자 안에 2번 사진의 제품 미니어처가 들어 있다. 팍스가 뒤꿈치를 들고 두 앞발로 뚜껑을 폭 닫고 위를 톡 치면, 리본이 뿅 하고 저절로 묶이며 상자가 살짝 튄다. 포장된 선물은 벨트를 타고 오른쪽 아래로 흘러가고, 기계 문에서 다음 열린 선물 상자가 나와 팍스 앞으로 온다. 이 다음 상자 안에는 3번 사진의 제품 미니어처가 들어 있다"
+        }
+      }
+    },
+    {
+      "id": "n_9b61f3132684",
+      "type": "image",
+      "position": {
+        "x": 1618,
+        "y": 344
+      },
+      "data": {
+        "title": "장면 2 첫 화면 (장면 1 마지막 프레임)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_12e9296ba5eb",
+      "type": "video",
+      "position": {
+        "x": 1618,
+        "y": 830
+      },
+      "data": {
+        "title": "영상 · 장면 2 · 5–9초",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 4,
+        "quality": "draft",
+        "shot": {}
+      }
+    },
+    {
+      "id": "n_cf647ff1361c",
+      "type": "shot",
+      "position": {
+        "x": 1988,
+        "y": 0
+      },
+      "data": {
+        "title": "장면 3 · 9–13초",
+        "duration": 4,
+        "shot": {
+          "size": "팍스와 벨트가 화면을 채우는 가까운 화면",
+          "angle": "높은 곳에서 비스듬히 내려다봄",
+          "camera": "고정",
+          "light": "따뜻한 실내 빛, 트리 전구가 반짝임",
+          "must": [
+            "weight"
+          ],
+          "speed": "조금 빠른 박자, 뚜껑을 닫는 순간 살짝 느리게",
+          "action": "팍스 바로 앞 벨트 위, 뚜껑이 열린 선물 상자 안에 2번 사진의 제품 미니어처가 들어 있다. 팍스가 뒤꿈치를 들고 두 앞발로 뚜껑을 폭 닫고 위를 톡 치면, 금색 리본이 뿅 하고 저절로 묶이며 상자가 살짝 튄다. 포장된 선물은 벨트를 타고 오른쪽 아래로 흘러가고, 기계 문에서 다음 열린 선물 상자가 나와 팍스 앞으로 온다. 이 다음 상자는 초록 상자이고, 안에는 3번 사진의 제품 미니어처가 들어 있다"
+        }
+      }
+    },
+    {
+      "id": "n_7d4c679dd2d4",
+      "type": "image",
+      "position": {
+        "x": 1988,
+        "y": 344
+      },
+      "data": {
+        "title": "장면 3 첫 화면 (장면 2 마지막 프레임 · 2K로 키움)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_44f207394f57",
+      "type": "video",
+      "position": {
+        "x": 1988,
+        "y": 830
+      },
+      "data": {
+        "title": "영상 · 장면 3 · 9–13초",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 4,
+        "quality": "draft",
+        "shot": {}
+      }
+    },
+    {
+      "id": "n_1ff5de046d70",
+      "type": "shot",
+      "position": {
+        "x": 2358,
+        "y": 0
+      },
+      "data": {
+        "title": "장면 4 · 13–15.6초",
+        "duration": 4,
+        "shot": {
+          "size": "팍스와 벨트가 화면을 채우는 가까운 화면",
+          "angle": "높은 곳에서 비스듬히 내려다봄",
+          "camera": "고정",
+          "light": "따뜻한 실내 빛, 트리 전구가 반짝임",
+          "must": [
+            "weight"
+          ],
+          "speed": "조금 빠른 박자, 뚜껑을 닫는 순간 살짝 느리게",
+          "action": "팍스 바로 앞 벨트 위, 뚜껑이 열린 선물 상자 안에 2번 사진의 제품 미니어처가 들어 있다. 팍스가 뒤꿈치를 들고 두 앞발로 뚜껑을 폭 닫고 위를 톡 치면, 금색 리본이 뿅 하고 저절로 묶이며 상자가 살짝 튄다. 포장된 선물은 벨트를 타고 오른쪽 아래로 흘러가고, 기계 문에서 다음 열린 선물 상자가 나와 팍스 앞으로 온다. 이 다음 상자는 빨간 상자이고, 안에는 3번 사진의 제품 미니어처가 들어 있다"
+        }
+      }
+    },
+    {
+      "id": "n_66380c5362db",
+      "type": "image",
+      "position": {
+        "x": 2358,
+        "y": 344
+      },
+      "data": {
+        "title": "장면 4 첫 화면 (장면 3 마지막 프레임 · 2K로 키움)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_2cb230fd22d7",
+      "type": "video",
+      "position": {
+        "x": 2345,
+        "y": 850
+      },
+      "data": {
+        "title": "영상 · 장면 4 · 13–15.6초 (냅 엑스 상자가 오는 데서 자름)",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 4,
+        "quality": "draft",
+        "shot": {}
+      }
+    },
+    {
+      "id": "n_3e879e687bdd",
+      "type": "image",
+      "position": {
+        "x": 1000,
+        "y": 1250
+      },
+      "data": {
+        "title": "장면 1 첫 화면 (왼쪽 아래 제품 더미) (안 씀)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_ffa35a8ec185",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 3200
+      },
+      "data": {
+        "title": "제품 · 맥스 브라이트옐로우",
+        "file": {
+          "name": "u_4c6804721f76a4b04ca3c906.jpg",
+          "originalName": "max-brightyellow-front.jpg",
+          "width": 603,
+          "height": 295
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_73844bf43ecc",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 3460
+      },
+      "data": {
+        "title": "제품 · 라운저 올리브그린",
+        "file": {
+          "name": "u_47379f68bd52c074cef086de.jpg",
+          "originalName": "lounger-olivegreen-front.jpg",
+          "width": 385,
+          "height": 527
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_44f439f82b9f",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 3720
+      },
+      "data": {
+        "title": "제품 · 팟 아쿠아블루",
+        "file": {
+          "name": "u_fd7a8a3b84c662cb22e48f21.jpg",
+          "originalName": "pod-aquablue-front.jpg",
+          "width": 436,
+          "height": 527
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_7ea81ca767d6",
+      "type": "ref",
+      "position": {
+        "x": 0,
+        "y": 3980
+      },
+      "data": {
+        "title": "제품 · 서포트 라임그린(원래 색)",
+        "file": {
+          "name": "u_9a8f155cc746e634b0c42676.jpg",
+          "originalName": "support-front.jpg",
+          "width": 359,
+          "height": 527
+        },
+        "role": "product"
+      }
+    },
+    {
+      "id": "n_1720d3b49155",
+      "type": "image",
+      "position": {
+        "x": 1000,
+        "y": 1700
+      },
+      "data": {
+        "title": "장면 1 첫 화면 (포장 컨셉: 상자에 담긴 제품)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_ee7d6e84fee0",
+      "type": "image",
+      "position": {
+        "x": 1000,
+        "y": 2150
+      },
+      "data": {
+        "title": "장면 1 첫 화면 (제품 시트 상자 느낌)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_1d828f4df910",
+      "type": "image",
+      "position": {
+        "x": 1000,
+        "y": 2600
+      },
+      "data": {
+        "title": "장면 1 첫 화면 (진열 상자 4개)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_1ba7e350cac6",
+      "type": "image",
+      "position": {
+        "x": 1000,
+        "y": 3050
+      },
+      "data": {
+        "title": "장면 1 첫 화면 (문 앞 트레이 없앰)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_a28257e30f2d",
+      "type": "shot",
+      "position": {
+        "x": 2728,
+        "y": 0
+      },
+      "data": {
+        "title": "장면 5 · 15.6–19.6초",
+        "duration": 4,
+        "shot": {
+          "size": "팍스와 벨트가 화면을 채우는 가까운 화면",
+          "angle": "높은 곳에서 비스듬히 내려다봄",
+          "camera": "고정",
+          "light": "따뜻한 실내 빛, 트리 전구가 반짝임",
+          "must": [
+            "weight"
+          ],
+          "speed": "조금 빠른 박자, 뚜껑을 닫는 순간 살짝 느리게",
+          "action": "팍스 바로 앞 벨트 위, 뚜껑이 열린 선물 상자 안에 2번 사진의 제품 미니어처가 들어 있다. 팍스가 뒤꿈치를 들고 두 앞발로 뚜껑을 폭 닫고 위를 톡 치면, 금색 리본이 뿅 하고 저절로 묶이며 상자가 살짝 튄다. 포장된 선물은 벨트를 타고 오른쪽 아래로 흘러가고, 기계 문에서 다음 열린 선물 상자가 나와 팍스 앞으로 온다. 이 다음 상자는 하얀 상자이고, 안에는 3번 사진의 제품 미니어처가 들어 있다"
+        }
+      }
+    },
+    {
+      "id": "n_795c71073de2",
+      "type": "image",
+      "position": {
+        "x": 2728,
+        "y": 344
+      },
+      "data": {
+        "title": "장면 5 첫 화면 (장면 4 고른 프레임 · 2K로 키움)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_90ce8fba686a",
+      "type": "video",
+      "position": {
+        "x": 2728,
+        "y": 830
+      },
+      "data": {
+        "title": "영상 · 장면 5 · 15.6–19.6초",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 4,
+        "quality": "draft",
+        "shot": {}
+      }
+    },
+    {
+      "id": "n_2d5c02048b4d",
+      "type": "shot",
+      "position": {
+        "x": 3098,
+        "y": 0
+      },
+      "data": {
+        "title": "장면 6 · 18.6–22.6초",
+        "duration": 4,
+        "shot": {
+          "size": "팍스와 벨트가 화면을 채우는 가까운 화면",
+          "angle": "높은 곳에서 비스듬히 내려다봄",
+          "camera": "고정",
+          "light": "따뜻한 실내 빛, 트리 전구가 반짝임",
+          "must": [
+            "weight"
+          ],
+          "speed": "조금 빠른 박자, 뚜껑을 닫는 순간 살짝 느리게",
+          "action": "팍스 바로 앞 벨트 위, 뚜껑이 열린 선물 상자 안에 2번 사진의 제품 미니어처가 들어 있다. 팍스가 뒤꿈치를 들고 두 앞발로 뚜껑을 폭 닫고 위를 톡 치면, 금색 리본이 뿅 하고 저절로 묶이며 상자가 살짝 튄다. 포장된 선물은 벨트를 타고 오른쪽 아래로 흘러가고, 기계 문에서 다음 열린 선물 상자가 나와 팍스 앞으로 온다. 이 다음 상자는 금색 상자이고, 안에는 3번 사진의 제품 미니어처가 들어 있다"
+        }
+      }
+    },
+    {
+      "id": "n_e19def09be53",
+      "type": "image",
+      "position": {
+        "x": 3098,
+        "y": 344
+      },
+      "data": {
+        "title": "장면 6 첫 화면 (장면 5 고른 프레임 · 2K로 키움)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_2b0c33acda67",
+      "type": "video",
+      "position": {
+        "x": 3098,
+        "y": 830
+      },
+      "data": {
+        "title": "영상 · 장면 6 · 18.6–22.6초",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 4,
+        "quality": "draft",
+        "shot": {}
+      }
+    },
+    {
+      "id": "n_896c7f4d44c8",
+      "type": "shot",
+      "position": {
+        "x": 3468,
+        "y": 0
+      },
+      "data": {
+        "title": "장면 7 · 마무리 22.6–28.6초",
+        "duration": 6,
+        "shot": {
+          "size": "가까운 화면에서 시작해 끝에는 공장 전체",
+          "angle": "높은 곳에서 비스듬히 내려다봄",
+          "camera": "처음 3초는 고정, 그다음 천천히 뒤로 빠짐",
+          "light": "따뜻한 실내 빛, 트리 전구가 반짝임",
+          "must": [
+            "tension",
+            "weight"
+          ],
+          "speed": "뚜껑을 닫으려는 순간 잠깐 멈췄다가 터지듯, 손 흔들기는 경쾌하게",
+          "action": "1번 그림처럼 팍스 바로 앞 벨트 위, 뚜껑이 열린 금색 상자 안에 2번 사진의 티렉스 인형이 앉아 있다. 팍스가 늘 하던 대로 뒤꿈치를 들고 두 앞발로 뚜껑을 닫으려는 순간, 티렉스가 짠 하고 상자에서 튀어나와 두 팔을 번쩍 든다. 팍스는 깜짝 놀라 한 걸음 물러났다가 활짝 웃고, 티렉스는 상자 밖으로 나와 팍스 옆에 나란히 선다. 둘이 카메라를 보며 앞발을 흔드는 동안 카메라가 천천히 뒤로 빠지며 3번 그림의 공장 전체 화면에서 끝난다"
+        }
+      }
+    },
+    {
+      "id": "n_4a7270a3877d",
+      "type": "image",
+      "position": {
+        "x": 3468,
+        "y": 344
+      },
+      "data": {
+        "title": "장면 7 첫 화면 (장면 6 마지막 프레임 · 2K로 키움)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_c0728958d168",
+      "type": "video",
+      "position": {
+        "x": 3468,
+        "y": 830
+      },
+      "data": {
+        "title": "영상 · 장면 7 · 마무리 22.6–28.6초",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 6,
+        "quality": "draft",
+        "shot": {}
+      }
+    },
+    {
+      "id": "n_409c3243d6b1",
+      "type": "image",
+      "position": {
+        "x": 3838,
+        "y": 344
+      },
+      "data": {
+        "title": "장면 7 끝 화면 (공장 전체 · 팍스와 티렉스)",
+        "preset": "scene",
+        "prompt": "",
+        "engine": "higgsfield",
+        "aspect": "9:16",
+        "resolution": "2k"
+      }
+    },
+    {
+      "id": "n_bfb0eeec041b",
+      "type": "video",
+      "position": {
+        "x": 3838,
+        "y": 830
+      },
+      "data": {
+        "title": "편집본 v1 · 음악 없음 (28.7초)",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 29,
+        "quality": "draft",
+        "stage": "edit"
+      }
+    },
+    {
+      "id": "n_f3a2f4fb04b3",
+      "type": "video",
+      "position": {
+        "x": 3838,
+        "y": 1350
+      },
+      "data": {
+        "title": "편집본 v2 · 음악 없음 (29초) · 이음새 보정",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 29,
+        "quality": "draft",
+        "stage": "edit"
+      }
+    },
+    {
+      "id": "n_5bad43bcdb89",
+      "type": "video",
+      "position": {
+        "x": 3838,
+        "y": 1870
+      },
+      "data": {
+        "title": "편집본 v3 · 음악 없음 (29초) · 소리 이음새 보정",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 29,
+        "quality": "draft",
+        "stage": "edit"
+      }
+    },
+    {
+      "id": "n_6f18589b97e3",
+      "type": "video",
+      "position": {
+        "x": 3838,
+        "y": 2390
+      },
+      "data": {
+        "title": "편집본 v4 · 음악 없음 (28.6초) · 뚜껑 이음새 반짝임",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 29,
+        "quality": "draft",
+        "stage": "edit"
+      }
+    },
+    {
+      "id": "n_31d4a42f144c",
+      "type": "shot",
+      "position": {
+        "x": 4208,
+        "y": 0
+      },
+      "data": {
+        "title": "한 번에 뽑기 · 29초",
+        "duration": 29,
+        "shot": {
+          "must": [
+            "tension",
+            "weight"
+          ]
+        }
+      }
+    },
+    {
+      "id": "n_2e766ea58c87",
+      "type": "video",
+      "position": {
+        "x": 4208,
+        "y": 830
+      },
+      "data": {
+        "title": "영상 · 한 번에 뽑기 · 29초 초안",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 29,
+        "quality": "draft",
+        "shot": {}
+      }
+    },
+    {
+      "id": "n_93c679ff38db",
+      "type": "video",
+      "position": {
+        "x": 3838,
+        "y": 2910
+      },
+      "data": {
+        "title": "편집본 · 한 번에 뽑기 v1 (31.4초 · 1080p · 요기보 끝 카드)",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 29,
+        "quality": "draft",
+        "stage": "edit"
+      }
+    },
+    {
+      "id": "n_d774cb873953",
+      "type": "video",
+      "position": {
+        "x": 3838,
+        "y": 3430
+      },
+      "data": {
+        "title": "편집본 · 한 번에 뽑기 v2 (원본 컷 · 음악 없음 · 31.5초)",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 29,
+        "quality": "draft",
+        "stage": "edit"
+      }
+    },
+    {
+      "id": "n_ba8f44e4ef08",
+      "type": "video",
+      "position": {
+        "x": 3838,
+        "y": 3950
+      },
+      "data": {
+        "title": "편집본 · 한 번에 뽑기 v2 + 연주곡 (31.5초)",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 29,
+        "quality": "draft",
+        "stage": "edit"
+      }
+    },
+    {
+      "id": "n_d3d2ccf5a072",
+      "type": "video",
+      "position": {
+        "x": 3838,
+        "y": 4470
+      },
+      "data": {
+        "title": "편집본 · 한 번에 뽑기 v3 + 연주곡 (31.5초 · 간판 로고 끝까지)",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 29,
+        "quality": "draft",
+        "stage": "edit"
+      }
+    },
+    {
+      "id": "n_b70bfc5d8967",
+      "type": "video",
+      "position": {
+        "x": 3838,
+        "y": 4990
+      },
+      "data": {
+        "title": "편집본 · 한 번에 뽑기 v4 + 연주곡 (31.5초 · 로고 흔들림 잡음)",
+        "prompt": "",
+        "model": "seedance_2_5",
+        "aspect": "9:16",
+        "duration": 29,
+        "quality": "draft",
+        "stage": "final"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_2a7fd9813cb1",
+      "source": "n_73fc435c0e43",
+      "target": "n_ce0e2ffe7083"
+    },
+    {
+      "id": "e_a8cb202337b3",
+      "source": "n_b02a5786a82a",
+      "target": "n_c026ee406787"
+    },
+    {
+      "id": "e_40f9d2193bec",
+      "source": "n_ea957365ea9b",
+      "target": "n_c026ee406787"
+    },
+    {
+      "id": "e_ec9aec1f4eeb",
+      "source": "n_bbe285a6f28c",
+      "target": "n_c026ee406787"
+    },
+    {
+      "id": "e_4198b7430408",
+      "source": "n_c026ee406787",
+      "target": "n_ce0e2ffe7083"
+    },
+    {
+      "id": "e_cc4f5139ad31",
+      "source": "n_ded1f3ac8130",
+      "target": "n_ce0e2ffe7083"
+    },
+    {
+      "id": "e_1abadf2768d7",
+      "source": "n_35f91bbd1b39",
+      "target": "n_ce0e2ffe7083"
+    },
+    {
+      "id": "e_725e674bf5d3",
+      "source": "n_a41a9e2d0be8",
+      "target": "n_35f91bbd1b39"
+    },
+    {
+      "id": "e_9c2c803b2b71",
+      "source": "n_791982b22612",
+      "target": "n_35f91bbd1b39"
+    },
+    {
+      "id": "e_7214cf492e6d",
+      "source": "n_08ea90cf28ea",
+      "target": "n_35f91bbd1b39"
+    },
+    {
+      "id": "e_24b2a62f6fb7",
+      "source": "n_210580552f01",
+      "target": "n_35f91bbd1b39"
+    },
+    {
+      "id": "e_655974ed2eed",
+      "source": "n_adff10eb654c",
+      "target": "n_35f91bbd1b39"
+    },
+    {
+      "id": "e_71e598daa472",
+      "source": "n_18144bc9f173",
+      "target": "n_35f91bbd1b39"
+    },
+    {
+      "id": "e_8e65fed6a0d6",
+      "source": "n_a2f9c772cf72",
+      "target": "n_35f91bbd1b39"
+    },
+    {
+      "id": "e_a8408f883c24",
+      "source": "n_aa02e39beb3d",
+      "target": "n_35f91bbd1b39"
+    },
+    {
+      "id": "e_27705085520b",
+      "source": "n_c026ee406787",
+      "target": "n_9bd9cd31743b"
+    },
+    {
+      "id": "e_d29e4580afda",
+      "source": "n_ded1f3ac8130",
+      "target": "n_9bd9cd31743b"
+    },
+    {
+      "id": "e_a272072adf1a",
+      "source": "n_9bd9cd31743b",
+      "target": "n_a52ea24f2c8d"
+    },
+    {
+      "id": "e_8ede9a39fc7b",
+      "source": "n_a41a9e2d0be8",
+      "target": "n_a52ea24f2c8d"
+    },
+    {
+      "id": "e_0fcfbdd1e5a3",
+      "source": "n_08ea90cf28ea",
+      "target": "n_a52ea24f2c8d"
+    },
+    {
+      "id": "e_d08a742daadb",
+      "source": "n_9bd9cd31743b",
+      "target": "n_652294d5e592"
+    },
+    {
+      "id": "e_71cc544f6aa4",
+      "source": "n_a41a9e2d0be8",
+      "target": "n_652294d5e592"
+    },
+    {
+      "id": "e_2cee49eed7bb",
+      "source": "n_08ea90cf28ea",
+      "target": "n_652294d5e592"
+    },
+    {
+      "id": "e_2467a42cc5af",
+      "source": "n_210580552f01",
+      "target": "n_652294d5e592"
+    },
+    {
+      "id": "e_3682a224bbab",
+      "source": "n_adff10eb654c",
+      "target": "n_652294d5e592"
+    },
+    {
+      "id": "e_7968728c9487",
+      "source": "n_18144bc9f173",
+      "target": "n_652294d5e592"
+    },
+    {
+      "id": "e_cce26c430392",
+      "source": "n_9bd9cd31743b",
+      "target": "n_0b558622c656"
+    },
+    {
+      "id": "e_9bf3715f60ad",
+      "source": "n_a41a9e2d0be8",
+      "target": "n_0b558622c656"
+    },
+    {
+      "id": "e_36826c80637e",
+      "source": "n_08ea90cf28ea",
+      "target": "n_0b558622c656"
+    },
+    {
+      "id": "e_6b96a2ade4b5",
+      "source": "n_210580552f01",
+      "target": "n_0b558622c656"
+    },
+    {
+      "id": "e_ac649aaecd67",
+      "source": "n_adff10eb654c",
+      "target": "n_0b558622c656"
+    },
+    {
+      "id": "e_86dab8d4a6d0",
+      "source": "n_18144bc9f173",
+      "target": "n_0b558622c656"
+    },
+    {
+      "id": "e_f5ec1fdcfb8a",
+      "source": "n_a2f9c772cf72",
+      "target": "n_0b558622c656"
+    },
+    {
+      "id": "e_759c1210137c",
+      "source": "n_aa02e39beb3d",
+      "target": "n_0b558622c656"
+    },
+    {
+      "id": "e_aa3c609d5574",
+      "source": "n_a41a9e2d0be8",
+      "target": "n_9bd9cd31743b"
+    },
+    {
+      "id": "e_0451ed131d9a",
+      "source": "n_9bd9cd31743b",
+      "target": "n_3e879e687bdd"
+    },
+    {
+      "id": "e_553e34d0e47e",
+      "source": "n_08ea90cf28ea",
+      "target": "n_3e879e687bdd"
+    },
+    {
+      "id": "e_333c12441385",
+      "source": "n_210580552f01",
+      "target": "n_3e879e687bdd"
+    },
+    {
+      "id": "e_48f4a125aea9",
+      "source": "n_adff10eb654c",
+      "target": "n_3e879e687bdd"
+    },
+    {
+      "id": "e_7a16c64562a8",
+      "source": "n_18144bc9f173",
+      "target": "n_3e879e687bdd"
+    },
+    {
+      "id": "e_f33dda84c981",
+      "source": "n_a2f9c772cf72",
+      "target": "n_3e879e687bdd"
+    },
+    {
+      "id": "e_9bfef2a069d8",
+      "source": "n_9bd9cd31743b",
+      "target": "n_1720d3b49155"
+    },
+    {
+      "id": "e_b50035dae37c",
+      "source": "n_a41a9e2d0be8",
+      "target": "n_1720d3b49155"
+    },
+    {
+      "id": "e_3cc835f95959",
+      "source": "n_ffa35a8ec185",
+      "target": "n_1720d3b49155"
+    },
+    {
+      "id": "e_3d7b1ab22c22",
+      "source": "n_08ea90cf28ea",
+      "target": "n_1720d3b49155"
+    },
+    {
+      "id": "e_8e26ce9db808",
+      "source": "n_73844bf43ecc",
+      "target": "n_1720d3b49155"
+    },
+    {
+      "id": "e_5e76ef7c833c",
+      "source": "n_210580552f01",
+      "target": "n_1720d3b49155"
+    },
+    {
+      "id": "e_06b18dbc772c",
+      "source": "n_44f439f82b9f",
+      "target": "n_1720d3b49155"
+    },
+    {
+      "id": "e_1c07f11c5411",
+      "source": "n_adff10eb654c",
+      "target": "n_1720d3b49155"
+    },
+    {
+      "id": "e_bf6f57bf11ed",
+      "source": "n_7ea81ca767d6",
+      "target": "n_1720d3b49155"
+    },
+    {
+      "id": "e_7883847b81e7",
+      "source": "n_1720d3b49155",
+      "target": "n_ee7d6e84fee0"
+    },
+    {
+      "id": "e_5d4f5e8acff8",
+      "source": "n_35f91bbd1b39",
+      "target": "n_ee7d6e84fee0"
+    },
+    {
+      "id": "e_abf2252a5e16",
+      "source": "n_a41a9e2d0be8",
+      "target": "n_ee7d6e84fee0"
+    },
+    {
+      "id": "e_b3bd7d3008f9",
+      "source": "n_08ea90cf28ea",
+      "target": "n_ee7d6e84fee0"
+    },
+    {
+      "id": "e_06bfeecd7ef7",
+      "source": "n_73844bf43ecc",
+      "target": "n_ee7d6e84fee0"
+    },
+    {
+      "id": "e_73679a4fa892",
+      "source": "n_210580552f01",
+      "target": "n_ee7d6e84fee0"
+    },
+    {
+      "id": "e_20bb00365875",
+      "source": "n_44f439f82b9f",
+      "target": "n_ee7d6e84fee0"
+    },
+    {
+      "id": "e_f132897f6bda",
+      "source": "n_adff10eb654c",
+      "target": "n_ee7d6e84fee0"
+    },
+    {
+      "id": "e_2638fb335401",
+      "source": "n_7ea81ca767d6",
+      "target": "n_ee7d6e84fee0"
+    },
+    {
+      "id": "e_4511c8aeb174",
+      "source": "n_ee7d6e84fee0",
+      "target": "n_1d828f4df910"
+    },
+    {
+      "id": "e_d7984d500589",
+      "source": "n_35f91bbd1b39",
+      "target": "n_1d828f4df910"
+    },
+    {
+      "id": "e_5b310e553f6b",
+      "source": "n_a41a9e2d0be8",
+      "target": "n_1d828f4df910"
+    },
+    {
+      "id": "e_e316fc347ddf",
+      "source": "n_08ea90cf28ea",
+      "target": "n_1d828f4df910"
+    },
+    {
+      "id": "e_9b284dd7aba6",
+      "source": "n_210580552f01",
+      "target": "n_1d828f4df910"
+    },
+    {
+      "id": "e_a12ef8e75c63",
+      "source": "n_adff10eb654c",
+      "target": "n_1d828f4df910"
+    },
+    {
+      "id": "e_d2e4896491b3",
+      "source": "n_1d828f4df910",
+      "target": "n_1ba7e350cac6"
+    },
+    {
+      "id": "e_d7fc76b4835d",
+      "source": "n_324ce69149df",
+      "target": "n_dfdf9807f7d5"
+    },
+    {
+      "id": "e_d3238f2544cc",
+      "source": "n_1ba7e350cac6",
+      "target": "n_dfdf9807f7d5"
+    },
+    {
+      "id": "e_66daf37044bf",
+      "source": "n_ffa35a8ec185",
+      "target": "n_dfdf9807f7d5"
+    },
+    {
+      "id": "e_07230521a2b8",
+      "source": "n_08ea90cf28ea",
+      "target": "n_dfdf9807f7d5"
+    },
+    {
+      "id": "e_142cda4d4d2b",
+      "source": "n_c01415a17e5a",
+      "target": "n_12e9296ba5eb"
+    },
+    {
+      "id": "e_3e140a1b63f8",
+      "source": "n_9b61f3132684",
+      "target": "n_12e9296ba5eb"
+    },
+    {
+      "id": "e_f448e82b2eb8",
+      "source": "n_08ea90cf28ea",
+      "target": "n_12e9296ba5eb"
+    },
+    {
+      "id": "e_70ab74795c24",
+      "source": "n_210580552f01",
+      "target": "n_12e9296ba5eb"
+    },
+    {
+      "id": "e_6b0975d540a9",
+      "source": "n_cf647ff1361c",
+      "target": "n_44f207394f57"
+    },
+    {
+      "id": "e_ad5c94337359",
+      "source": "n_7d4c679dd2d4",
+      "target": "n_44f207394f57"
+    },
+    {
+      "id": "e_8107b05450a5",
+      "source": "n_210580552f01",
+      "target": "n_44f207394f57"
+    },
+    {
+      "id": "e_5c9e473fdafd",
+      "source": "n_adff10eb654c",
+      "target": "n_44f207394f57"
+    },
+    {
+      "id": "e_e47b9f115009",
+      "source": "n_1ff5de046d70",
+      "target": "n_2cb230fd22d7"
+    },
+    {
+      "id": "e_df5004b3f1e2",
+      "source": "n_66380c5362db",
+      "target": "n_2cb230fd22d7"
+    },
+    {
+      "id": "e_c9baed70d9d9",
+      "source": "n_adff10eb654c",
+      "target": "n_2cb230fd22d7"
+    },
+    {
+      "id": "e_191d9ffa87b4",
+      "source": "n_18144bc9f173",
+      "target": "n_2cb230fd22d7"
+    },
+    {
+      "id": "e_e25d88ccaf5c",
+      "source": "n_a28257e30f2d",
+      "target": "n_90ce8fba686a"
+    },
+    {
+      "id": "e_c8938cbb8491",
+      "source": "n_795c71073de2",
+      "target": "n_90ce8fba686a"
+    },
+    {
+      "id": "e_07832daeeff3",
+      "source": "n_18144bc9f173",
+      "target": "n_90ce8fba686a"
+    },
+    {
+      "id": "e_8f9b5df31cf9",
+      "source": "n_a2f9c772cf72",
+      "target": "n_90ce8fba686a"
+    },
+    {
+      "id": "e_fb477ba8b4af",
+      "source": "n_2d5c02048b4d",
+      "target": "n_2b0c33acda67"
+    },
+    {
+      "id": "e_7b6d707f6eb7",
+      "source": "n_e19def09be53",
+      "target": "n_2b0c33acda67"
+    },
+    {
+      "id": "e_f6c06ff24012",
+      "source": "n_a2f9c772cf72",
+      "target": "n_2b0c33acda67"
+    },
+    {
+      "id": "e_bbf9984e42f6",
+      "source": "n_aa02e39beb3d",
+      "target": "n_2b0c33acda67"
+    },
+    {
+      "id": "e_b03e760de691",
+      "source": "n_1ba7e350cac6",
+      "target": "n_409c3243d6b1"
+    },
+    {
+      "id": "e_6a042de888ed",
+      "source": "n_aa02e39beb3d",
+      "target": "n_409c3243d6b1"
+    },
+    {
+      "id": "e_75a77d4ffeb6",
+      "source": "n_896c7f4d44c8",
+      "target": "n_c0728958d168"
+    },
+    {
+      "id": "e_ec5cc5ceae95",
+      "source": "n_4a7270a3877d",
+      "target": "n_c0728958d168"
+    },
+    {
+      "id": "e_b05509bc80ea",
+      "source": "n_aa02e39beb3d",
+      "target": "n_c0728958d168"
+    },
+    {
+      "id": "e_af83b4db1e82",
+      "source": "n_409c3243d6b1",
+      "target": "n_c0728958d168"
+    },
+    {
+      "id": "e_7978c9e263e4",
+      "source": "n_31d4a42f144c",
+      "target": "n_2e766ea58c87"
+    },
+    {
+      "id": "e_aa38ca852d7d",
+      "source": "n_1ba7e350cac6",
+      "target": "n_2e766ea58c87"
+    },
+    {
+      "id": "e_286defbbb659",
+      "source": "n_ffa35a8ec185",
+      "target": "n_2e766ea58c87"
+    },
+    {
+      "id": "e_464ea1aa530e",
+      "source": "n_08ea90cf28ea",
+      "target": "n_2e766ea58c87"
+    },
+    {
+      "id": "e_151b6a0445e6",
+      "source": "n_210580552f01",
+      "target": "n_2e766ea58c87"
+    },
+    {
+      "id": "e_5d11c116ce3a",
+      "source": "n_adff10eb654c",
+      "target": "n_2e766ea58c87"
+    },
+    {
+      "id": "e_3a536379422c",
+      "source": "n_18144bc9f173",
+      "target": "n_2e766ea58c87"
+    },
+    {
+      "id": "e_499d2f4a992d",
+      "source": "n_a2f9c772cf72",
+      "target": "n_2e766ea58c87"
+    },
+    {
+      "id": "e_0f5c7852b4ae",
+      "source": "n_aa02e39beb3d",
+      "target": "n_2e766ea58c87"
+    },
+    {
+      "id": "e_b1f5245aef0f",
+      "source": "n_409c3243d6b1",
+      "target": "n_2e766ea58c87"
+    }
+  ],
+  "viewport": null,
+  "revision": 53,
+  "updatedAt": "2026-11-09T07:35:13.255Z"
+}

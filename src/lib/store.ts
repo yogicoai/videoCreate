@@ -19,6 +19,7 @@ import {
   SHEET_PANEL,
   shotScenePrompt,
 } from './models.ts';
+import { isOnline, remoteFile } from './online.ts';
 import { buildFinalPrompt, buildStoryboardPrompt, DEFAULT_RULE, DEFAULT_RULE_ID, ruleTextFor, YOGIBO_RULE, YOGIBO_RULE_ID } from './rules.ts';
 import type {
   AssetType,
@@ -1478,15 +1479,19 @@ export function listLibrary(): LibraryView {
     }
   }
 
+  // 온라인 판에는 카페24에 올린 결과물만 보인다. 올린 사진(자산)은 올리지 않으므로 뺀다
+  const online = isOnline();
+  const shown = online ? results.filter((r) => remoteFile(r.projectId, r.result.file)) : results;
+
   return {
     models: items.filter((i): i is LibraryModel => i.kind === 'model'),
-    images: images.sort((a, b) => b.createdAt.localeCompare(a.createdAt)),
+    images: online ? [] : images.sort((a, b) => b.createdAt.localeCompare(a.createdAt)),
     rules: items.filter((i): i is LibraryRule => i.kind === 'rule'),
     ideas: items.filter((i): i is LibraryIdea => i.kind === 'idea'),
     boards: items.filter((i): i is LibraryBoard => i.kind === 'storyboard'),
     works: items.filter((i): i is LibraryWork => i.kind === 'work'),
     videos: items.filter((i): i is LibraryVideo => i.kind === 'video'),
-    results: results.sort((a, b) => b.finishedAt.localeCompare(a.finishedAt)),
+    results: shown.sort((a, b) => b.finishedAt.localeCompare(a.finishedAt)),
   };
 }
 
