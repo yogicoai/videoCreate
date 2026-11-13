@@ -3,7 +3,7 @@
 import { ExternalLink, LoaderCircle } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useCallback, useEffect, useState } from 'react';
-import type { Analysis, AnalysisCut } from '@/lib/analyze';
+import type { Analysis, AnalysisCut, AnalysisKind } from '@/lib/analyze';
 import { api, formatDateTime } from '@/lib/client';
 import { FOLLOW_LEVELS } from '@/lib/models';
 import type { FollowLevel, Project } from '@/lib/types';
@@ -11,10 +11,111 @@ import { Lightbox, type LightboxItem } from './Lightbox';
 
 const POLL_MS = 2000;
 
-const fileOf = (id: string, name: string) => `/api/analyses/${id}/files/${name}`;
-const clock = (t: number) => `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, '0')}`;
+export const fileOf = (id: string, name: string) => `/api/analyses/${id}/files/${name}`;
+export const clock = (t: number) => `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, '0')}`;
+export const lengthLabel = (seconds: number) => {
+  const s = Math.round(seconds);
+  return s < 60 ? `${s}초` : `${Math.floor(s / 60)}분 ${s % 60}초`;
+};
 
-function CutTile({ analysisId, cut, onOpen }: { analysisId: string; cut: AnalysisCut; onOpen: (item: LightboxItem) => void }) {
+/** 숏츠 가져오기와 영상 가져오기가 함께 쓰는 목록·주소 넣기·새로 고침 */
+export function useAnalyses(kind: AnalysisKind, initial: Analysis[], initialOpen?: string) {
+  const [analyses, setAnalyses] = useState(initial);
+  const [url, setUrl] = useState('');
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState('');
+  const [openId, setOpenId] = useState<string | null>(initialOpen ?? initial[0]?.id ?? null);
+  const running = analyses.some((a) => a.status === 'running');
+
+  const refresh = useCallback(async () => {
+    const res = await api<{ analyses: Analysis[] }>(`/api/analyses?kind=${kind}`);
+    setAnalyses(res.analyses);
+  }, [kind]);
+
+  useEffect(() => {
+    if (!running) return;
+    const timer = setInterval(() => void refresh().catch(() => undefined), POLL_MS);
+    return () => clearInterval(timer);
+  }, [refresh, running]);
+
+  const submit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setBusy(true);
+    setError('');
+    try {
+      const { analysis } = await api<{ analysis: Analysis }>('/api/analyses', { method: 'POST', body: { url, kind } });
+      // 이미 분석한 주소면 그 분석이 돌아온다. 목록에 두 번 넣지 않는다
+      setAnalyses((list) => [analysis, ...list.filter((a) => a.id !== analysis.id)]);
+      setOpenId(analysis.id);
+      setUrl('');
+    } catch (err) {
+      setError((err as Error).message);
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  return { analyses, url, setUrl, busy, setBusy, error, setError, openId, setOpenId, submit, opened: analyses.find((a) => a.id === openId) };
+}
+
+export function AnalysisChips({ analyses, openId, onOpen }: { analyses: Analysis[]; openId: string | null; onOpen: (id: string) => void }) {
+  if (!analyses.length) return null;
+  return (
+    <div className="mb-7 flex flex-wrap gap-2" role="group" aria-label="분석한 영상">
+      {analyses.map((analysis) => (
+        <button
+          key={analysis.id}
+          type="button"
+          aria-pressed={openId === analysis.id}
+          onClick={() => onOpen(analysis.id)}
+          className={`flex max-w-[320px] items-center gap-2 rounded-xl border p-1.5 pr-3 text-left transition-colors ${
+            openId === analysis.id ? 'border-transparent bg-brand-soft' : 'border-line hover:border-line-strong'
+          }`}
+        >
+          {analysis.cuts[0] ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={fileOf(analysis.id, analysis.cuts[0].frame)} alt="" className="h-10 w-10 flex-none rounded-lg object-cover" />
+          ) : (
+            <span className="flex h-10 w-10 flex-none items-center justify-center rounded-lg bg-fill text-ink-3">
+              {analysis.status === 'running' ? <LoaderCircle size={16} className="spin" /> : null}
+            </span>
+          )}
+          <span className="min-w-0">
+            <span className="block truncate text-[13px] font-medium text-ink">{analysis.title || analysis.url}</span>
+            <span className="block truncate text-[11.5px] text-ink-3">
+              {analysis.status === 'running' ? analysis.step : analysis.status === 'failed' ? '실패' : `${analysis.cuts.length}컷 · ${lengthLabel(analysis.duration)}`}
+              {' · '}
+              {formatDateTime(analysis.createdAt)}
+            </span>
+          </span>
+        </button>
+      ))}
+    </div>
+  );
+}
+
+/** 분석 중·실패 안내 */
+export function AnalysisState({ analysis }: { analysis: Analysis | undefined }) {
+  if (analysis?.status === 'running') {
+    return (
+      <p className="flex items-center gap-2 text-[14px] text-ink-2">
+        <LoaderCircle size={16} className="spin" />
+        {analysis.step}. 영상 길이에 따라 몇 분 걸릴 수 있어요.
+      </p>
+    );
+  }
+  if (analysis?.status === 'failed') {
+    return (
+      <div className="rounded-xl bg-bad-soft px-4 py-3 text-[13px] leading-[1.55]">
+        <p className="font-semibold text-bad">분석하지 못했어요</p>
+        <p className="mt-0.5 break-words text-ink-2">{analysis.error}</p>
+      </div>
+    );
+  }
+  return null;
+}
+
+export function CutTile({ analysisId, cut, onOpen }: { analysisId: string; cut: AnalysisCut; onOpen: (item: LightboxItem) => void }) {
   return (
     <figure className="min-w-0" data-cut={cut.no}>
       <button
@@ -43,41 +144,9 @@ function CutTile({ analysisId, cut, onOpen }: { analysisId: string; cut: Analysi
 
 export function AnalyzeView({ initial, initialOpen }: { initial: Analysis[]; initialOpen?: string }) {
   const router = useRouter();
-  const [analyses, setAnalyses] = useState(initial);
-  const [url, setUrl] = useState('');
-  const [busy, setBusy] = useState(false);
-  const [error, setError] = useState('');
-  const [openId, setOpenId] = useState<string | null>(initialOpen ?? initial[0]?.id ?? null);
+  const { analyses, url, setUrl, busy, setBusy, error, setError, openId, setOpenId, submit, opened } = useAnalyses('shorts', initial, initialOpen);
   const [level, setLevel] = useState<FollowLevel>('structure');
   const [lightbox, setLightbox] = useState<LightboxItem | null>(null);
-  const running = analyses.some((a) => a.status === 'running');
-
-  const refresh = useCallback(async () => {
-    const res = await api<{ analyses: Analysis[] }>('/api/analyses');
-    setAnalyses(res.analyses);
-  }, []);
-
-  useEffect(() => {
-    if (!running) return;
-    const timer = setInterval(() => void refresh().catch(() => undefined), POLL_MS);
-    return () => clearInterval(timer);
-  }, [refresh, running]);
-
-  const submit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setBusy(true);
-    setError('');
-    try {
-      const { analysis } = await api<{ analysis: Analysis }>('/api/analyses', { method: 'POST', body: { url } });
-      setAnalyses((list) => [analysis, ...list]);
-      setOpenId(analysis.id);
-      setUrl('');
-    } catch (err) {
-      setError((err as Error).message);
-    } finally {
-      setBusy(false);
-    }
-  };
 
   const makeProject = async (id: string) => {
     setBusy(true);
@@ -89,8 +158,6 @@ export function AnalyzeView({ initial, initialOpen }: { initial: Analysis[]; ini
       setBusy(false);
     }
   };
-
-  const opened = analyses.find((a) => a.id === openId);
 
   return (
     <>
@@ -112,52 +179,8 @@ export function AnalyzeView({ initial, initialOpen }: { initial: Analysis[]; ini
       </form>
       {error ? <p className="mb-4 rounded-lg bg-bad-soft px-3 py-2 text-[13px] text-bad">{error}</p> : null}
 
-      {analyses.length ? (
-        <div className="mb-7 flex flex-wrap gap-2" role="group" aria-label="분석한 영상">
-          {analyses.map((analysis) => (
-            <button
-              key={analysis.id}
-              type="button"
-              aria-pressed={openId === analysis.id}
-              onClick={() => setOpenId(analysis.id)}
-              className={`flex max-w-[320px] items-center gap-2 rounded-xl border p-1.5 pr-3 text-left transition-colors ${
-                openId === analysis.id ? 'border-transparent bg-brand-soft' : 'border-line hover:border-line-strong'
-              }`}
-            >
-              {analysis.cuts[0] ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img src={fileOf(analysis.id, analysis.cuts[0].frame)} alt="" className="h-10 w-10 flex-none rounded-lg object-cover" />
-              ) : (
-                <span className="flex h-10 w-10 flex-none items-center justify-center rounded-lg bg-fill text-ink-3">
-                  {analysis.status === 'running' ? <LoaderCircle size={16} className="spin" /> : null}
-                </span>
-              )}
-              <span className="min-w-0">
-                <span className="block truncate text-[13px] font-medium text-ink">{analysis.title || analysis.url}</span>
-                <span className="block truncate text-[11.5px] text-ink-3">
-                  {analysis.status === 'running' ? analysis.step : analysis.status === 'failed' ? '실패' : `${analysis.cuts.length}컷 · ${Math.round(analysis.duration)}초`}
-                  {' · '}
-                  {formatDateTime(analysis.createdAt)}
-                </span>
-              </span>
-            </button>
-          ))}
-        </div>
-      ) : null}
-
-      {opened?.status === 'running' ? (
-        <p className="flex items-center gap-2 text-[14px] text-ink-2">
-          <LoaderCircle size={16} className="spin" />
-          {opened.step}. 영상 길이에 따라 몇 분 걸릴 수 있어요.
-        </p>
-      ) : null}
-
-      {opened?.status === 'failed' ? (
-        <div className="rounded-xl bg-bad-soft px-4 py-3 text-[13px] leading-[1.55]">
-          <p className="font-semibold text-bad">분석하지 못했어요</p>
-          <p className="mt-0.5 break-words text-ink-2">{opened.error}</p>
-        </div>
-      ) : null}
+      <AnalysisChips analyses={analyses} openId={openId} onOpen={setOpenId} />
+      <AnalysisState analysis={opened} />
 
       {opened?.status === 'done' ? (
         <section aria-label="분석 결과">

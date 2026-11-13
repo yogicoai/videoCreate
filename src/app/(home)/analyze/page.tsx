@@ -7,5 +7,5 @@ export const metadata: Metadata = { title: '숏츠 가져오기 · 영상제작'
 
 export default async function AnalyzePage({ searchParams }: { searchParams: Promise<{ open?: string }> }) {
   const { open } = await searchParams;
-  return <AnalyzeView initial={listAnalyses()} initialOpen={open} />;
+  return <AnalyzeView initial={listAnalyses('shorts')} initialOpen={open} />;
 }

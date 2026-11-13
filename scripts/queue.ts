@@ -14,11 +14,11 @@
  *   npm run queue -- board <칸 id>     샷을 나눌 때 읽는 시나리오·규칙·재료(JSON)
  *   npm run queue -- board-set <칸 id> --file <샷 표 JSON>   샷 표 넣기
  *   npm run queue -- use <프로젝트> "<제품·모델 이름>" [--to "<칸 이름>"]   요기보 제품이나 모델을 칸으로 잇기
- *   npm run queue -- analyses          분석한 레퍼런스 영상 목록
- *   npm run queue -- analysis <분석 id>  컷 표(JSON)와 격자 그림 경로
+ *   npm run queue -- analyses          분석한 레퍼런스 영상 목록(숏츠 가져오기·영상 가져오기)
+ *   npm run queue -- analysis <분석 id>  컷 표(JSON)와 격자 그림 경로. 영상 가져오기는 격자가 2분씩 여러 장(grids)
  */
 import fs from 'node:fs';
-import { analysisFilePath, getAnalysis, listAnalyses } from '../src/lib/analyze.ts';
+import { analysisFilePath, getAnalysis, kindOf, listAnalyses } from '../src/lib/analyze.ts';
 import { buildHiggsCall } from '../src/lib/engine/higgsfield.ts';
 import { formatCost, formatNumber } from '../src/lib/models.ts';
 import * as store from '../src/lib/store.ts';
@@ -163,12 +163,18 @@ async function main(): Promise<void> {
       return;
     }
     case 'analyses': {
-      for (const a of listAnalyses()) console.log(`${a.id}  ${a.status}  ${a.cuts.length}컷  ${Math.round(a.duration)}초  ${a.title || a.url}`);
+      for (const a of listAnalyses()) {
+        console.log(`${a.id}  ${kindOf(a) === 'video' ? '영상' : '숏츠'}  ${a.status}  ${a.cuts.length}컷  ${Math.round(a.duration)}초  ${a.title || a.url}`);
+      }
       break;
     }
     case 'analysis': {
       const analysis = getAnalysis(rest[0] ?? '');
-      console.log(JSON.stringify({ grid: analysis.status === 'done' ? analysisFilePath(analysis.id, 'grid.jpg') : null, ...analysis }, null, 2));
+      const done = analysis.status === 'done';
+      // 영상 가져오기는 격자가 2분씩 여러 장이다. 1초마다 소리 값은 길어서 빼고 보여 준다
+      const { sound, ...others } = analysis;
+      const grids = done ? (analysis.grids ?? [{ file: 'grid.jpg', from: 0, to: analysis.duration }]).map((g) => ({ ...g, path: analysisFilePath(analysis.id, g.file) })) : [];
+      console.log(JSON.stringify({ grid: grids[0]?.path ?? null, grids, soundSeconds: sound?.length ?? 0, ...others }, null, 2));
       break;
     }
     case 'use': {

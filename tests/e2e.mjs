@@ -250,7 +250,10 @@ try {
   step('프로젝트 목록과 만들기');
   await page.goto(BASE);
   await page.getByText('전체 프로젝트').waitFor();
-  check('메뉴에 프로젝트·자산·갤러리·CF 레퍼런스·숏츠 가져오기가 있다', (await page.getByRole('navigation').getByRole('link').allTextContents()).join() === '프로젝트,자산,갤러리,CF 레퍼런스,숏츠 가져오기');
+  check(
+    '메뉴에 프로젝트·자산·갤러리·CF 레퍼런스·숏츠 가져오기·영상 가져오기가 있다',
+    (await page.getByRole('navigation').getByRole('link').allTextContents()).join() === '프로젝트,자산,갤러리,CF 레퍼런스,숏츠 가져오기,영상 가져오기',
+  );
   const font = await page.evaluate(() => getComputedStyle(document.body).fontFamily);
   check('글꼴이 프리텐다드다', /pretendard/i.test(font), font);
   const bg = await page.evaluate(() => getComputedStyle(document.body).backgroundColor);
@@ -980,6 +983,54 @@ try {
   const badFile = await fetch(`${BASE}/api/analyses/a_aaaaaaaa/files/..%2F..%2Fsettings.json`);
   check('분석 폴더 밖 파일을 못 읽는다', badFile.status === 404, String(badFile.status));
 
+  step('영상 가져오기');
+  // 실제로 받지 않고 끝난 분석을 하나 넣어 둔다(12초, 3컷, 9초짜리 컷 안쪽 장면 1장)
+  const videoId = 'a_e2evideo0001';
+  const videoDir = path.join(DATA, 'library', 'analyses', videoId);
+  fs.mkdirSync(path.join(videoDir, 'frames'), { recursive: true });
+  for (const [name, color] of [['frame_001.jpg', '#335577'], ['frame_002.jpg', '#775533'], ['frame_002_004.jpg', '#886644'], ['frame_003.jpg', '#557733']]) {
+    await sharp({ create: { width: 480, height: 270, channels: 3, background: color } }).jpeg().toFile(path.join(videoDir, 'frames', name));
+  }
+  await sharp({ create: { width: 100, height: 60, channels: 3, background: '#111111' } }).jpeg().toFile(path.join(videoDir, 'grid.jpg'));
+  const cutOf = (no, start, end, extra) => ({ no, start, end, seconds: end - start, frame: `frame_00${no}.jpg`, loudness: -20, tension: 50, speech: '', ...(extra ? { extra } : {}) });
+  fs.writeFileSync(
+    path.join(videoDir, 'analysis.json'),
+    JSON.stringify({
+      id: videoId,
+      url: 'https://example.com/film',
+      title: '시험 단편',
+      kind: 'video',
+      status: 'done',
+      step: '',
+      error: '',
+      width: 1280,
+      height: 720,
+      duration: 12,
+      cuts: [cutOf(1, 0, 2), cutOf(2, 2, 11, [{ at: 6, frame: 'frame_002_004.jpg' }]), cutOf(3, 11, 12)],
+      sound: [-30, -28, -25, -20, -18, null, -40, -35, -22, -15, -12, -30],
+      grids: [{ file: 'grid.jpg', from: 0, to: 12 }],
+      createdAt: new Date().toISOString(),
+    }),
+  );
+  const shortsList = (await (await fetch(`${BASE}/api/analyses`)).json()).analyses;
+  const videoList = (await (await fetch(`${BASE}/api/analyses?kind=video`)).json()).analyses;
+  check('영상 가져오기 분석은 숏츠 가져오기 목록에 섞이지 않는다', !shortsList.some((a) => a.id === videoId) && videoList.some((a) => a.id === videoId));
+  const videoProject = await fetch(`${BASE}/api/analyses/${videoId}/project`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ level: 'rhythm' }) });
+  check('영상 가져오기로는 프로젝트를 만들지 않는다', videoProject.status === 400, String(videoProject.status));
+  const extraFile = await fetch(`${BASE}/api/analyses/${videoId}/files/frame_002_004.jpg`);
+  check('긴 컷 안쪽 장면 그림을 읽는다', extraFile.status === 200, String(extraFile.status));
+  await page.goto(`${BASE}/video-import`);
+  await page.getByRole('heading', { name: '영상 가져오기' }).waitFor();
+  await page.getByRole('img', { name: /12초 동안 3컷/ }).waitFor();
+  check('흐름 그래프에 길이와 컷 수를 적는다', true);
+  check('컷 칸과 긴 컷 안쪽 장면이 함께 보인다', (await page.locator('[data-cut]').count()) === 3 && (await page.getByRole('button', { name: '2번 컷 4초 뒤 크게 보기' }).count()) === 1);
+  const flow = await page.getByRole('img', { name: /12초 동안 3컷/ }).boundingBox();
+  await page.mouse.move(flow.x + flow.width * 0.55, flow.y + 40);
+  check('그래프에 손을 올리면 시간과 컷을 보여 준다', await page.getByText(/0:06 · 2번 컷 9\.0초/).isVisible());
+  await shot('26-video-import');
+  const badVideo = await fetch(`${BASE}/api/analyses`, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ url: 'file:///c:/windows', kind: 'video' }) });
+  check('영상 가져오기도 http(s) 주소만 받는다', badVideo.status === 400, String(badVideo.status));
+
   step('새 모델: 한 장 시트를 칸별로 자른다');
   await page.goto(`${BASE}/assets`);
   await page.getByRole('button', { name: '새 모델 만들기' }).click();
@@ -1071,7 +1122,7 @@ try {
 
   step('좁은 화면');
   await page.setViewportSize({ width: 390, height: 844 });
-  for (const route of ['/', '/gallery', '/cf-refs', '/analyze', '/assets']) {
+  for (const route of ['/', '/gallery', '/cf-refs', '/analyze', '/video-import', '/assets']) {
     await page.goto(BASE + route);
     await sleep(500);
     const overflow = await page.evaluate(() => {

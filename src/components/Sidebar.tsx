@@ -1,6 +1,6 @@
 'use client';
 
-import { Clapperboard, FolderClosed, Images, MonitorPlay, Plus, ScanSearch } from 'lucide-react';
+import { Clapperboard, Film, FolderClosed, Images, MonitorPlay, Plus, ScanSearch } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 import { useState } from 'react';
@@ -14,6 +14,7 @@ const NAV = [
   { href: '/gallery', label: '갤러리', Icon: Clapperboard },
   { href: '/cf-refs', label: 'CF 레퍼런스', Icon: MonitorPlay },
   { href: '/analyze', label: '숏츠 가져오기', Icon: ScanSearch },
+  { href: '/video-import', label: '영상 가져오기', Icon: Film },
 ];
 
 export function useCreateProject() {

@@ -23,13 +23,24 @@ Next는 학습 지식과 다를 수 있으니 코드를 쓰기 전에 `node_modu
 
 **숏츠 가져오기(레퍼런스 영상 분석):** `src/lib/analyze.ts`, 화면 `/analyze`. yt-dlp로 받아 ffmpeg `scene`(기준 0.08)으로 컷, `ebur128`로 소리를 재고 번호·시간을 적은 격자(`grid.jpg`)를 만든 뒤 영상은 지운다. 크레딧이 들지 않는다. 따라 만드는 정도는 3단계다: 리듬만 / 구성까지 / 거의 따라가기(`FOLLOW_LEVELS`). 어느 단계든 남의 화면을 프로젝트로 넘기지 않고, 사람·브랜드·문구는 가져오지 않는다. CF 카드의 「따라 만들기」도 이 흐름으로 들어온다. 고정 카메라 원테이크는 실제로 1컷으로 나온다. 대사는 유튜브 자막을 쓴다(PC에 GPU와 Whisper 없음). Hypit은 설치하지 않았다.
 
+**영상 가져오기(긴 영상 분석, 2026-11-12):** 화면은 `/video-import`이고, 코드는 숏츠 가져오기와 같은 `src/lib/analyze.ts`(`kind:'video'`)다. 화면은 `src/components/VideoImport.tsx`다.
+- 하는 일: 30분 이하 영상을 처음부터 끝까지 나눠 보는 공부용이다. 프로젝트는 만들지 않는다(API도 400). 숏츠 가져오기는 따라 만들기용이라 그대로 두었다. 사용자가 둘의 일을 나누자고 했다.
+- 생긴 이유: 숏츠 방식(scene 0.08, 120컷 한도)으로 카카오 단편 「그래도, 라이언」(8분 13초)을 넣었더니 2분 47초에서 멈췄다. 손그림 애니메이션은 그림이 1초에 12장씩 바뀌어 그림이 바뀔 때마다 컷으로 셌다.
+- 컷 찾기: 화면을 32×18로 줄여 1초 12장씩 비교한다. 앞뒤 0.5초보다 3배 넘게 튀는 순간만 컷으로 센다. 이 영화는 139컷으로 맞게 나왔다(약 40초).
+- 남기는 것:
+  - 8초가 넘는 컷은 4초마다 안쪽 장면을 더 뽑는다(`frame_012_004.jpg`).
+  - 1초마다 소리 크기(`sound`)를 저장해 화면의 흐름 그래프로 보여 준다.
+  - 격자는 2분씩 `grid.jpg`, `grid_2.jpg` … 로 만든다. `npm run queue -- analysis <id>`의 `grids`에 경로가 나온다.
+- 같은 주소도 숏츠 가져오기와 영상 가져오기에 따로 쌓인다. 숏츠 가져오기에 넣었던 「그래도, 라이언」(120컷에서 끊긴 것)은 분석 삭제 기능이 없어 목록에 남아 있다.
+
 **imgCreate에서 가져올 것:** 영상 제작물 68, 레퍼런스 제작물 42, 스토리보드 5 (`data/import/imgcreate-export.json`, 2026-11-05 읽기 전용 내보내기). 기획안 16편은 `imgCreate/src/app/ideas/data.json`, 제작 기록 10편은 `imgCreate/src/app/video/process/data.json`. 영상은 Cafe24에 .jpg로 위장 저장되어 있다(`publicBase` + `key`). 레퍼런스로도 쓴다. CF 레퍼런스 716편은 `data/import/imgcreate-cf-refs.json`, 예상 장면 4편은 `imgCreate/src/app/ideas/cf-refs/previews/data.json`. 제품 70개는 주소 목록(`data/library/products.json`)만 둔다. 다시 가져오기는 `npm run import:imgcreate`. imgCreate 코드와 데이터는 고치지 않는다. 스토리보드 시트 프롬프트와 칸 자르기 선례는 `imgCreate/src/app/api/storyboards/sheet/route.ts`, `src/lib/video-storyboard.ts`.
 
 ## 실행
 
 - `npm run dev` → http://localhost:6800 (127.0.0.1에만 열림). 이미 켜져 있으면 포트 충돌(EADDRINUSE)이 난다.
 - 데이터: `data/projects/<프로젝트>/` (git 제외). `.env.local`에 제미나이·GPT·Typecast 키가 있다(`.git/info/exclude`로 git 제외). 값은 출력하지 않는다.
-- 시험(189개, 2026-11-05 모두 통과): `VIDEOCREATE_DIST_DIR=.next-e2e npx next build` 뒤 `VIDEOCREATE_DIST_DIR=.next-e2e npm run test:e2e`. 임시 데이터·포트 6801·가짜 엔진으로 돌고 비용이 들지 않는다. 화면 캡처는 `tests/.tmp/shots/`. 빌드가 `next-env.d.ts`를 고치면 되돌린다. `E2E_DEV=1`(개발 모드)은 tsconfig를 고쳐 6800의 화면까지 계속 새로고침되므로 사용자 서버가 켜져 있을 때 돌리지 않는다.
+- 시험(197개, 2026-11-12 모두 통과): `VIDEOCREATE_DIST_DIR=.next-e2e npx next build` 뒤 `VIDEOCREATE_DIST_DIR=.next-e2e npm run test:e2e`. 임시 데이터·포트 6801·가짜 엔진으로 돌고 비용이 들지 않는다. 화면 캡처는 `tests/.tmp/shots/`. 빌드가 `next-env.d.ts`를 고치면 되돌린다. `E2E_DEV=1`(개발 모드)은 tsconfig를 고쳐 6800의 화면까지 계속 새로고침되므로 사용자 서버가 켜져 있을 때 돌리지 않는다.
+- 6800이 켜져 있을 때 시험하기: 이 폴더에서 빌드하지 않는다. 저장소를 임시 폴더에 복사(`data/`, `.env*`, `.git`, `.next*` 제외)하고 `node_modules`는 **실제로 복사**(약 500MB)한 뒤 거기서 위 두 명령을 돌린다. 연결(junction)만 하면 Turbopack이 받지 않는다. 그렇다고 `--webpack`으로 빌드하면 Tailwind가 빠진다(Tailwind는 `next.config.ts`의 Turbopack 로더로만 붙는다). 그러면 버튼 색 시험과 캔버스 시험이 실패한다(2026-11-12).
 - 6800 화면이 1초에 한두 번씩 계속 새로 고쳐지면(터미널에 「✓ Compiled in …」이 끝없이 찍힌다) 터미널에서 Ctrl+C로 완전히 끄고 `npm run dev`로 다시 켠다. 설정 파일을 건드려 서버만 다시 켜서는 멈추지 않았다. 2026-11-11에는 6800이 켜진 채로 같은 폴더에서 온라인 판 빌드(`.next-online`)를 돌린 직후 시작돼 1시간 넘게 이어졌다(빌드가 원인으로 보이나 다시 일으켜 보지는 못했다). 크레딧과는 상관없다.
 - 예제 프로젝트: `npm run seed:example` (`-- --replace`면 휴지통으로 보내고 다시 만든다). 크레딧이 들지 않는다.
 - 커밋과 푸시는 사용자가 한다.
@@ -231,9 +242,11 @@ Next는 학습 지식과 다를 수 있으니 코드를 쓰기 전에 `node_modu
 - 올린 기록은 `data/library/cafe24.json`이다. 올린 파일은 주소를 아는 누구나 본다. **공개하면 안 되는 작업은 올리지 않는다.** 양 영상(일본 원곡)과 라이온즈(구단 엠블럼)는 사용자 확인 전이라 올리지 않았다.
 
 **온라인 보기 전용 판** (`src/lib/online.ts`)
-- `VIDEOCREATE_ONLINE=1`이면 켜진다. 고치는 요청(GET·HEAD가 아닌 것)은 모두 403으로 막고(`src/lib/http.ts`), 프로젝트 파일은 카페24에서 흘려보내고, 갤러리에는 올린 결과물만 보이고, 프로젝트 화면은 캔버스 대신 안내만 띄운다.
+- `VIDEOCREATE_ONLINE=1`이거나 Vercel 위(Vercel이 `VERCEL` 변수를 넣는다)이면 켜진다. 고치는 요청(GET·HEAD가 아닌 것)은 모두 403으로 막고(`src/lib/http.ts`), 프로젝트 파일은 카페24에서 흘려보내고, 갤러리에는 올린 결과물만 보이고, 프로젝트 화면은 캔버스 대신 안내만 띄운다.
 - 기록은 `npm run cafe24 -- snapshot [--library none|final|all]`이 만드는 사본 `online-data/`에서 읽는다. 올린 결과물이 있는 프로젝트만 들어가고, 프롬프트·잔액·자산·기획안·모델·폴더 설명은 넣지 않는다. `--library`는 imgCreate에서 가져온 영상을 얼마나 넣을지다(기본 none).
-- Vercel 설정: 환경 변수 `VIDEOCREATE_ONLINE=1`, `VIDEOCREATE_DATA_DIR=online-data`만 넣는다. **제미나이·GPT·Typecast·FTP 키는 넣지 않는다.** `online-data/`를 커밋해야 올라간다(`next.config.ts`의 `outputFileTracingIncludes`가 함께 싣는다).
+- Vercel 설정: 환경 변수를 넣지 않아도 된다. Vercel 위에서는 저절로 보기 전용 판이 켜지고 `online-data/`를 읽는다(`src/lib/online.ts`의 `dataRootDir`). **제미나이·GPT·Typecast·FTP 키는 넣지 않는다.** `online-data/`를 커밋해야 올라간다(`next.config.ts`의 `outputFileTracingIncludes`가 함께 싣는다).
+- 2026-11-12 첫 배포는 환경 변수 없이 일반 모드로 켜졌다. 첫 화면이 기록 파일(`library/library.json`)을 만들려다 Vercel의 읽기 전용 파일 시스템에 막혀 「This page couldn't load」(오류율 100%)가 났다. 그래서 Vercel을 알아서 알아보게 고쳤다.
+- Vercel과 같은 조건으로 미리 보기: 저장소를 임시 폴더에 복사(`data/`, `.env*` 제외, `node_modules`는 연결)한 뒤 `VERCEL=1 npx next build --webpack`, `VERCEL=1 npx next start`. 연결된 `node_modules`는 Turbopack이 받지 않아 webpack으로 빌드한다. 이렇게 하면 Tailwind가 빠져 화면 모양은 다르다. 응답 코드와 쓰기 여부만 본다. 모양까지 보려면 `node_modules`를 실제로 복사해 Turbopack으로 빌드한다. 6800이 켜져 있을 때 이 폴더에서 빌드하지 않는다.
 - 이 PC에서 미리 보기: `VIDEOCREATE_ONLINE=1 VIDEOCREATE_DATA_DIR=online-data VIDEOCREATE_DIST_DIR=.next-online npx next build` 뒤 같은 변수로 `npx next start -p 6811 -H 127.0.0.1`.
 - 온라인 판에 「새 프로젝트」 같은 버튼이 그대로 보인다(누르면 "온라인에서는 보기만 할 수 있어요"). 버튼 숨기기는 아직 하지 않았다.
 - 온라인에서 만들기까지 하려면 기록을 DB로 옮기고 로그인을 붙여야 한다(imgCreate는 MongoDB + FTP). 아직 하지 않았다.

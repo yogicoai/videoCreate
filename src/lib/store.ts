@@ -19,7 +19,7 @@ import {
   SHEET_PANEL,
   shotScenePrompt,
 } from './models.ts';
-import { isOnline, remoteFile } from './online.ts';
+import { dataRootDir, isOnline, remoteFile } from './online.ts';
 import { buildFinalPrompt, buildStoryboardPrompt, DEFAULT_RULE, DEFAULT_RULE_ID, ruleTextFor, YOGIBO_RULE, YOGIBO_RULE_ID } from './rules.ts';
 import type {
   AssetType,
@@ -81,7 +81,7 @@ export class StoreError extends Error {
   }
 }
 
-const dataRoot = () => process.env.VIDEOCREATE_DATA_DIR || path.join(process.cwd(), 'data');
+const dataRoot = dataRootDir;
 const projectsRoot = () => path.join(dataRoot(), 'projects');
 const projectDir = (id: string) => path.join(projectsRoot(), id);
 const projectFile = (id: string) => path.join(projectDir(id), 'project.json');
